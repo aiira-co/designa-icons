@@ -4595,6 +4595,34 @@ Generated using nucleoapp.com
   content: "\ee4b";
 }
 
+.axl.ax-activity::before {
+  content: "\ee4c";
+}
+
+.axl.ax-apple::before {
+  content: "\ee4d";
+}
+
+.axl.ax-apps::before {
+  content: "\ee4e";
+}
+
+.axl.ax-bluetooth::before {
+  content: "\ee4f";
+}
+
+.axl.ax-bluetooth-connected::before {
+  content: "\ee50";
+}
+
+.axl.ax-bluetooth-off::before {
+  content: "\ee51";
+}
+
+.axl.ax-briefcase::before {
+  content: "\ee52";
+}
+
 /*------------------------
 	icons
 -------------------------*/
@@ -8988,6 +9016,34 @@ Generated using nucleoapp.com
 
 .axr.ax-brand-airbnb::before {
   content: "\ee4b";
+}
+
+.axr.ax-activity::before {
+  content: "\ee4c";
+}
+
+.axr.ax-apple::before {
+  content: "\ee4d";
+}
+
+.axr.ax-apps::before {
+  content: "\ee4e";
+}
+
+.axr.ax-bluetooth::before {
+  content: "\ee4f";
+}
+
+.axr.ax-bluetooth-connected::before {
+  content: "\ee50";
+}
+
+.axr.ax-bluetooth-off::before {
+  content: "\ee51";
+}
+
+.axr.ax-briefcase::before {
+  content: "\ee52";
 }
 
 /*------------------------

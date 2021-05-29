@@ -1103,6 +1103,13 @@ $axl-ax-brand-apple-arcade: unicode(ee48);
 $axl-ax-brand-apple: unicode(ee49);
 $axl-ax-brand-android: unicode(ee4a);
 $axl-ax-brand-airbnb: unicode(ee4b);
+$axl-ax-activity: unicode(ee4c);
+$axl-ax-apple: unicode(ee4d);
+$axl-ax-apps: unicode(ee4e);
+$axl-ax-bluetooth: unicode(ee4f);
+$axl-ax-bluetooth-connected: unicode(ee50);
+$axl-ax-bluetooth-off: unicode(ee51);
+$axl-ax-briefcase: unicode(ee52);
 
 .axl.ax-browser::before {
   content: $axl-ax-browser;
@@ -5494,5 +5501,33 @@ $axl-ax-brand-airbnb: unicode(ee4b);
 
 .axl.ax-brand-airbnb::before {
   content: $axl-ax-brand-airbnb;
+}
+
+.axl.ax-activity::before {
+  content: $axl-ax-activity;
+}
+
+.axl.ax-apple::before {
+  content: $axl-ax-apple;
+}
+
+.axl.ax-apps::before {
+  content: $axl-ax-apps;
+}
+
+.axl.ax-bluetooth::before {
+  content: $axl-ax-bluetooth;
+}
+
+.axl.ax-bluetooth-connected::before {
+  content: $axl-ax-bluetooth-connected;
+}
+
+.axl.ax-bluetooth-off::before {
+  content: $axl-ax-bluetooth-off;
+}
+
+.axl.ax-briefcase::before {
+  content: $axl-ax-briefcase;
 }
 
