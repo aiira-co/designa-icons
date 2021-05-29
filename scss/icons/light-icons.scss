@@ -1,0 +1,5498 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$axl-ax-browser: unicode(ea02);
+$axl-ax-building: unicode(ea03);
+$axl-ax-building-arch: unicode(ea04);
+$axl-ax-building-bank: unicode(ea05);
+$axl-ax-building-bridge: unicode(ea06);
+$axl-ax-building-bridge-2: unicode(ea07);
+$axl-ax-building-carousel: unicode(ea08);
+$axl-ax-building-castle: unicode(ea09);
+$axl-ax-building-church: unicode(ea0a);
+$axl-ax-building-community: unicode(ea0b);
+$axl-ax-building-cottage: unicode(ea0c);
+$axl-ax-brush: unicode(ea0d);
+$axl-ax-building-fortress: unicode(ea0e);
+$axl-ax-building-hospital: unicode(ea0f);
+$axl-ax-building-lighthouse: unicode(ea10);
+$axl-ax-bucket: unicode(ea11);
+$axl-ax-building-pavilon: unicode(ea12);
+$axl-ax-building-skyscraper: unicode(ea13);
+$axl-ax-building-skyscrappers: unicode(ea14);
+$axl-ax-building-store: unicode(ea15);
+$axl-ax-bug: unicode(ea16);
+$axl-ax-bulb: unicode(ea17);
+$axl-ax-bulb-off: unicode(ea18);
+$axl-ax-bulldozer: unicode(ea19);
+$axl-ax-bus: unicode(ea1a);
+$axl-ax-businessplan: unicode(ea1b);
+$axl-ax-brightness-half: unicode(ea1c);
+$axl-ax-calendar: unicode(ea1d);
+$axl-ax-calendar-1: unicode(ea1e);
+$axl-ax-calendar-event: unicode(ea1f);
+$axl-ax-calendar-minus: unicode(ea20);
+$axl-ax-calendar-off: unicode(ea21);
+$axl-ax-calendar-plus: unicode(ea22);
+$axl-ax-calendar-stats: unicode(ea23);
+$axl-ax-calendar-time: unicode(ea24);
+$axl-ax-camera: unicode(ea25);
+$axl-ax-camera-minus: unicode(ea26);
+$axl-ax-building-monument: unicode(ea27);
+$axl-ax-camera-plus: unicode(ea28);
+$axl-ax-camera-rotate: unicode(ea29);
+$axl-ax-camera-selfie: unicode(ea2a);
+$axl-ax-candy: unicode(ea2b);
+$axl-ax-building-factory: unicode(ea2c);
+$axl-ax-car: unicode(ea2d);
+$axl-ax-caravan: unicode(ea2e);
+$axl-ax-car-crane: unicode(ea2f);
+$axl-ax-cardboards: unicode(ea30);
+$axl-ax-caret-down: unicode(ea31);
+$axl-ax-caret-left: unicode(ea32);
+$axl-ax-caret-right: unicode(ea33);
+$axl-ax-caret-up: unicode(ea34);
+$axl-ax-cart-down: unicode(ea35);
+$axl-ax-cart-plus: unicode(ea36);
+$axl-ax-cash: unicode(ea37);
+$axl-ax-cash-banknote: unicode(ea38);
+$axl-ax-cash-banknote-off: unicode(ea39);
+$axl-ax-cast: unicode(ea3a);
+$axl-ax-ce: unicode(ea3b);
+$axl-ax-certificate: unicode(ea3c);
+$axl-ax-charging-pile: unicode(ea3d);
+$axl-ax-chart-arcs: unicode(ea3e);
+$axl-ax-chart-arcs-3: unicode(ea3f);
+$axl-ax-chart-area: unicode(ea40);
+$axl-ax-chart-area-line: unicode(ea41);
+$axl-ax-chart-arrows: unicode(ea42);
+$axl-ax-chart-arrows-vertical: unicode(ea43);
+$axl-ax-chart-bar: unicode(ea44);
+$axl-ax-chart-bubble: unicode(ea45);
+$axl-ax-chart-candle: unicode(ea46);
+$axl-ax-chart-circles: unicode(ea47);
+$axl-ax-chart-donut: unicode(ea48);
+$axl-ax-chart-donut-2: unicode(ea49);
+$axl-ax-chart-donut-3: unicode(ea4a);
+$axl-ax-chart-donut-4: unicode(ea4b);
+$axl-ax-chart-dots: unicode(ea4c);
+$axl-ax-chart-infographic: unicode(ea4d);
+$axl-ax-chart-line: unicode(ea4e);
+$axl-ax-chart-pie: unicode(ea4f);
+$axl-ax-chart-pie-2: unicode(ea50);
+$axl-ax-chart-pie-3: unicode(ea51);
+$axl-ax-chart-pie-4: unicode(ea52);
+$axl-ax-chart-radar: unicode(ea53);
+$axl-ax-check: unicode(ea54);
+$axl-ax-checkbox: unicode(ea55);
+$axl-ax-checks: unicode(ea56);
+$axl-ax-cheese: unicode(ea57);
+$axl-ax-chevron-down: unicode(ea58);
+$axl-ax-chevron-down-left: unicode(ea59);
+$axl-ax-chevron-down-right: unicode(ea5a);
+$axl-ax-chevron-left: unicode(ea5b);
+$axl-ax-chevron-right: unicode(ea5c);
+$axl-ax-chevrons-down: unicode(ea5d);
+$axl-ax-chevrons-down-left: unicode(ea5e);
+$axl-ax-chevrons-down-right: unicode(ea5f);
+$axl-ax-chevrons-left: unicode(ea60);
+$axl-ax-chevrons-right: unicode(ea61);
+$axl-ax-chevrons-up: unicode(ea62);
+$axl-ax-chevrons-up-left: unicode(ea63);
+$axl-ax-chevrons-up-right: unicode(ea64);
+$axl-ax-chevron-up: unicode(ea65);
+$axl-ax-chevron-up-left: unicode(ea66);
+$axl-ax-chevron-up-right: unicode(ea67);
+$axl-ax-christmas-tree: unicode(ea68);
+$axl-ax-circle: unicode(ea69);
+$axl-ax-circle-0: unicode(ea6a);
+$axl-ax-circle-1: unicode(ea6b);
+$axl-ax-circle-2: unicode(ea6c);
+$axl-ax-circle-3: unicode(ea6d);
+$axl-ax-circle-4: unicode(ea6e);
+$axl-ax-circle-5: unicode(ea6f);
+$axl-ax-circle-6: unicode(ea70);
+$axl-ax-circle-7: unicode(ea71);
+$axl-ax-circle-8: unicode(ea72);
+$axl-ax-circle-9: unicode(ea73);
+$axl-ax-circle-check: unicode(ea74);
+$axl-ax-circle-dashed: unicode(ea75);
+$axl-ax-circle-dotted: unicode(ea76);
+$axl-ax-circle-half: unicode(ea77);
+$axl-ax-circle-half-vertical: unicode(ea78);
+$axl-ax-circle-minus: unicode(ea79);
+$axl-ax-circle-off: unicode(ea7a);
+$axl-ax-circle-plus: unicode(ea7b);
+$axl-ax-circles: unicode(ea7c);
+$axl-ax-circle-square: unicode(ea7d);
+$axl-ax-circle-x: unicode(ea7e);
+$axl-ax-clear-all: unicode(ea7f);
+$axl-ax-clear-formatting: unicode(ea80);
+$axl-ax-click: unicode(ea81);
+$axl-ax-clipboard: unicode(ea82);
+$axl-ax-clipboard-check: unicode(ea83);
+$axl-ax-clipboard-list: unicode(ea84);
+$axl-ax-clipboard-x: unicode(ea85);
+$axl-ax-clock: unicode(ea86);
+$axl-ax-cloud: unicode(ea87);
+$axl-ax-cloud-download: unicode(ea88);
+$axl-ax-cloud-fog: unicode(ea89);
+$axl-ax-cloud-off: unicode(ea8a);
+$axl-ax-cloud-rain: unicode(ea8b);
+$axl-ax-cloud-snow: unicode(ea8c);
+$axl-ax-cloud-storm: unicode(ea8d);
+$axl-ax-cloud-upload: unicode(ea8e);
+$axl-ax-code: unicode(ea8f);
+$axl-ax-code-minus: unicode(ea90);
+$axl-ax-code-plus: unicode(ea91);
+$axl-ax-coffee: unicode(ea92);
+$axl-ax-coin: unicode(ea93);
+$axl-ax-color-picker: unicode(ea94);
+$axl-ax-color-swatch: unicode(ea95);
+$axl-ax-column-insert-left: unicode(ea96);
+$axl-ax-column-insert-right: unicode(ea97);
+$axl-ax-columns: unicode(ea98);
+$axl-ax-comet: unicode(ea99);
+$axl-ax-command: unicode(ea9a);
+$axl-ax-compass: unicode(ea9b);
+$axl-ax-confetti: unicode(ea9c);
+$axl-ax-container: unicode(ea9d);
+$axl-ax-contrast: unicode(ea9e);
+$axl-ax-cookie: unicode(ea9f);
+$axl-ax-copy: unicode(eaa0);
+$axl-ax-copyleft: unicode(eaa1);
+$axl-ax-copyright: unicode(eaa2);
+$axl-ax-corner-down-left: unicode(eaa3);
+$axl-ax-corner-down-left-double: unicode(eaa4);
+$axl-ax-corner-down-right: unicode(eaa5);
+$axl-ax-corner-down-right-double: unicode(eaa6);
+$axl-ax-corner-left-down: unicode(eaa7);
+$axl-ax-corner-left-down-double: unicode(eaa8);
+$axl-ax-corner-left-up: unicode(eaa9);
+$axl-ax-corner-left-up-double: unicode(eaaa);
+$axl-ax-corner-right-down: unicode(eaab);
+$axl-ax-corner-right-down-double: unicode(eaac);
+$axl-ax-corner-right-up: unicode(eaad);
+$axl-ax-corner-right-up-double: unicode(eaae);
+$axl-ax-corner-up-left: unicode(eaaf);
+$axl-ax-corner-up-left-double: unicode(eab0);
+$axl-ax-corner-up-right: unicode(eab1);
+$axl-ax-corner-up-right-double: unicode(eab2);
+$axl-ax-crane: unicode(eab3);
+$axl-ax-credit-card: unicode(eab4);
+$axl-ax-arrows-up-left: unicode(eab5);
+$axl-ax-crop: unicode(eab6);
+$axl-ax-crosshair: unicode(eab7);
+$axl-ax-crown: unicode(eab8);
+$axl-ax-crown-off: unicode(eab9);
+$axl-ax-cup: unicode(eaba);
+$axl-ax-curly-loop: unicode(eabb);
+$axl-ax-currency-bahraini: unicode(eabc);
+$axl-ax-currency-bath: unicode(eabd);
+$axl-ax-currency-bitcoin: unicode(eabe);
+$axl-ax-currency-cent: unicode(eabf);
+$axl-ax-currency-dinar: unicode(eac0);
+$axl-ax-currency-dirham: unicode(eac1);
+$axl-ax-currency-dollar: unicode(eac2);
+$axl-ax-currency-dollar-australian: unicode(eac3);
+$axl-ax-currency-dollar-canadian: unicode(eac4);
+$axl-ax-currency-dollar-singapore: unicode(eac5);
+$axl-ax-currency-ethereum: unicode(eac6);
+$axl-ax-currency-euro: unicode(eac7);
+$axl-ax-currency-forint: unicode(eac8);
+$axl-ax-currency-frank: unicode(eac9);
+$axl-ax-currency-krone-czech: unicode(eaca);
+$axl-ax-currency-krone-danish: unicode(eacb);
+$axl-ax-currency-krone-swedish: unicode(eacc);
+$axl-ax-currency-leu: unicode(eacd);
+$axl-ax-currency-lira: unicode(eace);
+$axl-ax-currency-litecoin: unicode(eacf);
+$axl-ax-currency-naira: unicode(ead0);
+$axl-ax-currency-pound: unicode(ead1);
+$axl-ax-currency-real: unicode(ead2);
+$axl-ax-currency-renminbi: unicode(ead3);
+$axl-ax-currency-ripple: unicode(ead4);
+$axl-ax-currency-riyal: unicode(ead5);
+$axl-ax-currency-rubel: unicode(ead6);
+$axl-ax-currency-rupee: unicode(ead7);
+$axl-ax-currency-shekel: unicode(ead8);
+$axl-ax-currency-taka: unicode(ead9);
+$axl-ax-currency-tugrik: unicode(eada);
+$axl-ax-currency-won: unicode(eadb);
+$axl-ax-currency-yen: unicode(eadc);
+$axl-ax-currency-zloty: unicode(eadd);
+$axl-ax-current-location: unicode(eade);
+$axl-ax-cursor-text: unicode(eadf);
+$axl-ax-cut: unicode(eae0);
+$axl-ax-dashboard: unicode(eae1);
+$axl-ax-database: unicode(eae2);
+$axl-ax-database-export: unicode(eae3);
+$axl-ax-database-import: unicode(eae4);
+$axl-ax-database-off: unicode(eae5);
+$axl-ax-details: unicode(eae6);
+$axl-ax-device-analytics: unicode(eae7);
+$axl-ax-device-audio-tape: unicode(eae8);
+$axl-ax-device-cctv: unicode(eae9);
+$axl-ax-device-computer-camera: unicode(eaea);
+$axl-ax-device-computer-camera-off: unicode(eaeb);
+$axl-ax-device-desktop: unicode(eaec);
+$axl-ax-device-desktop-analytics: unicode(eaed);
+$axl-ax-device-desktop-off: unicode(eaee);
+$axl-ax-device-floppy: unicode(eaef);
+$axl-ax-device-gamepad: unicode(eaf0);
+$axl-ax-device-laptop: unicode(eaf1);
+$axl-ax-device-mobile: unicode(eaf2);
+$axl-ax-device-mobile-message: unicode(eaf3);
+$axl-ax-device-mobile-rotated: unicode(eaf4);
+$axl-ax-device-mobile-vibration: unicode(eaf5);
+$axl-ax-devices: unicode(eaf6);
+$axl-ax-devices-2: unicode(eaf7);
+$axl-ax-devices-pc: unicode(eaf8);
+$axl-ax-device-speaker: unicode(eaf9);
+$axl-ax-device-tablet: unicode(eafa);
+$axl-ax-device-tv: unicode(eafb);
+$axl-ax-device-watch: unicode(eafc);
+$axl-ax-diamond: unicode(eafd);
+$axl-ax-dice: unicode(eafe);
+$axl-ax-dimensions: unicode(eaff);
+$axl-ax-direction: unicode(eb00);
+$axl-ax-direction-horizontal: unicode(eb01);
+$axl-ax-directions: unicode(eb02);
+$axl-ax-disabled: unicode(eb03);
+$axl-ax-disabled-2: unicode(eb04);
+$axl-ax-disc: unicode(eb05);
+$axl-ax-discount: unicode(eb06);
+$axl-ax-discount-2: unicode(eb07);
+$axl-ax-divide: unicode(eb08);
+$axl-ax-dna: unicode(eb09);
+$axl-ax-dog-bowl: unicode(eb0a);
+$axl-ax-dots: unicode(eb0b);
+$axl-ax-dots-circle-horizontal: unicode(eb0c);
+$axl-ax-dots-diagonal: unicode(eb0d);
+$axl-ax-dots-diagonal-2: unicode(eb0e);
+$axl-ax-dots-vertical: unicode(eb0f);
+$axl-ax-download: unicode(eb10);
+$axl-ax-drag-drop: unicode(eb11);
+$axl-ax-drag-drop-2: unicode(eb12);
+$axl-ax-drone: unicode(eb13);
+$axl-ax-drone-off: unicode(eb14);
+$axl-ax-droplet: unicode(eb15);
+$axl-ax-droplet-filled: unicode(eb16);
+$axl-ax-droplet-filled-2: unicode(eb17);
+$axl-ax-droplet-half: unicode(eb18);
+$axl-ax-droplet-half-2: unicode(eb19);
+$axl-ax-droplet-off: unicode(eb1a);
+$axl-ax-ear: unicode(eb1b);
+$axl-ax-ear-off: unicode(eb1c);
+$axl-ax-edit: unicode(eb1d);
+$axl-ax-edit-circle: unicode(eb1e);
+$axl-ax-egg: unicode(eb1f);
+$axl-ax-electric-scooter: unicode(eb20);
+$axl-ax-emphasis: unicode(eb21);
+$axl-ax-equal: unicode(eb22);
+$axl-ax-credit-card-off: unicode(eb23);
+$axl-ax-eraser: unicode(eb24);
+$axl-ax-exchange: unicode(eb25);
+$axl-ax-exposure: unicode(eb26);
+$axl-ax-external-link: unicode(eb27);
+$axl-ax-eye: unicode(eb28);
+$axl-ax-eye-check: unicode(eb29);
+$axl-ax-eyeglass: unicode(eb2a);
+$axl-ax-eyeglass-2: unicode(eb2b);
+$axl-ax-equal-not: unicode(eb2c);
+$axl-ax-face-id: unicode(eb2d);
+$axl-ax-fall: unicode(eb2e);
+$axl-ax-box-multiple-3: unicode(eb2f);
+$axl-ax-fence: unicode(eb30);
+$axl-ax-file: unicode(eb31);
+$axl-ax-file-alert: unicode(eb32);
+$axl-ax-file-analytics: unicode(eb33);
+$axl-ax-file-certificate: unicode(eb34);
+$axl-ax-file-check: unicode(eb35);
+$axl-ax-file-code: unicode(eb36);
+$axl-ax-file-code-2: unicode(eb37);
+$axl-ax-file-diff: unicode(eb38);
+$axl-ax-file-dislike: unicode(eb39);
+$axl-ax-file-download: unicode(eb3a);
+$axl-ax-file-export: unicode(eb3b);
+$axl-ax-file-horizontal: unicode(eb3c);
+$axl-ax-file-import: unicode(eb3d);
+$axl-ax-file-info: unicode(eb3e);
+$axl-ax-file-invoice: unicode(eb3f);
+$axl-ax-file-like: unicode(eb40);
+$axl-ax-file-minus: unicode(eb41);
+$axl-ax-file-music: unicode(eb42);
+$axl-ax-file-off: unicode(eb43);
+$axl-ax-file-phone: unicode(eb44);
+$axl-ax-file-plus: unicode(eb45);
+$axl-ax-file-report: unicode(eb46);
+$axl-ax-files: unicode(eb47);
+$axl-ax-file-search: unicode(eb48);
+$axl-ax-file-shredder: unicode(eb49);
+$axl-ax-files-off: unicode(eb4a);
+$axl-ax-file-symlink: unicode(eb4b);
+$axl-ax-file-text: unicode(eb4c);
+$axl-ax-file-upload: unicode(eb4d);
+$axl-ax-file-zip: unicode(eb4e);
+$axl-ax-file-x: unicode(eb4f);
+$axl-ax-filter: unicode(eb50);
+$axl-ax-filter-off: unicode(eb51);
+$axl-ax-fingerprint: unicode(eb52);
+$axl-ax-firetruck: unicode(eb53);
+$axl-ax-fish: unicode(eb54);
+$axl-ax-flag: unicode(eb55);
+$axl-ax-flag-2: unicode(eb56);
+$axl-ax-flag-3: unicode(eb57);
+$axl-ax-flame: unicode(eb58);
+$axl-ax-flare: unicode(eb59);
+$axl-ax-flask: unicode(eb5a);
+$axl-ax-flip-horizontal: unicode(eb5b);
+$axl-ax-flip-vertical: unicode(eb5c);
+$axl-ax-float-center: unicode(eb5d);
+$axl-ax-float-left: unicode(eb5e);
+$axl-ax-float-none: unicode(eb5f);
+$axl-ax-float-right: unicode(eb60);
+$axl-ax-floppy-disk: unicode(eb61);
+$axl-ax-focus: unicode(eb62);
+$axl-ax-fold: unicode(eb63);
+$axl-ax-focus-2: unicode(eb64);
+$axl-ax-fold-down: unicode(eb65);
+$axl-ax-folder: unicode(eb66);
+$axl-ax-folder-minus: unicode(eb67);
+$axl-ax-folder-off: unicode(eb68);
+$axl-ax-folder-plus: unicode(eb69);
+$axl-ax-folders: unicode(eb6a);
+$axl-ax-folder-x: unicode(eb6b);
+$axl-ax-fold-up: unicode(eb6c);
+$axl-ax-forbid: unicode(eb6d);
+$axl-ax-forbid-2: unicode(eb6e);
+$axl-ax-forklift: unicode(eb6f);
+$axl-ax-forms: unicode(eb70);
+$axl-ax-forward: unicode(eb71);
+$axl-ax-frame: unicode(eb72);
+$axl-ax-friends: unicode(eb73);
+$axl-ax-gas-station: unicode(eb74);
+$axl-ax-gauge: unicode(eb75);
+$axl-ax-geometry: unicode(eb76);
+$axl-ax-ghost: unicode(eb77);
+$axl-ax-gift: unicode(eb78);
+$axl-ax-git-branch: unicode(eb79);
+$axl-ax-git-commit: unicode(eb7a);
+$axl-ax-git-compare: unicode(eb7b);
+$axl-ax-git-fork: unicode(eb7c);
+$axl-ax-git-merge: unicode(eb7d);
+$axl-ax-git-pull-request: unicode(eb7e);
+$axl-ax-glass: unicode(eb7f);
+$axl-ax-glass-full: unicode(eb80);
+$axl-ax-glass-off: unicode(eb81);
+$axl-ax-globe: unicode(eb82);
+$axl-ax-golf: unicode(eb83);
+$axl-ax-gps: unicode(eb84);
+$axl-ax-grain: unicode(eb85);
+$axl-ax-grid: unicode(eb86);
+$axl-ax-grid-dots: unicode(eb87);
+$axl-ax-grip-horizontal: unicode(eb88);
+$axl-ax-grip-vertical: unicode(eb89);
+$axl-ax-growth: unicode(eb8a);
+$axl-ax-h-1: unicode(eb8b);
+$axl-ax-h-2: unicode(eb8c);
+$axl-ax-h-3: unicode(eb8d);
+$axl-ax-h-4: unicode(eb8e);
+$axl-ax-h-5: unicode(eb8f);
+$axl-ax-h-6: unicode(eb90);
+$axl-ax-hand-finger: unicode(eb91);
+$axl-ax-hand-middle-finger: unicode(eb92);
+$axl-ax-hand-little-finger: unicode(eb93);
+$axl-ax-hand-off: unicode(eb94);
+$axl-ax-hand-ring-finger: unicode(eb95);
+$axl-ax-hand-rock: unicode(eb96);
+$axl-ax-hand-stop: unicode(eb97);
+$axl-ax-hand-three-fingers: unicode(eb98);
+$axl-ax-hand-two-fingers: unicode(eb99);
+$axl-ax-hanger: unicode(eb9a);
+$axl-ax-hash: unicode(eb9b);
+$axl-ax-heading: unicode(eb9c);
+$axl-ax-headphones: unicode(eb9d);
+$axl-ax-headphones-off: unicode(eb9e);
+$axl-ax-headset: unicode(eb9f);
+$axl-ax-heart: unicode(eba0);
+$axl-ax-heart-broken: unicode(eba1);
+$axl-ax-helicopter: unicode(eba2);
+$axl-ax-helicopter-landing: unicode(eba3);
+$axl-ax-help: unicode(eba4);
+$axl-ax-hexagon: unicode(eba5);
+$axl-ax-hexagon-off: unicode(eba6);
+$axl-ax-hierarchy: unicode(eba7);
+$axl-ax-hierarchy-2: unicode(eba8);
+$axl-ax-history: unicode(eba9);
+$axl-ax-home: unicode(ebaa);
+$axl-ax-eye-off: unicode(ebab);
+$axl-ax-ice-cream: unicode(ebac);
+$axl-ax-ice-cream-2: unicode(ebad);
+$axl-ax-id: unicode(ebae);
+$axl-ax-inbox: unicode(ebaf);
+$axl-ax-indent-decrease: unicode(ebb0);
+$axl-ax-indent-increase: unicode(ebb1);
+$axl-ax-infinity: unicode(ebb2);
+$axl-ax-info-circle: unicode(ebb3);
+$axl-ax-info-square: unicode(ebb4);
+$axl-ax-italic: unicode(ebb5);
+$axl-ax-jump-rope: unicode(ebb6);
+$axl-ax-home-2: unicode(ebb7);
+$axl-ax-key: unicode(ebb8);
+$axl-ax-keyboard: unicode(ebb9);
+$axl-ax-keyboard-hide: unicode(ebba);
+$axl-ax-keyboard-off: unicode(ebbb);
+$axl-ax-keyboard-show: unicode(ebbc);
+$axl-ax-language: unicode(ebbd);
+$axl-ax-layers-difference: unicode(ebbe);
+$axl-ax-layers-intersect: unicode(ebbf);
+$axl-ax-layers-linked: unicode(ebc0);
+$axl-ax-layers-subtract: unicode(ebc1);
+$axl-ax-layers-union: unicode(ebc2);
+$axl-ax-layout: unicode(ebc3);
+$axl-ax-layout-2: unicode(ebc4);
+$axl-ax-layout-align-bottom: unicode(ebc5);
+$axl-ax-layout-align-center: unicode(ebc6);
+$axl-ax-layout-align-left: unicode(ebc7);
+$axl-ax-layout-align-middle: unicode(ebc8);
+$axl-ax-layout-align-right: unicode(ebc9);
+$axl-ax-layout-align-top: unicode(ebca);
+$axl-ax-layout-bottombar: unicode(ebcb);
+$axl-ax-layout-cards: unicode(ebcc);
+$axl-ax-layout-columns: unicode(ebcd);
+$axl-ax-layout-distribute-horizontal: unicode(ebce);
+$axl-ax-layout-distribute-vertical: unicode(ebcf);
+$axl-ax-layout-grid: unicode(ebd0);
+$axl-ax-layout-grid-add: unicode(ebd1);
+$axl-ax-layout-kanban: unicode(ebd2);
+$axl-ax-layout-list: unicode(ebd3);
+$axl-ax-layout-navbar: unicode(ebd4);
+$axl-ax-layout-rows: unicode(ebd5);
+$axl-ax-layout-sidebar: unicode(ebd6);
+$axl-ax-leaf: unicode(ebd7);
+$axl-ax-layout-sidebar-right: unicode(ebd8);
+$axl-ax-lego: unicode(ebd9);
+$axl-ax-lemon: unicode(ebda);
+$axl-ax-letter-a: unicode(ebdb);
+$axl-ax-letter-b: unicode(ebdc);
+$axl-ax-letter-c: unicode(ebdd);
+$axl-ax-letter-case: unicode(ebde);
+$axl-ax-letter-case-lower: unicode(ebdf);
+$axl-ax-letter-case-toggle: unicode(ebe0);
+$axl-ax-letter-case-upper: unicode(ebe1);
+$axl-ax-letter-d: unicode(ebe2);
+$axl-ax-letter-e: unicode(ebe3);
+$axl-ax-letter-f: unicode(ebe4);
+$axl-ax-letter-g: unicode(ebe5);
+$axl-ax-letter-h: unicode(ebe6);
+$axl-ax-letter-i: unicode(ebe7);
+$axl-ax-letter-j: unicode(ebe8);
+$axl-ax-letter-k: unicode(ebe9);
+$axl-ax-letter-l: unicode(ebea);
+$axl-ax-letter-m: unicode(ebeb);
+$axl-ax-letter-n: unicode(ebec);
+$axl-ax-letter-o: unicode(ebed);
+$axl-ax-letter-p: unicode(ebee);
+$axl-ax-letter-q: unicode(ebef);
+$axl-ax-letter-r: unicode(ebf0);
+$axl-ax-letter-s: unicode(ebf1);
+$axl-ax-letters-case: unicode(ebf2);
+$axl-ax-letter-spacing: unicode(ebf3);
+$axl-ax-letter-t: unicode(ebf4);
+$axl-ax-letter-u: unicode(ebf5);
+$axl-ax-letter-v: unicode(ebf6);
+$axl-ax-letter-w: unicode(ebf7);
+$axl-ax-letter-x: unicode(ebf8);
+$axl-ax-letter-y: unicode(ebf9);
+$axl-ax-letter-z: unicode(ebfa);
+$axl-ax-license: unicode(ebfb);
+$axl-ax-lifebuoy: unicode(ebfc);
+$axl-ax-line: unicode(ebfd);
+$axl-ax-line-dashed: unicode(ebfe);
+$axl-ax-line-dotted: unicode(ebff);
+$axl-ax-line-height: unicode(ec00);
+$axl-ax-link: unicode(ec01);
+$axl-ax-list: unicode(ec02);
+$axl-ax-list-check: unicode(ec03);
+$axl-ax-list-music: unicode(ec04);
+$axl-ax-list-numbers: unicode(ec05);
+$axl-ax-list-plus: unicode(ec06);
+$axl-ax-list-search: unicode(ec07);
+$axl-ax-live-photo: unicode(ec08);
+$axl-ax-live-view: unicode(ec09);
+$axl-ax-loader: unicode(ec0a);
+$axl-ax-loader-quarter: unicode(ec0b);
+$axl-ax-location: unicode(ec0c);
+$axl-ax-lock: unicode(ec0d);
+$axl-ax-lock-access: unicode(ec0e);
+$axl-ax-lock-off: unicode(ec0f);
+$axl-ax-lock-open: unicode(ec10);
+$axl-ax-login: unicode(ec11);
+$axl-ax-logout: unicode(ec12);
+$axl-ax-macro: unicode(ec13);
+$axl-ax-magnet: unicode(ec14);
+$axl-ax-mail: unicode(ec15);
+$axl-ax-mailbox: unicode(ec16);
+$axl-ax-mail-forward: unicode(ec17);
+$axl-ax-mail-opened: unicode(ec18);
+$axl-ax-man: unicode(ec19);
+$axl-ax-manual-gearbox: unicode(ec1a);
+$axl-ax-map: unicode(ec1b);
+$axl-ax-map-2: unicode(ec1c);
+$axl-ax-map-pin: unicode(ec1d);
+$axl-ax-map-pin-off: unicode(ec1e);
+$axl-ax-map-pins: unicode(ec1f);
+$axl-ax-markdown: unicode(ec20);
+$axl-ax-marquee: unicode(ec21);
+$axl-ax-marquee-2: unicode(ec22);
+$axl-ax-mars: unicode(ec23);
+$axl-ax-mask: unicode(ec24);
+$axl-ax-mask-off: unicode(ec25);
+$axl-ax-massage: unicode(ec26);
+$axl-ax-math: unicode(ec27);
+$axl-ax-math-function: unicode(ec28);
+$axl-ax-math-symbols: unicode(ec29);
+$axl-ax-maximize: unicode(ec2a);
+$axl-ax-meat: unicode(ec2b);
+$axl-ax-medal: unicode(ec2c);
+$axl-ax-medical-cross: unicode(ec2d);
+$axl-ax-menu: unicode(ec2e);
+$axl-ax-menu-2: unicode(ec2f);
+$axl-ax-message: unicode(ec30);
+$axl-ax-message-2: unicode(ec31);
+$axl-ax-message-circle: unicode(ec32);
+$axl-ax-message-circle-2: unicode(ec33);
+$axl-ax-message-circle-off: unicode(ec34);
+$axl-ax-message-dots: unicode(ec35);
+$axl-ax-message-empty-2: unicode(ec36);
+$axl-ax-message-off: unicode(ec37);
+$axl-ax-message-plus: unicode(ec38);
+$axl-ax-message-report: unicode(ec39);
+$axl-ax-messages: unicode(ec3a);
+$axl-ax-messages-off: unicode(ec3b);
+$axl-ax-microphone: unicode(ec3c);
+$axl-ax-microphone-2: unicode(ec3d);
+$axl-ax-microphone-off: unicode(ec3e);
+$axl-ax-milk: unicode(ec3f);
+$axl-ax-minimize: unicode(ec40);
+$axl-ax-minus: unicode(ec41);
+$axl-ax-minus-vertical: unicode(ec42);
+$axl-ax-mist: unicode(ec43);
+$axl-ax-mood-boy: unicode(ec44);
+$axl-ax-mood-confuzed: unicode(ec45);
+$axl-ax-mood-crazy-happy: unicode(ec46);
+$axl-ax-mood-cry: unicode(ec47);
+$axl-ax-mood-empty: unicode(ec48);
+$axl-ax-mood-happy: unicode(ec49);
+$axl-ax-mood-kid: unicode(ec4a);
+$axl-ax-mood-neutral: unicode(ec4b);
+$axl-ax-mood-sad: unicode(ec4c);
+$axl-ax-mood-smile: unicode(ec4d);
+$axl-ax-mood-suprised: unicode(ec4e);
+$axl-ax-mood-tongue: unicode(ec4f);
+$axl-ax-karate: unicode(ec50);
+$axl-ax-moon-2: unicode(ec51);
+$axl-ax-moon-stars: unicode(ec52);
+$axl-ax-moped: unicode(ec53);
+$axl-ax-motorbike: unicode(ec54);
+$axl-ax-mouse: unicode(ec55);
+$axl-ax-movie: unicode(ec56);
+$axl-ax-mug: unicode(ec57);
+$axl-ax-mushroom: unicode(ec58);
+$axl-ax-music: unicode(ec59);
+$axl-ax-news: unicode(ec5a);
+$axl-ax-new-section: unicode(ec5b);
+$axl-ax-nfc: unicode(ec5c);
+$axl-ax-note: unicode(ec5d);
+$axl-ax-notebook: unicode(ec5e);
+$axl-ax-notes: unicode(ec5f);
+$axl-ax-notification: unicode(ec60);
+$axl-ax-number-0: unicode(ec61);
+$axl-ax-number-1: unicode(ec62);
+$axl-ax-number-2: unicode(ec63);
+$axl-ax-number-3: unicode(ec64);
+$axl-ax-number-4: unicode(ec65);
+$axl-ax-number-5: unicode(ec66);
+$axl-ax-number-6: unicode(ec67);
+$axl-ax-number-7: unicode(ec68);
+$axl-ax-number-8: unicode(ec69);
+$axl-ax-number-9: unicode(ec6a);
+$axl-ax-octagon: unicode(ec6b);
+$axl-ax-octagon-off: unicode(ec6c);
+$axl-ax-old: unicode(ec6d);
+$axl-ax-olympics: unicode(ec6e);
+$axl-ax-omega: unicode(ec6f);
+$axl-ax-outlet: unicode(ec70);
+$axl-ax-overline: unicode(ec71);
+$axl-ax-package: unicode(ec72);
+$axl-ax-pacman: unicode(ec73);
+$axl-ax-page-break: unicode(ec74);
+$axl-ax-paint: unicode(ec75);
+$axl-ax-palette: unicode(ec76);
+$axl-ax-panorama-horizontal: unicode(ec77);
+$axl-ax-panorama-vertical: unicode(ec78);
+$axl-ax-paperclip: unicode(ec79);
+$axl-ax-parachute: unicode(ec7a);
+$axl-ax-parentheses: unicode(ec7b);
+$axl-ax-parking: unicode(ec7c);
+$axl-ax-pause: unicode(ec7d);
+$axl-ax-peace: unicode(ec7e);
+$axl-ax-pencil: unicode(ec7f);
+$axl-ax-pennant: unicode(ec80);
+$axl-ax-pepper: unicode(ec81);
+$axl-ax-percentage: unicode(ec82);
+$axl-ax-perspective: unicode(ec83);
+$axl-ax-phone: unicode(ec84);
+$axl-ax-phone-call: unicode(ec85);
+$axl-ax-phone-calling: unicode(ec86);
+$axl-ax-phone-check: unicode(ec87);
+$axl-ax-phone-incoming: unicode(ec88);
+$axl-ax-phone-off: unicode(ec89);
+$axl-ax-phone-outgoing: unicode(ec8a);
+$axl-ax-phone-pause: unicode(ec8b);
+$axl-ax-phone-plus: unicode(ec8c);
+$axl-ax-phone-x: unicode(ec8d);
+$axl-ax-photo: unicode(ec8e);
+$axl-ax-photo-off: unicode(ec8f);
+$axl-ax-photos: unicode(ec90);
+$axl-ax-physotherapist: unicode(ec91);
+$axl-ax-picture-in-picture: unicode(ec92);
+$axl-ax-picture-in-picture-off: unicode(ec93);
+$axl-ax-picture-in-picture-on: unicode(ec94);
+$axl-ax-pill: unicode(ec95);
+$axl-ax-pillow: unicode(ec96);
+$axl-ax-pin: unicode(ec97);
+$axl-ax-pinned: unicode(ec98);
+$axl-ax-pinned-off: unicode(ec99);
+$axl-ax-pizza: unicode(ec9a);
+$axl-ax-plane: unicode(ec9b);
+$axl-ax-plane-arrival: unicode(ec9c);
+$axl-ax-plane-departure: unicode(ec9d);
+$axl-ax-planet: unicode(ec9e);
+$axl-ax-plant: unicode(ec9f);
+$axl-ax-plant-2: unicode(eca0);
+$axl-ax-play: unicode(eca1);
+$axl-ax-play-card: unicode(eca2);
+$axl-ax-player-pause: unicode(eca3);
+$axl-ax-player-play: unicode(eca4);
+$axl-ax-player-record: unicode(eca5);
+$axl-ax-player-skip-back: unicode(eca6);
+$axl-ax-player-skip-forward: unicode(eca7);
+$axl-ax-player-stop: unicode(eca8);
+$axl-ax-player-track-next: unicode(eca9);
+$axl-ax-player-track-prev: unicode(ecaa);
+$axl-ax-playlist: unicode(ecab);
+$axl-ax-plug: unicode(ecac);
+$axl-ax-plus: unicode(ecad);
+$axl-ax-point: unicode(ecae);
+$axl-ax-pokeball: unicode(ecaf);
+$axl-ax-polaroid: unicode(ecb0);
+$axl-ax-pool: unicode(ecb1);
+$axl-ax-power: unicode(ecb2);
+$axl-ax-pray: unicode(ecb3);
+$axl-ax-presentation: unicode(ecb4);
+$axl-ax-presentation-analytics: unicode(ecb5);
+$axl-ax-previous: unicode(ecb6);
+$axl-ax-printer: unicode(ecb7);
+$axl-ax-prompt: unicode(ecb8);
+$axl-ax-propeller: unicode(ecb9);
+$axl-ax-puzzle: unicode(ecba);
+$axl-ax-pyramid: unicode(ecbb);
+$axl-ax-qrcode: unicode(ecbc);
+$axl-ax-question-mark: unicode(ecbd);
+$axl-ax-radio: unicode(ecbe);
+$axl-ax-radioactive: unicode(ecbf);
+$axl-ax-radius-bottom-left: unicode(ecc0);
+$axl-ax-radius-bottom-right: unicode(ecc1);
+$axl-ax-radius-top-left: unicode(ecc2);
+$axl-ax-radius-top-right: unicode(ecc3);
+$axl-ax-rainbow: unicode(ecc4);
+$axl-ax-receipt: unicode(ecc5);
+$axl-ax-receipt-2: unicode(ecc6);
+$axl-ax-receipt-off: unicode(ecc7);
+$axl-ax-receipt-refund: unicode(ecc8);
+$axl-ax-receipt-tax: unicode(ecc9);
+$axl-ax-recharging: unicode(ecca);
+$axl-ax-record-mail: unicode(eccb);
+$axl-ax-rectangle: unicode(eccc);
+$axl-ax-rectangle-vertical: unicode(eccd);
+$axl-ax-recycle: unicode(ecce);
+$axl-ax-refresh: unicode(eccf);
+$axl-ax-refresh-alert: unicode(ecd0);
+$axl-ax-registered: unicode(ecd1);
+$axl-ax-relation-many-to-many: unicode(ecd2);
+$axl-ax-relation-one-to-many: unicode(ecd3);
+$axl-ax-relation-one-to-one: unicode(ecd4);
+$axl-ax-repeat: unicode(ecd5);
+$axl-ax-repeat-once: unicode(ecd6);
+$axl-ax-replace: unicode(ecd7);
+$axl-ax-report: unicode(ecd8);
+$axl-ax-report-analytics: unicode(ecd9);
+$axl-ax-report-medical: unicode(ecda);
+$axl-ax-report-money: unicode(ecdb);
+$axl-ax-reshare: unicode(ecdc);
+$axl-ax-resize: unicode(ecdd);
+$axl-ax-ripple: unicode(ecde);
+$axl-ax-road-sign: unicode(ecdf);
+$axl-ax-rocket: unicode(ece0);
+$axl-ax-rotate: unicode(ece1);
+$axl-ax-rotate-2: unicode(ece2);
+$axl-ax-rotate-clockwise: unicode(ece3);
+$axl-ax-rotate-clockwise-2: unicode(ece4);
+$axl-ax-rotate-rectangle: unicode(ece5);
+$axl-ax-route: unicode(ece6);
+$axl-ax-router: unicode(ece7);
+$axl-ax-row-insert-bottom: unicode(ece8);
+$axl-ax-row-insert-top: unicode(ece9);
+$axl-ax-rss: unicode(ecea);
+$axl-ax-ruler: unicode(eceb);
+$axl-ax-ruler-2: unicode(ecec);
+$axl-ax-run: unicode(eced);
+$axl-ax-sailboat: unicode(ecee);
+$axl-ax-salt: unicode(ecef);
+$axl-ax-satellite: unicode(ecf0);
+$axl-ax-sausage: unicode(ecf1);
+$axl-ax-scale: unicode(ecf2);
+$axl-ax-scan: unicode(ecf3);
+$axl-ax-school: unicode(ecf4);
+$axl-ax-scissors: unicode(ecf5);
+$axl-ax-scooter: unicode(ecf6);
+$axl-ax-scooter-electric: unicode(ecf7);
+$axl-ax-screen-share: unicode(ecf8);
+$axl-ax-screen-share-off: unicode(ecf9);
+$axl-ax-scuba-mask: unicode(ecfa);
+$axl-ax-search: unicode(ecfb);
+$axl-ax-section: unicode(ecfc);
+$axl-ax-seeding: unicode(ecfd);
+$axl-ax-select: unicode(ecfe);
+$axl-ax-selector: unicode(ecff);
+$axl-ax-send: unicode(ed00);
+$axl-ax-separator: unicode(ed01);
+$axl-ax-separator-horizontal: unicode(ed02);
+$axl-ax-separator-vertical: unicode(ed03);
+$axl-ax-server: unicode(ed04);
+$axl-ax-servicemark: unicode(ed05);
+$axl-ax-settings: unicode(ed06);
+$axl-ax-settings-automation: unicode(ed07);
+$axl-ax-shadow: unicode(ed08);
+$axl-ax-shadow-off: unicode(ed09);
+$axl-ax-shape: unicode(ed0a);
+$axl-ax-shape-2: unicode(ed0b);
+$axl-ax-shape-3: unicode(ed0c);
+$axl-ax-share: unicode(ed0d);
+$axl-ax-shield: unicode(ed0e);
+$axl-ax-shield-check: unicode(ed0f);
+$axl-ax-shield-lock: unicode(ed10);
+$axl-ax-shield-off: unicode(ed11);
+$axl-ax-shield-x: unicode(ed12);
+$axl-ax-ship: unicode(ed13);
+$axl-ax-shirt: unicode(ed14);
+$axl-ax-shopping-bag: unicode(ed15);
+$axl-ax-shopping-cart: unicode(ed16);
+$axl-ax-shopping-cart-discount: unicode(ed17);
+$axl-ax-shopping-cart-off: unicode(ed18);
+$axl-ax-shopping-cart-plus: unicode(ed19);
+$axl-ax-shopping-cart-x: unicode(ed1a);
+$axl-ax-shredder: unicode(ed1b);
+$axl-ax-signature: unicode(ed1c);
+$axl-ax-sitemap: unicode(ed1d);
+$axl-ax-skateboard: unicode(ed1e);
+$axl-ax-skip-back: unicode(ed1f);
+$axl-ax-skip-forward: unicode(ed20);
+$axl-ax-slice: unicode(ed21);
+$axl-ax-slideshow: unicode(ed22);
+$axl-ax-smart-home: unicode(ed23);
+$axl-ax-smoking: unicode(ed24);
+$axl-ax-smoking-no: unicode(ed25);
+$axl-ax-snowflake: unicode(ed26);
+$axl-ax-soccer-field: unicode(ed27);
+$axl-ax-social: unicode(ed28);
+$axl-ax-sock: unicode(ed29);
+$axl-ax-sort-ascending: unicode(ed2a);
+$axl-ax-sort-ascending-2: unicode(ed2b);
+$axl-ax-sort-ascending-letters: unicode(ed2c);
+$axl-ax-sort-ascending-numbers: unicode(ed2d);
+$axl-ax-sort-descending: unicode(ed2e);
+$axl-ax-sort-descending-2: unicode(ed2f);
+$axl-ax-sort-descending-letters: unicode(ed30);
+$axl-ax-sort-descending-numbers: unicode(ed31);
+$axl-ax-soup: unicode(ed32);
+$axl-ax-space: unicode(ed33);
+$axl-ax-speakerphone: unicode(ed34);
+$axl-ax-speedboat: unicode(ed35);
+$axl-ax-sport-billard: unicode(ed36);
+$axl-ax-square: unicode(ed37);
+$axl-ax-square-0: unicode(ed38);
+$axl-ax-square-1: unicode(ed39);
+$axl-ax-square-2: unicode(ed3a);
+$axl-ax-square-3: unicode(ed3b);
+$axl-ax-square-4: unicode(ed3c);
+$axl-ax-square-5: unicode(ed3d);
+$axl-ax-square-6: unicode(ed3e);
+$axl-ax-square-7: unicode(ed3f);
+$axl-ax-square-8: unicode(ed40);
+$axl-ax-square-9: unicode(ed41);
+$axl-ax-square-check: unicode(ed42);
+$axl-ax-square-dot: unicode(ed43);
+$axl-ax-square-forbid: unicode(ed44);
+$axl-ax-square-forbid-2: unicode(ed45);
+$axl-ax-square-minus: unicode(ed46);
+$axl-ax-square-off: unicode(ed47);
+$axl-ax-square-plus: unicode(ed48);
+$axl-ax-building-warehouse: unicode(ed49);
+$axl-ax-square-root-2: unicode(ed4a);
+$axl-ax-square-rotated: unicode(ed4b);
+$axl-ax-square-rotated-off: unicode(ed4c);
+$axl-ax-squares-diagonal: unicode(ed4d);
+$axl-ax-squares-filled: unicode(ed4e);
+$axl-ax-square-toggle: unicode(ed4f);
+$axl-ax-square-toggle-horizontal: unicode(ed50);
+$axl-ax-moon: unicode(ed51);
+$axl-ax-stack: unicode(ed52);
+$axl-ax-stack-2: unicode(ed53);
+$axl-ax-stairs: unicode(ed54);
+$axl-ax-stairs-down: unicode(ed55);
+$axl-ax-stairs-up: unicode(ed56);
+$axl-ax-star: unicode(ed57);
+$axl-ax-star-half: unicode(ed58);
+$axl-ax-star-off: unicode(ed59);
+$axl-ax-stars: unicode(ed5a);
+$axl-ax-steering-wheel: unicode(ed5b);
+$axl-ax-step-into: unicode(ed5c);
+$axl-ax-step-out: unicode(ed5d);
+$axl-ax-stethoscope: unicode(ed5e);
+$axl-ax-sthetoscope: unicode(ed5f);
+$axl-ax-sticker: unicode(ed60);
+$axl-ax-strikethrough: unicode(ed61);
+$axl-ax-submarine: unicode(ed62);
+$axl-ax-subscript: unicode(ed63);
+$axl-ax-subtask: unicode(ed64);
+$axl-ax-sum: unicode(ed65);
+$axl-ax-sun: unicode(ed66);
+$axl-ax-sun-off: unicode(ed67);
+$axl-ax-sunrise: unicode(ed68);
+$axl-ax-sunset: unicode(ed69);
+$axl-ax-sunshine: unicode(ed6a);
+$axl-ax-superscript: unicode(ed6b);
+$axl-ax-swiming: unicode(ed6c);
+$axl-ax-swimming: unicode(ed6d);
+$axl-ax-switch: unicode(ed6e);
+$axl-ax-feather: unicode(ed6f);
+$axl-ax-switch-2: unicode(ed70);
+$axl-ax-square-x: unicode(ed71);
+$axl-ax-switch-vertical: unicode(ed72);
+$axl-ax-table: unicode(ed73);
+$axl-ax-table-export: unicode(ed74);
+$axl-ax-switch-horizontal: unicode(ed75);
+$axl-ax-table-off: unicode(ed76);
+$axl-ax-tag: unicode(ed77);
+$axl-ax-tallymark-1: unicode(ed78);
+$axl-ax-tallymark-2: unicode(ed79);
+$axl-ax-switch-3: unicode(ed7a);
+$axl-ax-tallymark-4: unicode(ed7b);
+$axl-ax-tallymarks: unicode(ed7c);
+$axl-ax-tank: unicode(ed7d);
+$axl-ax-target: unicode(ed7e);
+$axl-ax-tax: unicode(ed7f);
+$axl-ax-temperature: unicode(ed80);
+$axl-ax-temperature-celsius: unicode(ed81);
+$axl-ax-temperature-fahrenheit: unicode(ed82);
+$axl-ax-temperature-minus: unicode(ed83);
+$axl-ax-temperature-plus: unicode(ed84);
+$axl-ax-template: unicode(ed85);
+$axl-ax-tent: unicode(ed86);
+$axl-ax-terminal: unicode(ed87);
+$axl-ax-terminal-2: unicode(ed88);
+$axl-ax-a: unicode(ed89);
+$axl-ax-test-pipe: unicode(ed8a);
+$axl-ax-text-direction-ltr: unicode(ed8b);
+$axl-ax-text-direction-rtl: unicode(ed8c);
+$axl-ax-tallymark-3: unicode(ed8d);
+$axl-ax-text-wrap-disabled: unicode(ed8e);
+$axl-ax-thumb-down: unicode(ed8f);
+$axl-ax-thumb-up: unicode(ed90);
+$axl-ax-ticket: unicode(ed91);
+$axl-ax-tilt-shift: unicode(ed92);
+$axl-ax-tir: unicode(ed93);
+$axl-ax-toggle-left: unicode(ed94);
+$axl-ax-toggle-right: unicode(ed95);
+$axl-ax-tool: unicode(ed96);
+$axl-ax-tools: unicode(ed97);
+$axl-ax-tools-kitchen: unicode(ed98);
+$axl-ax-tools-kitchen-2: unicode(ed99);
+$axl-ax-tornado: unicode(ed9a);
+$axl-ax-tournament: unicode(ed9b);
+$axl-ax-track: unicode(ed9c);
+$axl-ax-track-next: unicode(ed9d);
+$axl-ax-track-prev: unicode(ed9e);
+$axl-ax-tractor: unicode(ed9f);
+$axl-ax-trademark: unicode(eda0);
+$axl-ax-traffic-cone: unicode(eda1);
+$axl-ax-traffic-lights: unicode(eda2);
+$axl-ax-train: unicode(eda3);
+$axl-ax-transfer-in: unicode(eda4);
+$axl-ax-transfer-out: unicode(eda5);
+$axl-ax-trash: unicode(eda6);
+$axl-ax-text-wrap: unicode(eda7);
+$axl-ax-tree: unicode(eda8);
+$axl-ax-trees: unicode(eda9);
+$axl-ax-trending-down: unicode(edaa);
+$axl-ax-trending-down-2: unicode(edab);
+$axl-ax-trending-down-3: unicode(edac);
+$axl-ax-trending-up: unicode(edad);
+$axl-ax-trending-up-2: unicode(edae);
+$axl-ax-trending-up-3: unicode(edaf);
+$axl-ax-triangle: unicode(edb0);
+$axl-ax-triangle-off: unicode(edb1);
+$axl-ax-triangle-square-circle: unicode(edb2);
+$axl-ax-trident: unicode(edb3);
+$axl-ax-trophy: unicode(edb4);
+$axl-ax-truck: unicode(edb5);
+$axl-ax-truck-delivery: unicode(edb6);
+$axl-ax-truck-off: unicode(edb7);
+$axl-ax-truck-return: unicode(edb8);
+$axl-ax-typography: unicode(edb9);
+$axl-ax-umbrella: unicode(edba);
+$axl-ax-underline: unicode(edbb);
+$axl-ax-unlink: unicode(edbc);
+$axl-ax-upload: unicode(edbd);
+$axl-ax-urgent: unicode(edbe);
+$axl-ax-user: unicode(edbf);
+$axl-ax-user-check: unicode(edc0);
+$axl-ax-user-exclamation: unicode(edc1);
+$axl-ax-user-minus: unicode(edc2);
+$axl-ax-user-off: unicode(edc3);
+$axl-ax-user-plus: unicode(edc4);
+$axl-ax-users: unicode(edc5);
+$axl-ax-user-x: unicode(edc6);
+$axl-ax-vaccine: unicode(edc7);
+$axl-ax-variable: unicode(edc8);
+$axl-ax-vector: unicode(edc9);
+$axl-ax-vector-beizer: unicode(edca);
+$axl-ax-vector-beizer-2: unicode(edcb);
+$axl-ax-vector-bezier: unicode(edcc);
+$axl-ax-vector-triangle: unicode(edcd);
+$axl-ax-venus: unicode(edce);
+$axl-ax-versions: unicode(edcf);
+$axl-ax-video: unicode(edd0);
+$axl-ax-video-minus: unicode(edd1);
+$axl-ax-video-off: unicode(edd2);
+$axl-ax-video-plus: unicode(edd3);
+$axl-ax-view-360: unicode(edd4);
+$axl-ax-viewfinder: unicode(edd5);
+$axl-ax-viewport-narrow: unicode(edd6);
+$axl-ax-viewport-wide: unicode(edd7);
+$axl-ax-virus: unicode(edd8);
+$axl-ax-virus-off: unicode(edd9);
+$axl-ax-virus-search: unicode(edda);
+$axl-ax-vocabulary: unicode(eddb);
+$axl-ax-volume: unicode(eddc);
+$axl-ax-volume-2: unicode(eddd);
+$axl-ax-volume-3: unicode(edde);
+$axl-ax-walk: unicode(eddf);
+$axl-ax-wallet: unicode(ede0);
+$axl-ax-wand: unicode(ede1);
+$axl-ax-wave-saw-tool: unicode(ede2);
+$axl-ax-wave-sine: unicode(ede3);
+$axl-ax-square-root: unicode(ede4);
+$axl-ax-table-import: unicode(ede5);
+$axl-ax-trash-off: unicode(ede6);
+$axl-ax-calculator: unicode(ede7);
+$axl-ax-capture: unicode(ede8);
+$axl-ax-camera-off: unicode(ede9);
+$axl-ax-blog: unicode(edea);
+$axl-ax-brand-aiira: unicode(edeb);
+$axl-ax-brand-facebook: unicode(edec);
+$axl-ax-brand-booking: unicode(eded);
+$axl-ax-bookmark: unicode(edee);
+$axl-ax-bookmarks: unicode(edef);
+$axl-ax-bookmark-off: unicode(edf0);
+$axl-ax-book: unicode(edf1);
+$axl-ax-award: unicode(edf2);
+$axl-ax-bell-x: unicode(edf3);
+$axl-ax-bell-ringing-2: unicode(edf4);
+$axl-ax-bell-ringing: unicode(edf5);
+$axl-ax-bell-plus: unicode(edf6);
+$axl-ax-bell-off: unicode(edf7);
+$axl-ax-bell-minus: unicode(edf8);
+$axl-ax-bell: unicode(edf9);
+$axl-ax-brand-ycombinator: unicode(edfa);
+$axl-ax-brand-unsplash: unicode(edfb);
+$axl-ax-brand-youtube: unicode(edfc);
+$axl-ax-brand-snapchat: unicode(edfd);
+$axl-ax-brand-yahoo: unicode(edfe);
+$axl-ax-brand-windows: unicode(edff);
+$axl-ax-brand-whatsapp: unicode(ee00);
+$axl-ax-brand-vk: unicode(ee01);
+$axl-ax-brand-vimeo: unicode(ee02);
+$axl-ax-brand-vercel: unicode(ee03);
+$axl-ax-brand-tabler: unicode(ee04);
+$axl-ax-brand-twitter: unicode(ee05);
+$axl-ax-brand-twitch: unicode(ee06);
+$axl-ax-brand-tumblr: unicode(ee07);
+$axl-ax-brand-tinder: unicode(ee08);
+$axl-ax-brand-tiktok: unicode(ee09);
+$axl-ax-brand-tidal: unicode(ee0a);
+$axl-ax-brand-telegram: unicode(ee0b);
+$axl-ax-brand-tailwind: unicode(ee0c);
+$axl-ax-brand-patreon: unicode(ee0d);
+$axl-ax-brand-stripe: unicode(ee0e);
+$axl-ax-brand-steam: unicode(ee0f);
+$axl-ax-brand-spotify: unicode(ee10);
+$axl-ax-brand-soundcloud: unicode(ee11);
+$axl-ax-brand-python: unicode(ee12);
+$axl-ax-brand-slack: unicode(ee13);
+$axl-ax-brand-skype: unicode(ee14);
+$axl-ax-brand-sketch: unicode(ee15);
+$axl-ax-brand-shazam: unicode(ee16);
+$axl-ax-brand-sentry: unicode(ee17);
+$axl-ax-brand-sass: unicode(ee18);
+$axl-ax-brand-safari: unicode(ee19);
+$axl-ax-brand-reddit: unicode(ee1a);
+$axl-ax-brand-hipchat: unicode(ee1b);
+$axl-ax-brand-producthunt: unicode(ee1c);
+$axl-ax-brand-pocket: unicode(ee1d);
+$axl-ax-brand-pinterest: unicode(ee1e);
+$axl-ax-brand-paypal: unicode(ee1f);
+$axl-ax-brand-kickstarter: unicode(ee20);
+$axl-ax-brand-pagekit: unicode(ee21);
+$axl-ax-brand-opera: unicode(ee22);
+$axl-ax-brand-open-source: unicode(ee23);
+$axl-ax-brand-netflix: unicode(ee24);
+$axl-ax-brand-messenger: unicode(ee25);
+$axl-ax-brand-medium: unicode(ee26);
+$axl-ax-brand-linkedin: unicode(ee27);
+$axl-ax-brand-kotlin: unicode(ee28);
+$axl-ax-brand-figma: unicode(ee29);
+$axl-ax-brand-javascript: unicode(ee2a);
+$axl-ax-brand-instagram: unicode(ee2b);
+$axl-ax-brand-html5: unicode(ee2c);
+$axl-ax-brand-framer: unicode(ee2d);
+$axl-ax-brand-gravatar: unicode(ee2e);
+$axl-ax-brand-google-play: unicode(ee2f);
+$axl-ax-brand-google-drive: unicode(ee30);
+$axl-ax-brand-google-analytics: unicode(ee31);
+$axl-ax-brand-google: unicode(ee32);
+$axl-ax-brand-gitlab: unicode(ee33);
+$axl-ax-brand-github: unicode(ee34);
+$axl-ax-brand-docker: unicode(ee35);
+$axl-ax-brand-foursquare: unicode(ee36);
+$axl-ax-brand-flickr: unicode(ee37);
+$axl-ax-brand-firefox: unicode(ee38);
+$axl-ax-brand-codesandbox: unicode(ee39);
+$axl-ax-brand-edge: unicode(ee3a);
+$axl-ax-brand-dribbble: unicode(ee3b);
+$axl-ax-brand-codepen: unicode(ee3c);
+$axl-ax-brand-disqus: unicode(ee3d);
+$axl-ax-brand-discord: unicode(ee3e);
+$axl-ax-brand-deviantart: unicode(ee3f);
+$axl-ax-brand-css3: unicode(ee40);
+$axl-ax-brand-appstore: unicode(ee41);
+$axl-ax-brand-chrome: unicode(ee42);
+$axl-ax-brand-booking-1: unicode(ee43);
+$axl-ax-brand-bitbucket: unicode(ee44);
+$axl-ax-brand-bing: unicode(ee45);
+$axl-ax-brand-behance: unicode(ee46);
+$axl-ax-brand-asana: unicode(ee47);
+$axl-ax-brand-apple-arcade: unicode(ee48);
+$axl-ax-brand-apple: unicode(ee49);
+$axl-ax-brand-android: unicode(ee4a);
+$axl-ax-brand-airbnb: unicode(ee4b);
+
+.axl.ax-browser::before {
+  content: $axl-ax-browser;
+}
+
+.axl.ax-building::before {
+  content: $axl-ax-building;
+}
+
+.axl.ax-building-arch::before {
+  content: $axl-ax-building-arch;
+}
+
+.axl.ax-building-bank::before {
+  content: $axl-ax-building-bank;
+}
+
+.axl.ax-building-bridge::before {
+  content: $axl-ax-building-bridge;
+}
+
+.axl.ax-building-bridge-2::before {
+  content: $axl-ax-building-bridge-2;
+}
+
+.axl.ax-building-carousel::before {
+  content: $axl-ax-building-carousel;
+}
+
+.axl.ax-building-castle::before {
+  content: $axl-ax-building-castle;
+}
+
+.axl.ax-building-church::before {
+  content: $axl-ax-building-church;
+}
+
+.axl.ax-building-community::before {
+  content: $axl-ax-building-community;
+}
+
+.axl.ax-building-cottage::before {
+  content: $axl-ax-building-cottage;
+}
+
+.axl.ax-brush::before {
+  content: $axl-ax-brush;
+}
+
+.axl.ax-building-fortress::before {
+  content: $axl-ax-building-fortress;
+}
+
+.axl.ax-building-hospital::before {
+  content: $axl-ax-building-hospital;
+}
+
+.axl.ax-building-lighthouse::before {
+  content: $axl-ax-building-lighthouse;
+}
+
+.axl.ax-bucket::before {
+  content: $axl-ax-bucket;
+}
+
+.axl.ax-building-pavilon::before {
+  content: $axl-ax-building-pavilon;
+}
+
+.axl.ax-building-skyscraper::before {
+  content: $axl-ax-building-skyscraper;
+}
+
+.axl.ax-building-skyscrappers::before {
+  content: $axl-ax-building-skyscrappers;
+}
+
+.axl.ax-building-store::before {
+  content: $axl-ax-building-store;
+}
+
+.axl.ax-bug::before {
+  content: $axl-ax-bug;
+}
+
+.axl.ax-bulb::before {
+  content: $axl-ax-bulb;
+}
+
+.axl.ax-bulb-off::before {
+  content: $axl-ax-bulb-off;
+}
+
+.axl.ax-bulldozer::before {
+  content: $axl-ax-bulldozer;
+}
+
+.axl.ax-bus::before {
+  content: $axl-ax-bus;
+}
+
+.axl.ax-businessplan::before {
+  content: $axl-ax-businessplan;
+}
+
+.axl.ax-brightness-half::before {
+  content: $axl-ax-brightness-half;
+}
+
+.axl.ax-calendar::before {
+  content: $axl-ax-calendar;
+}
+
+.axl.ax-calendar-1::before {
+  content: $axl-ax-calendar-1;
+}
+
+.axl.ax-calendar-event::before {
+  content: $axl-ax-calendar-event;
+}
+
+.axl.ax-calendar-minus::before {
+  content: $axl-ax-calendar-minus;
+}
+
+.axl.ax-calendar-off::before {
+  content: $axl-ax-calendar-off;
+}
+
+.axl.ax-calendar-plus::before {
+  content: $axl-ax-calendar-plus;
+}
+
+.axl.ax-calendar-stats::before {
+  content: $axl-ax-calendar-stats;
+}
+
+.axl.ax-calendar-time::before {
+  content: $axl-ax-calendar-time;
+}
+
+.axl.ax-camera::before {
+  content: $axl-ax-camera;
+}
+
+.axl.ax-camera-minus::before {
+  content: $axl-ax-camera-minus;
+}
+
+.axl.ax-building-monument::before {
+  content: $axl-ax-building-monument;
+}
+
+.axl.ax-camera-plus::before {
+  content: $axl-ax-camera-plus;
+}
+
+.axl.ax-camera-rotate::before {
+  content: $axl-ax-camera-rotate;
+}
+
+.axl.ax-camera-selfie::before {
+  content: $axl-ax-camera-selfie;
+}
+
+.axl.ax-candy::before {
+  content: $axl-ax-candy;
+}
+
+.axl.ax-building-factory::before {
+  content: $axl-ax-building-factory;
+}
+
+.axl.ax-car::before {
+  content: $axl-ax-car;
+}
+
+.axl.ax-caravan::before {
+  content: $axl-ax-caravan;
+}
+
+.axl.ax-car-crane::before {
+  content: $axl-ax-car-crane;
+}
+
+.axl.ax-cardboards::before {
+  content: $axl-ax-cardboards;
+}
+
+.axl.ax-caret-down::before {
+  content: $axl-ax-caret-down;
+}
+
+.axl.ax-caret-left::before {
+  content: $axl-ax-caret-left;
+}
+
+.axl.ax-caret-right::before {
+  content: $axl-ax-caret-right;
+}
+
+.axl.ax-caret-up::before {
+  content: $axl-ax-caret-up;
+}
+
+.axl.ax-cart-down::before {
+  content: $axl-ax-cart-down;
+}
+
+.axl.ax-cart-plus::before {
+  content: $axl-ax-cart-plus;
+}
+
+.axl.ax-cash::before {
+  content: $axl-ax-cash;
+}
+
+.axl.ax-cash-banknote::before {
+  content: $axl-ax-cash-banknote;
+}
+
+.axl.ax-cash-banknote-off::before {
+  content: $axl-ax-cash-banknote-off;
+}
+
+.axl.ax-cast::before {
+  content: $axl-ax-cast;
+}
+
+.axl.ax-ce::before {
+  content: $axl-ax-ce;
+}
+
+.axl.ax-certificate::before {
+  content: $axl-ax-certificate;
+}
+
+.axl.ax-charging-pile::before {
+  content: $axl-ax-charging-pile;
+}
+
+.axl.ax-chart-arcs::before {
+  content: $axl-ax-chart-arcs;
+}
+
+.axl.ax-chart-arcs-3::before {
+  content: $axl-ax-chart-arcs-3;
+}
+
+.axl.ax-chart-area::before {
+  content: $axl-ax-chart-area;
+}
+
+.axl.ax-chart-area-line::before {
+  content: $axl-ax-chart-area-line;
+}
+
+.axl.ax-chart-arrows::before {
+  content: $axl-ax-chart-arrows;
+}
+
+.axl.ax-chart-arrows-vertical::before {
+  content: $axl-ax-chart-arrows-vertical;
+}
+
+.axl.ax-chart-bar::before {
+  content: $axl-ax-chart-bar;
+}
+
+.axl.ax-chart-bubble::before {
+  content: $axl-ax-chart-bubble;
+}
+
+.axl.ax-chart-candle::before {
+  content: $axl-ax-chart-candle;
+}
+
+.axl.ax-chart-circles::before {
+  content: $axl-ax-chart-circles;
+}
+
+.axl.ax-chart-donut::before {
+  content: $axl-ax-chart-donut;
+}
+
+.axl.ax-chart-donut-2::before {
+  content: $axl-ax-chart-donut-2;
+}
+
+.axl.ax-chart-donut-3::before {
+  content: $axl-ax-chart-donut-3;
+}
+
+.axl.ax-chart-donut-4::before {
+  content: $axl-ax-chart-donut-4;
+}
+
+.axl.ax-chart-dots::before {
+  content: $axl-ax-chart-dots;
+}
+
+.axl.ax-chart-infographic::before {
+  content: $axl-ax-chart-infographic;
+}
+
+.axl.ax-chart-line::before {
+  content: $axl-ax-chart-line;
+}
+
+.axl.ax-chart-pie::before {
+  content: $axl-ax-chart-pie;
+}
+
+.axl.ax-chart-pie-2::before {
+  content: $axl-ax-chart-pie-2;
+}
+
+.axl.ax-chart-pie-3::before {
+  content: $axl-ax-chart-pie-3;
+}
+
+.axl.ax-chart-pie-4::before {
+  content: $axl-ax-chart-pie-4;
+}
+
+.axl.ax-chart-radar::before {
+  content: $axl-ax-chart-radar;
+}
+
+.axl.ax-check::before {
+  content: $axl-ax-check;
+}
+
+.axl.ax-checkbox::before {
+  content: $axl-ax-checkbox;
+}
+
+.axl.ax-checks::before {
+  content: $axl-ax-checks;
+}
+
+.axl.ax-cheese::before {
+  content: $axl-ax-cheese;
+}
+
+.axl.ax-chevron-down::before {
+  content: $axl-ax-chevron-down;
+}
+
+.axl.ax-chevron-down-left::before {
+  content: $axl-ax-chevron-down-left;
+}
+
+.axl.ax-chevron-down-right::before {
+  content: $axl-ax-chevron-down-right;
+}
+
+.axl.ax-chevron-left::before {
+  content: $axl-ax-chevron-left;
+}
+
+.axl.ax-chevron-right::before {
+  content: $axl-ax-chevron-right;
+}
+
+.axl.ax-chevrons-down::before {
+  content: $axl-ax-chevrons-down;
+}
+
+.axl.ax-chevrons-down-left::before {
+  content: $axl-ax-chevrons-down-left;
+}
+
+.axl.ax-chevrons-down-right::before {
+  content: $axl-ax-chevrons-down-right;
+}
+
+.axl.ax-chevrons-left::before {
+  content: $axl-ax-chevrons-left;
+}
+
+.axl.ax-chevrons-right::before {
+  content: $axl-ax-chevrons-right;
+}
+
+.axl.ax-chevrons-up::before {
+  content: $axl-ax-chevrons-up;
+}
+
+.axl.ax-chevrons-up-left::before {
+  content: $axl-ax-chevrons-up-left;
+}
+
+.axl.ax-chevrons-up-right::before {
+  content: $axl-ax-chevrons-up-right;
+}
+
+.axl.ax-chevron-up::before {
+  content: $axl-ax-chevron-up;
+}
+
+.axl.ax-chevron-up-left::before {
+  content: $axl-ax-chevron-up-left;
+}
+
+.axl.ax-chevron-up-right::before {
+  content: $axl-ax-chevron-up-right;
+}
+
+.axl.ax-christmas-tree::before {
+  content: $axl-ax-christmas-tree;
+}
+
+.axl.ax-circle::before {
+  content: $axl-ax-circle;
+}
+
+.axl.ax-circle-0::before {
+  content: $axl-ax-circle-0;
+}
+
+.axl.ax-circle-1::before {
+  content: $axl-ax-circle-1;
+}
+
+.axl.ax-circle-2::before {
+  content: $axl-ax-circle-2;
+}
+
+.axl.ax-circle-3::before {
+  content: $axl-ax-circle-3;
+}
+
+.axl.ax-circle-4::before {
+  content: $axl-ax-circle-4;
+}
+
+.axl.ax-circle-5::before {
+  content: $axl-ax-circle-5;
+}
+
+.axl.ax-circle-6::before {
+  content: $axl-ax-circle-6;
+}
+
+.axl.ax-circle-7::before {
+  content: $axl-ax-circle-7;
+}
+
+.axl.ax-circle-8::before {
+  content: $axl-ax-circle-8;
+}
+
+.axl.ax-circle-9::before {
+  content: $axl-ax-circle-9;
+}
+
+.axl.ax-circle-check::before {
+  content: $axl-ax-circle-check;
+}
+
+.axl.ax-circle-dashed::before {
+  content: $axl-ax-circle-dashed;
+}
+
+.axl.ax-circle-dotted::before {
+  content: $axl-ax-circle-dotted;
+}
+
+.axl.ax-circle-half::before {
+  content: $axl-ax-circle-half;
+}
+
+.axl.ax-circle-half-vertical::before {
+  content: $axl-ax-circle-half-vertical;
+}
+
+.axl.ax-circle-minus::before {
+  content: $axl-ax-circle-minus;
+}
+
+.axl.ax-circle-off::before {
+  content: $axl-ax-circle-off;
+}
+
+.axl.ax-circle-plus::before {
+  content: $axl-ax-circle-plus;
+}
+
+.axl.ax-circles::before {
+  content: $axl-ax-circles;
+}
+
+.axl.ax-circle-square::before {
+  content: $axl-ax-circle-square;
+}
+
+.axl.ax-circle-x::before {
+  content: $axl-ax-circle-x;
+}
+
+.axl.ax-clear-all::before {
+  content: $axl-ax-clear-all;
+}
+
+.axl.ax-clear-formatting::before {
+  content: $axl-ax-clear-formatting;
+}
+
+.axl.ax-click::before {
+  content: $axl-ax-click;
+}
+
+.axl.ax-clipboard::before {
+  content: $axl-ax-clipboard;
+}
+
+.axl.ax-clipboard-check::before {
+  content: $axl-ax-clipboard-check;
+}
+
+.axl.ax-clipboard-list::before {
+  content: $axl-ax-clipboard-list;
+}
+
+.axl.ax-clipboard-x::before {
+  content: $axl-ax-clipboard-x;
+}
+
+.axl.ax-clock::before {
+  content: $axl-ax-clock;
+}
+
+.axl.ax-cloud::before {
+  content: $axl-ax-cloud;
+}
+
+.axl.ax-cloud-download::before {
+  content: $axl-ax-cloud-download;
+}
+
+.axl.ax-cloud-fog::before {
+  content: $axl-ax-cloud-fog;
+}
+
+.axl.ax-cloud-off::before {
+  content: $axl-ax-cloud-off;
+}
+
+.axl.ax-cloud-rain::before {
+  content: $axl-ax-cloud-rain;
+}
+
+.axl.ax-cloud-snow::before {
+  content: $axl-ax-cloud-snow;
+}
+
+.axl.ax-cloud-storm::before {
+  content: $axl-ax-cloud-storm;
+}
+
+.axl.ax-cloud-upload::before {
+  content: $axl-ax-cloud-upload;
+}
+
+.axl.ax-code::before {
+  content: $axl-ax-code;
+}
+
+.axl.ax-code-minus::before {
+  content: $axl-ax-code-minus;
+}
+
+.axl.ax-code-plus::before {
+  content: $axl-ax-code-plus;
+}
+
+.axl.ax-coffee::before {
+  content: $axl-ax-coffee;
+}
+
+.axl.ax-coin::before {
+  content: $axl-ax-coin;
+}
+
+.axl.ax-color-picker::before {
+  content: $axl-ax-color-picker;
+}
+
+.axl.ax-color-swatch::before {
+  content: $axl-ax-color-swatch;
+}
+
+.axl.ax-column-insert-left::before {
+  content: $axl-ax-column-insert-left;
+}
+
+.axl.ax-column-insert-right::before {
+  content: $axl-ax-column-insert-right;
+}
+
+.axl.ax-columns::before {
+  content: $axl-ax-columns;
+}
+
+.axl.ax-comet::before {
+  content: $axl-ax-comet;
+}
+
+.axl.ax-command::before {
+  content: $axl-ax-command;
+}
+
+.axl.ax-compass::before {
+  content: $axl-ax-compass;
+}
+
+.axl.ax-confetti::before {
+  content: $axl-ax-confetti;
+}
+
+.axl.ax-container::before {
+  content: $axl-ax-container;
+}
+
+.axl.ax-contrast::before {
+  content: $axl-ax-contrast;
+}
+
+.axl.ax-cookie::before {
+  content: $axl-ax-cookie;
+}
+
+.axl.ax-copy::before {
+  content: $axl-ax-copy;
+}
+
+.axl.ax-copyleft::before {
+  content: $axl-ax-copyleft;
+}
+
+.axl.ax-copyright::before {
+  content: $axl-ax-copyright;
+}
+
+.axl.ax-corner-down-left::before {
+  content: $axl-ax-corner-down-left;
+}
+
+.axl.ax-corner-down-left-double::before {
+  content: $axl-ax-corner-down-left-double;
+}
+
+.axl.ax-corner-down-right::before {
+  content: $axl-ax-corner-down-right;
+}
+
+.axl.ax-corner-down-right-double::before {
+  content: $axl-ax-corner-down-right-double;
+}
+
+.axl.ax-corner-left-down::before {
+  content: $axl-ax-corner-left-down;
+}
+
+.axl.ax-corner-left-down-double::before {
+  content: $axl-ax-corner-left-down-double;
+}
+
+.axl.ax-corner-left-up::before {
+  content: $axl-ax-corner-left-up;
+}
+
+.axl.ax-corner-left-up-double::before {
+  content: $axl-ax-corner-left-up-double;
+}
+
+.axl.ax-corner-right-down::before {
+  content: $axl-ax-corner-right-down;
+}
+
+.axl.ax-corner-right-down-double::before {
+  content: $axl-ax-corner-right-down-double;
+}
+
+.axl.ax-corner-right-up::before {
+  content: $axl-ax-corner-right-up;
+}
+
+.axl.ax-corner-right-up-double::before {
+  content: $axl-ax-corner-right-up-double;
+}
+
+.axl.ax-corner-up-left::before {
+  content: $axl-ax-corner-up-left;
+}
+
+.axl.ax-corner-up-left-double::before {
+  content: $axl-ax-corner-up-left-double;
+}
+
+.axl.ax-corner-up-right::before {
+  content: $axl-ax-corner-up-right;
+}
+
+.axl.ax-corner-up-right-double::before {
+  content: $axl-ax-corner-up-right-double;
+}
+
+.axl.ax-crane::before {
+  content: $axl-ax-crane;
+}
+
+.axl.ax-credit-card::before {
+  content: $axl-ax-credit-card;
+}
+
+.axl.ax-arrows-up-left::before {
+  content: $axl-ax-arrows-up-left;
+}
+
+.axl.ax-crop::before {
+  content: $axl-ax-crop;
+}
+
+.axl.ax-crosshair::before {
+  content: $axl-ax-crosshair;
+}
+
+.axl.ax-crown::before {
+  content: $axl-ax-crown;
+}
+
+.axl.ax-crown-off::before {
+  content: $axl-ax-crown-off;
+}
+
+.axl.ax-cup::before {
+  content: $axl-ax-cup;
+}
+
+.axl.ax-curly-loop::before {
+  content: $axl-ax-curly-loop;
+}
+
+.axl.ax-currency-bahraini::before {
+  content: $axl-ax-currency-bahraini;
+}
+
+.axl.ax-currency-bath::before {
+  content: $axl-ax-currency-bath;
+}
+
+.axl.ax-currency-bitcoin::before {
+  content: $axl-ax-currency-bitcoin;
+}
+
+.axl.ax-currency-cent::before {
+  content: $axl-ax-currency-cent;
+}
+
+.axl.ax-currency-dinar::before {
+  content: $axl-ax-currency-dinar;
+}
+
+.axl.ax-currency-dirham::before {
+  content: $axl-ax-currency-dirham;
+}
+
+.axl.ax-currency-dollar::before {
+  content: $axl-ax-currency-dollar;
+}
+
+.axl.ax-currency-dollar-australian::before {
+  content: $axl-ax-currency-dollar-australian;
+}
+
+.axl.ax-currency-dollar-canadian::before {
+  content: $axl-ax-currency-dollar-canadian;
+}
+
+.axl.ax-currency-dollar-singapore::before {
+  content: $axl-ax-currency-dollar-singapore;
+}
+
+.axl.ax-currency-ethereum::before {
+  content: $axl-ax-currency-ethereum;
+}
+
+.axl.ax-currency-euro::before {
+  content: $axl-ax-currency-euro;
+}
+
+.axl.ax-currency-forint::before {
+  content: $axl-ax-currency-forint;
+}
+
+.axl.ax-currency-frank::before {
+  content: $axl-ax-currency-frank;
+}
+
+.axl.ax-currency-krone-czech::before {
+  content: $axl-ax-currency-krone-czech;
+}
+
+.axl.ax-currency-krone-danish::before {
+  content: $axl-ax-currency-krone-danish;
+}
+
+.axl.ax-currency-krone-swedish::before {
+  content: $axl-ax-currency-krone-swedish;
+}
+
+.axl.ax-currency-leu::before {
+  content: $axl-ax-currency-leu;
+}
+
+.axl.ax-currency-lira::before {
+  content: $axl-ax-currency-lira;
+}
+
+.axl.ax-currency-litecoin::before {
+  content: $axl-ax-currency-litecoin;
+}
+
+.axl.ax-currency-naira::before {
+  content: $axl-ax-currency-naira;
+}
+
+.axl.ax-currency-pound::before {
+  content: $axl-ax-currency-pound;
+}
+
+.axl.ax-currency-real::before {
+  content: $axl-ax-currency-real;
+}
+
+.axl.ax-currency-renminbi::before {
+  content: $axl-ax-currency-renminbi;
+}
+
+.axl.ax-currency-ripple::before {
+  content: $axl-ax-currency-ripple;
+}
+
+.axl.ax-currency-riyal::before {
+  content: $axl-ax-currency-riyal;
+}
+
+.axl.ax-currency-rubel::before {
+  content: $axl-ax-currency-rubel;
+}
+
+.axl.ax-currency-rupee::before {
+  content: $axl-ax-currency-rupee;
+}
+
+.axl.ax-currency-shekel::before {
+  content: $axl-ax-currency-shekel;
+}
+
+.axl.ax-currency-taka::before {
+  content: $axl-ax-currency-taka;
+}
+
+.axl.ax-currency-tugrik::before {
+  content: $axl-ax-currency-tugrik;
+}
+
+.axl.ax-currency-won::before {
+  content: $axl-ax-currency-won;
+}
+
+.axl.ax-currency-yen::before {
+  content: $axl-ax-currency-yen;
+}
+
+.axl.ax-currency-zloty::before {
+  content: $axl-ax-currency-zloty;
+}
+
+.axl.ax-current-location::before {
+  content: $axl-ax-current-location;
+}
+
+.axl.ax-cursor-text::before {
+  content: $axl-ax-cursor-text;
+}
+
+.axl.ax-cut::before {
+  content: $axl-ax-cut;
+}
+
+.axl.ax-dashboard::before {
+  content: $axl-ax-dashboard;
+}
+
+.axl.ax-database::before {
+  content: $axl-ax-database;
+}
+
+.axl.ax-database-export::before {
+  content: $axl-ax-database-export;
+}
+
+.axl.ax-database-import::before {
+  content: $axl-ax-database-import;
+}
+
+.axl.ax-database-off::before {
+  content: $axl-ax-database-off;
+}
+
+.axl.ax-details::before {
+  content: $axl-ax-details;
+}
+
+.axl.ax-device-analytics::before {
+  content: $axl-ax-device-analytics;
+}
+
+.axl.ax-device-audio-tape::before {
+  content: $axl-ax-device-audio-tape;
+}
+
+.axl.ax-device-cctv::before {
+  content: $axl-ax-device-cctv;
+}
+
+.axl.ax-device-computer-camera::before {
+  content: $axl-ax-device-computer-camera;
+}
+
+.axl.ax-device-computer-camera-off::before {
+  content: $axl-ax-device-computer-camera-off;
+}
+
+.axl.ax-device-desktop::before {
+  content: $axl-ax-device-desktop;
+}
+
+.axl.ax-device-desktop-analytics::before {
+  content: $axl-ax-device-desktop-analytics;
+}
+
+.axl.ax-device-desktop-off::before {
+  content: $axl-ax-device-desktop-off;
+}
+
+.axl.ax-device-floppy::before {
+  content: $axl-ax-device-floppy;
+}
+
+.axl.ax-device-gamepad::before {
+  content: $axl-ax-device-gamepad;
+}
+
+.axl.ax-device-laptop::before {
+  content: $axl-ax-device-laptop;
+}
+
+.axl.ax-device-mobile::before {
+  content: $axl-ax-device-mobile;
+}
+
+.axl.ax-device-mobile-message::before {
+  content: $axl-ax-device-mobile-message;
+}
+
+.axl.ax-device-mobile-rotated::before {
+  content: $axl-ax-device-mobile-rotated;
+}
+
+.axl.ax-device-mobile-vibration::before {
+  content: $axl-ax-device-mobile-vibration;
+}
+
+.axl.ax-devices::before {
+  content: $axl-ax-devices;
+}
+
+.axl.ax-devices-2::before {
+  content: $axl-ax-devices-2;
+}
+
+.axl.ax-devices-pc::before {
+  content: $axl-ax-devices-pc;
+}
+
+.axl.ax-device-speaker::before {
+  content: $axl-ax-device-speaker;
+}
+
+.axl.ax-device-tablet::before {
+  content: $axl-ax-device-tablet;
+}
+
+.axl.ax-device-tv::before {
+  content: $axl-ax-device-tv;
+}
+
+.axl.ax-device-watch::before {
+  content: $axl-ax-device-watch;
+}
+
+.axl.ax-diamond::before {
+  content: $axl-ax-diamond;
+}
+
+.axl.ax-dice::before {
+  content: $axl-ax-dice;
+}
+
+.axl.ax-dimensions::before {
+  content: $axl-ax-dimensions;
+}
+
+.axl.ax-direction::before {
+  content: $axl-ax-direction;
+}
+
+.axl.ax-direction-horizontal::before {
+  content: $axl-ax-direction-horizontal;
+}
+
+.axl.ax-directions::before {
+  content: $axl-ax-directions;
+}
+
+.axl.ax-disabled::before {
+  content: $axl-ax-disabled;
+}
+
+.axl.ax-disabled-2::before {
+  content: $axl-ax-disabled-2;
+}
+
+.axl.ax-disc::before {
+  content: $axl-ax-disc;
+}
+
+.axl.ax-discount::before {
+  content: $axl-ax-discount;
+}
+
+.axl.ax-discount-2::before {
+  content: $axl-ax-discount-2;
+}
+
+.axl.ax-divide::before {
+  content: $axl-ax-divide;
+}
+
+.axl.ax-dna::before {
+  content: $axl-ax-dna;
+}
+
+.axl.ax-dog-bowl::before {
+  content: $axl-ax-dog-bowl;
+}
+
+.axl.ax-dots::before {
+  content: $axl-ax-dots;
+}
+
+.axl.ax-dots-circle-horizontal::before {
+  content: $axl-ax-dots-circle-horizontal;
+}
+
+.axl.ax-dots-diagonal::before {
+  content: $axl-ax-dots-diagonal;
+}
+
+.axl.ax-dots-diagonal-2::before {
+  content: $axl-ax-dots-diagonal-2;
+}
+
+.axl.ax-dots-vertical::before {
+  content: $axl-ax-dots-vertical;
+}
+
+.axl.ax-download::before {
+  content: $axl-ax-download;
+}
+
+.axl.ax-drag-drop::before {
+  content: $axl-ax-drag-drop;
+}
+
+.axl.ax-drag-drop-2::before {
+  content: $axl-ax-drag-drop-2;
+}
+
+.axl.ax-drone::before {
+  content: $axl-ax-drone;
+}
+
+.axl.ax-drone-off::before {
+  content: $axl-ax-drone-off;
+}
+
+.axl.ax-droplet::before {
+  content: $axl-ax-droplet;
+}
+
+.axl.ax-droplet-filled::before {
+  content: $axl-ax-droplet-filled;
+}
+
+.axl.ax-droplet-filled-2::before {
+  content: $axl-ax-droplet-filled-2;
+}
+
+.axl.ax-droplet-half::before {
+  content: $axl-ax-droplet-half;
+}
+
+.axl.ax-droplet-half-2::before {
+  content: $axl-ax-droplet-half-2;
+}
+
+.axl.ax-droplet-off::before {
+  content: $axl-ax-droplet-off;
+}
+
+.axl.ax-ear::before {
+  content: $axl-ax-ear;
+}
+
+.axl.ax-ear-off::before {
+  content: $axl-ax-ear-off;
+}
+
+.axl.ax-edit::before {
+  content: $axl-ax-edit;
+}
+
+.axl.ax-edit-circle::before {
+  content: $axl-ax-edit-circle;
+}
+
+.axl.ax-egg::before {
+  content: $axl-ax-egg;
+}
+
+.axl.ax-electric-scooter::before {
+  content: $axl-ax-electric-scooter;
+}
+
+.axl.ax-emphasis::before {
+  content: $axl-ax-emphasis;
+}
+
+.axl.ax-equal::before {
+  content: $axl-ax-equal;
+}
+
+.axl.ax-credit-card-off::before {
+  content: $axl-ax-credit-card-off;
+}
+
+.axl.ax-eraser::before {
+  content: $axl-ax-eraser;
+}
+
+.axl.ax-exchange::before {
+  content: $axl-ax-exchange;
+}
+
+.axl.ax-exposure::before {
+  content: $axl-ax-exposure;
+}
+
+.axl.ax-external-link::before {
+  content: $axl-ax-external-link;
+}
+
+.axl.ax-eye::before {
+  content: $axl-ax-eye;
+}
+
+.axl.ax-eye-check::before {
+  content: $axl-ax-eye-check;
+}
+
+.axl.ax-eyeglass::before {
+  content: $axl-ax-eyeglass;
+}
+
+.axl.ax-eyeglass-2::before {
+  content: $axl-ax-eyeglass-2;
+}
+
+.axl.ax-equal-not::before {
+  content: $axl-ax-equal-not;
+}
+
+.axl.ax-face-id::before {
+  content: $axl-ax-face-id;
+}
+
+.axl.ax-fall::before {
+  content: $axl-ax-fall;
+}
+
+.axl.ax-box-multiple-3::before {
+  content: $axl-ax-box-multiple-3;
+}
+
+.axl.ax-fence::before {
+  content: $axl-ax-fence;
+}
+
+.axl.ax-file::before {
+  content: $axl-ax-file;
+}
+
+.axl.ax-file-alert::before {
+  content: $axl-ax-file-alert;
+}
+
+.axl.ax-file-analytics::before {
+  content: $axl-ax-file-analytics;
+}
+
+.axl.ax-file-certificate::before {
+  content: $axl-ax-file-certificate;
+}
+
+.axl.ax-file-check::before {
+  content: $axl-ax-file-check;
+}
+
+.axl.ax-file-code::before {
+  content: $axl-ax-file-code;
+}
+
+.axl.ax-file-code-2::before {
+  content: $axl-ax-file-code-2;
+}
+
+.axl.ax-file-diff::before {
+  content: $axl-ax-file-diff;
+}
+
+.axl.ax-file-dislike::before {
+  content: $axl-ax-file-dislike;
+}
+
+.axl.ax-file-download::before {
+  content: $axl-ax-file-download;
+}
+
+.axl.ax-file-export::before {
+  content: $axl-ax-file-export;
+}
+
+.axl.ax-file-horizontal::before {
+  content: $axl-ax-file-horizontal;
+}
+
+.axl.ax-file-import::before {
+  content: $axl-ax-file-import;
+}
+
+.axl.ax-file-info::before {
+  content: $axl-ax-file-info;
+}
+
+.axl.ax-file-invoice::before {
+  content: $axl-ax-file-invoice;
+}
+
+.axl.ax-file-like::before {
+  content: $axl-ax-file-like;
+}
+
+.axl.ax-file-minus::before {
+  content: $axl-ax-file-minus;
+}
+
+.axl.ax-file-music::before {
+  content: $axl-ax-file-music;
+}
+
+.axl.ax-file-off::before {
+  content: $axl-ax-file-off;
+}
+
+.axl.ax-file-phone::before {
+  content: $axl-ax-file-phone;
+}
+
+.axl.ax-file-plus::before {
+  content: $axl-ax-file-plus;
+}
+
+.axl.ax-file-report::before {
+  content: $axl-ax-file-report;
+}
+
+.axl.ax-files::before {
+  content: $axl-ax-files;
+}
+
+.axl.ax-file-search::before {
+  content: $axl-ax-file-search;
+}
+
+.axl.ax-file-shredder::before {
+  content: $axl-ax-file-shredder;
+}
+
+.axl.ax-files-off::before {
+  content: $axl-ax-files-off;
+}
+
+.axl.ax-file-symlink::before {
+  content: $axl-ax-file-symlink;
+}
+
+.axl.ax-file-text::before {
+  content: $axl-ax-file-text;
+}
+
+.axl.ax-file-upload::before {
+  content: $axl-ax-file-upload;
+}
+
+.axl.ax-file-zip::before {
+  content: $axl-ax-file-zip;
+}
+
+.axl.ax-file-x::before {
+  content: $axl-ax-file-x;
+}
+
+.axl.ax-filter::before {
+  content: $axl-ax-filter;
+}
+
+.axl.ax-filter-off::before {
+  content: $axl-ax-filter-off;
+}
+
+.axl.ax-fingerprint::before {
+  content: $axl-ax-fingerprint;
+}
+
+.axl.ax-firetruck::before {
+  content: $axl-ax-firetruck;
+}
+
+.axl.ax-fish::before {
+  content: $axl-ax-fish;
+}
+
+.axl.ax-flag::before {
+  content: $axl-ax-flag;
+}
+
+.axl.ax-flag-2::before {
+  content: $axl-ax-flag-2;
+}
+
+.axl.ax-flag-3::before {
+  content: $axl-ax-flag-3;
+}
+
+.axl.ax-flame::before {
+  content: $axl-ax-flame;
+}
+
+.axl.ax-flare::before {
+  content: $axl-ax-flare;
+}
+
+.axl.ax-flask::before {
+  content: $axl-ax-flask;
+}
+
+.axl.ax-flip-horizontal::before {
+  content: $axl-ax-flip-horizontal;
+}
+
+.axl.ax-flip-vertical::before {
+  content: $axl-ax-flip-vertical;
+}
+
+.axl.ax-float-center::before {
+  content: $axl-ax-float-center;
+}
+
+.axl.ax-float-left::before {
+  content: $axl-ax-float-left;
+}
+
+.axl.ax-float-none::before {
+  content: $axl-ax-float-none;
+}
+
+.axl.ax-float-right::before {
+  content: $axl-ax-float-right;
+}
+
+.axl.ax-floppy-disk::before {
+  content: $axl-ax-floppy-disk;
+}
+
+.axl.ax-focus::before {
+  content: $axl-ax-focus;
+}
+
+.axl.ax-fold::before {
+  content: $axl-ax-fold;
+}
+
+.axl.ax-focus-2::before {
+  content: $axl-ax-focus-2;
+}
+
+.axl.ax-fold-down::before {
+  content: $axl-ax-fold-down;
+}
+
+.axl.ax-folder::before {
+  content: $axl-ax-folder;
+}
+
+.axl.ax-folder-minus::before {
+  content: $axl-ax-folder-minus;
+}
+
+.axl.ax-folder-off::before {
+  content: $axl-ax-folder-off;
+}
+
+.axl.ax-folder-plus::before {
+  content: $axl-ax-folder-plus;
+}
+
+.axl.ax-folders::before {
+  content: $axl-ax-folders;
+}
+
+.axl.ax-folder-x::before {
+  content: $axl-ax-folder-x;
+}
+
+.axl.ax-fold-up::before {
+  content: $axl-ax-fold-up;
+}
+
+.axl.ax-forbid::before {
+  content: $axl-ax-forbid;
+}
+
+.axl.ax-forbid-2::before {
+  content: $axl-ax-forbid-2;
+}
+
+.axl.ax-forklift::before {
+  content: $axl-ax-forklift;
+}
+
+.axl.ax-forms::before {
+  content: $axl-ax-forms;
+}
+
+.axl.ax-forward::before {
+  content: $axl-ax-forward;
+}
+
+.axl.ax-frame::before {
+  content: $axl-ax-frame;
+}
+
+.axl.ax-friends::before {
+  content: $axl-ax-friends;
+}
+
+.axl.ax-gas-station::before {
+  content: $axl-ax-gas-station;
+}
+
+.axl.ax-gauge::before {
+  content: $axl-ax-gauge;
+}
+
+.axl.ax-geometry::before {
+  content: $axl-ax-geometry;
+}
+
+.axl.ax-ghost::before {
+  content: $axl-ax-ghost;
+}
+
+.axl.ax-gift::before {
+  content: $axl-ax-gift;
+}
+
+.axl.ax-git-branch::before {
+  content: $axl-ax-git-branch;
+}
+
+.axl.ax-git-commit::before {
+  content: $axl-ax-git-commit;
+}
+
+.axl.ax-git-compare::before {
+  content: $axl-ax-git-compare;
+}
+
+.axl.ax-git-fork::before {
+  content: $axl-ax-git-fork;
+}
+
+.axl.ax-git-merge::before {
+  content: $axl-ax-git-merge;
+}
+
+.axl.ax-git-pull-request::before {
+  content: $axl-ax-git-pull-request;
+}
+
+.axl.ax-glass::before {
+  content: $axl-ax-glass;
+}
+
+.axl.ax-glass-full::before {
+  content: $axl-ax-glass-full;
+}
+
+.axl.ax-glass-off::before {
+  content: $axl-ax-glass-off;
+}
+
+.axl.ax-globe::before {
+  content: $axl-ax-globe;
+}
+
+.axl.ax-golf::before {
+  content: $axl-ax-golf;
+}
+
+.axl.ax-gps::before {
+  content: $axl-ax-gps;
+}
+
+.axl.ax-grain::before {
+  content: $axl-ax-grain;
+}
+
+.axl.ax-grid::before {
+  content: $axl-ax-grid;
+}
+
+.axl.ax-grid-dots::before {
+  content: $axl-ax-grid-dots;
+}
+
+.axl.ax-grip-horizontal::before {
+  content: $axl-ax-grip-horizontal;
+}
+
+.axl.ax-grip-vertical::before {
+  content: $axl-ax-grip-vertical;
+}
+
+.axl.ax-growth::before {
+  content: $axl-ax-growth;
+}
+
+.axl.ax-h-1::before {
+  content: $axl-ax-h-1;
+}
+
+.axl.ax-h-2::before {
+  content: $axl-ax-h-2;
+}
+
+.axl.ax-h-3::before {
+  content: $axl-ax-h-3;
+}
+
+.axl.ax-h-4::before {
+  content: $axl-ax-h-4;
+}
+
+.axl.ax-h-5::before {
+  content: $axl-ax-h-5;
+}
+
+.axl.ax-h-6::before {
+  content: $axl-ax-h-6;
+}
+
+.axl.ax-hand-finger::before {
+  content: $axl-ax-hand-finger;
+}
+
+.axl.ax-hand-middle-finger::before {
+  content: $axl-ax-hand-middle-finger;
+}
+
+.axl.ax-hand-little-finger::before {
+  content: $axl-ax-hand-little-finger;
+}
+
+.axl.ax-hand-off::before {
+  content: $axl-ax-hand-off;
+}
+
+.axl.ax-hand-ring-finger::before {
+  content: $axl-ax-hand-ring-finger;
+}
+
+.axl.ax-hand-rock::before {
+  content: $axl-ax-hand-rock;
+}
+
+.axl.ax-hand-stop::before {
+  content: $axl-ax-hand-stop;
+}
+
+.axl.ax-hand-three-fingers::before {
+  content: $axl-ax-hand-three-fingers;
+}
+
+.axl.ax-hand-two-fingers::before {
+  content: $axl-ax-hand-two-fingers;
+}
+
+.axl.ax-hanger::before {
+  content: $axl-ax-hanger;
+}
+
+.axl.ax-hash::before {
+  content: $axl-ax-hash;
+}
+
+.axl.ax-heading::before {
+  content: $axl-ax-heading;
+}
+
+.axl.ax-headphones::before {
+  content: $axl-ax-headphones;
+}
+
+.axl.ax-headphones-off::before {
+  content: $axl-ax-headphones-off;
+}
+
+.axl.ax-headset::before {
+  content: $axl-ax-headset;
+}
+
+.axl.ax-heart::before {
+  content: $axl-ax-heart;
+}
+
+.axl.ax-heart-broken::before {
+  content: $axl-ax-heart-broken;
+}
+
+.axl.ax-helicopter::before {
+  content: $axl-ax-helicopter;
+}
+
+.axl.ax-helicopter-landing::before {
+  content: $axl-ax-helicopter-landing;
+}
+
+.axl.ax-help::before {
+  content: $axl-ax-help;
+}
+
+.axl.ax-hexagon::before {
+  content: $axl-ax-hexagon;
+}
+
+.axl.ax-hexagon-off::before {
+  content: $axl-ax-hexagon-off;
+}
+
+.axl.ax-hierarchy::before {
+  content: $axl-ax-hierarchy;
+}
+
+.axl.ax-hierarchy-2::before {
+  content: $axl-ax-hierarchy-2;
+}
+
+.axl.ax-history::before {
+  content: $axl-ax-history;
+}
+
+.axl.ax-home::before {
+  content: $axl-ax-home;
+}
+
+.axl.ax-eye-off::before {
+  content: $axl-ax-eye-off;
+}
+
+.axl.ax-ice-cream::before {
+  content: $axl-ax-ice-cream;
+}
+
+.axl.ax-ice-cream-2::before {
+  content: $axl-ax-ice-cream-2;
+}
+
+.axl.ax-id::before {
+  content: $axl-ax-id;
+}
+
+.axl.ax-inbox::before {
+  content: $axl-ax-inbox;
+}
+
+.axl.ax-indent-decrease::before {
+  content: $axl-ax-indent-decrease;
+}
+
+.axl.ax-indent-increase::before {
+  content: $axl-ax-indent-increase;
+}
+
+.axl.ax-infinity::before {
+  content: $axl-ax-infinity;
+}
+
+.axl.ax-info-circle::before {
+  content: $axl-ax-info-circle;
+}
+
+.axl.ax-info-square::before {
+  content: $axl-ax-info-square;
+}
+
+.axl.ax-italic::before {
+  content: $axl-ax-italic;
+}
+
+.axl.ax-jump-rope::before {
+  content: $axl-ax-jump-rope;
+}
+
+.axl.ax-home-2::before {
+  content: $axl-ax-home-2;
+}
+
+.axl.ax-key::before {
+  content: $axl-ax-key;
+}
+
+.axl.ax-keyboard::before {
+  content: $axl-ax-keyboard;
+}
+
+.axl.ax-keyboard-hide::before {
+  content: $axl-ax-keyboard-hide;
+}
+
+.axl.ax-keyboard-off::before {
+  content: $axl-ax-keyboard-off;
+}
+
+.axl.ax-keyboard-show::before {
+  content: $axl-ax-keyboard-show;
+}
+
+.axl.ax-language::before {
+  content: $axl-ax-language;
+}
+
+.axl.ax-layers-difference::before {
+  content: $axl-ax-layers-difference;
+}
+
+.axl.ax-layers-intersect::before {
+  content: $axl-ax-layers-intersect;
+}
+
+.axl.ax-layers-linked::before {
+  content: $axl-ax-layers-linked;
+}
+
+.axl.ax-layers-subtract::before {
+  content: $axl-ax-layers-subtract;
+}
+
+.axl.ax-layers-union::before {
+  content: $axl-ax-layers-union;
+}
+
+.axl.ax-layout::before {
+  content: $axl-ax-layout;
+}
+
+.axl.ax-layout-2::before {
+  content: $axl-ax-layout-2;
+}
+
+.axl.ax-layout-align-bottom::before {
+  content: $axl-ax-layout-align-bottom;
+}
+
+.axl.ax-layout-align-center::before {
+  content: $axl-ax-layout-align-center;
+}
+
+.axl.ax-layout-align-left::before {
+  content: $axl-ax-layout-align-left;
+}
+
+.axl.ax-layout-align-middle::before {
+  content: $axl-ax-layout-align-middle;
+}
+
+.axl.ax-layout-align-right::before {
+  content: $axl-ax-layout-align-right;
+}
+
+.axl.ax-layout-align-top::before {
+  content: $axl-ax-layout-align-top;
+}
+
+.axl.ax-layout-bottombar::before {
+  content: $axl-ax-layout-bottombar;
+}
+
+.axl.ax-layout-cards::before {
+  content: $axl-ax-layout-cards;
+}
+
+.axl.ax-layout-columns::before {
+  content: $axl-ax-layout-columns;
+}
+
+.axl.ax-layout-distribute-horizontal::before {
+  content: $axl-ax-layout-distribute-horizontal;
+}
+
+.axl.ax-layout-distribute-vertical::before {
+  content: $axl-ax-layout-distribute-vertical;
+}
+
+.axl.ax-layout-grid::before {
+  content: $axl-ax-layout-grid;
+}
+
+.axl.ax-layout-grid-add::before {
+  content: $axl-ax-layout-grid-add;
+}
+
+.axl.ax-layout-kanban::before {
+  content: $axl-ax-layout-kanban;
+}
+
+.axl.ax-layout-list::before {
+  content: $axl-ax-layout-list;
+}
+
+.axl.ax-layout-navbar::before {
+  content: $axl-ax-layout-navbar;
+}
+
+.axl.ax-layout-rows::before {
+  content: $axl-ax-layout-rows;
+}
+
+.axl.ax-layout-sidebar::before {
+  content: $axl-ax-layout-sidebar;
+}
+
+.axl.ax-leaf::before {
+  content: $axl-ax-leaf;
+}
+
+.axl.ax-layout-sidebar-right::before {
+  content: $axl-ax-layout-sidebar-right;
+}
+
+.axl.ax-lego::before {
+  content: $axl-ax-lego;
+}
+
+.axl.ax-lemon::before {
+  content: $axl-ax-lemon;
+}
+
+.axl.ax-letter-a::before {
+  content: $axl-ax-letter-a;
+}
+
+.axl.ax-letter-b::before {
+  content: $axl-ax-letter-b;
+}
+
+.axl.ax-letter-c::before {
+  content: $axl-ax-letter-c;
+}
+
+.axl.ax-letter-case::before {
+  content: $axl-ax-letter-case;
+}
+
+.axl.ax-letter-case-lower::before {
+  content: $axl-ax-letter-case-lower;
+}
+
+.axl.ax-letter-case-toggle::before {
+  content: $axl-ax-letter-case-toggle;
+}
+
+.axl.ax-letter-case-upper::before {
+  content: $axl-ax-letter-case-upper;
+}
+
+.axl.ax-letter-d::before {
+  content: $axl-ax-letter-d;
+}
+
+.axl.ax-letter-e::before {
+  content: $axl-ax-letter-e;
+}
+
+.axl.ax-letter-f::before {
+  content: $axl-ax-letter-f;
+}
+
+.axl.ax-letter-g::before {
+  content: $axl-ax-letter-g;
+}
+
+.axl.ax-letter-h::before {
+  content: $axl-ax-letter-h;
+}
+
+.axl.ax-letter-i::before {
+  content: $axl-ax-letter-i;
+}
+
+.axl.ax-letter-j::before {
+  content: $axl-ax-letter-j;
+}
+
+.axl.ax-letter-k::before {
+  content: $axl-ax-letter-k;
+}
+
+.axl.ax-letter-l::before {
+  content: $axl-ax-letter-l;
+}
+
+.axl.ax-letter-m::before {
+  content: $axl-ax-letter-m;
+}
+
+.axl.ax-letter-n::before {
+  content: $axl-ax-letter-n;
+}
+
+.axl.ax-letter-o::before {
+  content: $axl-ax-letter-o;
+}
+
+.axl.ax-letter-p::before {
+  content: $axl-ax-letter-p;
+}
+
+.axl.ax-letter-q::before {
+  content: $axl-ax-letter-q;
+}
+
+.axl.ax-letter-r::before {
+  content: $axl-ax-letter-r;
+}
+
+.axl.ax-letter-s::before {
+  content: $axl-ax-letter-s;
+}
+
+.axl.ax-letters-case::before {
+  content: $axl-ax-letters-case;
+}
+
+.axl.ax-letter-spacing::before {
+  content: $axl-ax-letter-spacing;
+}
+
+.axl.ax-letter-t::before {
+  content: $axl-ax-letter-t;
+}
+
+.axl.ax-letter-u::before {
+  content: $axl-ax-letter-u;
+}
+
+.axl.ax-letter-v::before {
+  content: $axl-ax-letter-v;
+}
+
+.axl.ax-letter-w::before {
+  content: $axl-ax-letter-w;
+}
+
+.axl.ax-letter-x::before {
+  content: $axl-ax-letter-x;
+}
+
+.axl.ax-letter-y::before {
+  content: $axl-ax-letter-y;
+}
+
+.axl.ax-letter-z::before {
+  content: $axl-ax-letter-z;
+}
+
+.axl.ax-license::before {
+  content: $axl-ax-license;
+}
+
+.axl.ax-lifebuoy::before {
+  content: $axl-ax-lifebuoy;
+}
+
+.axl.ax-line::before {
+  content: $axl-ax-line;
+}
+
+.axl.ax-line-dashed::before {
+  content: $axl-ax-line-dashed;
+}
+
+.axl.ax-line-dotted::before {
+  content: $axl-ax-line-dotted;
+}
+
+.axl.ax-line-height::before {
+  content: $axl-ax-line-height;
+}
+
+.axl.ax-link::before {
+  content: $axl-ax-link;
+}
+
+.axl.ax-list::before {
+  content: $axl-ax-list;
+}
+
+.axl.ax-list-check::before {
+  content: $axl-ax-list-check;
+}
+
+.axl.ax-list-music::before {
+  content: $axl-ax-list-music;
+}
+
+.axl.ax-list-numbers::before {
+  content: $axl-ax-list-numbers;
+}
+
+.axl.ax-list-plus::before {
+  content: $axl-ax-list-plus;
+}
+
+.axl.ax-list-search::before {
+  content: $axl-ax-list-search;
+}
+
+.axl.ax-live-photo::before {
+  content: $axl-ax-live-photo;
+}
+
+.axl.ax-live-view::before {
+  content: $axl-ax-live-view;
+}
+
+.axl.ax-loader::before {
+  content: $axl-ax-loader;
+}
+
+.axl.ax-loader-quarter::before {
+  content: $axl-ax-loader-quarter;
+}
+
+.axl.ax-location::before {
+  content: $axl-ax-location;
+}
+
+.axl.ax-lock::before {
+  content: $axl-ax-lock;
+}
+
+.axl.ax-lock-access::before {
+  content: $axl-ax-lock-access;
+}
+
+.axl.ax-lock-off::before {
+  content: $axl-ax-lock-off;
+}
+
+.axl.ax-lock-open::before {
+  content: $axl-ax-lock-open;
+}
+
+.axl.ax-login::before {
+  content: $axl-ax-login;
+}
+
+.axl.ax-logout::before {
+  content: $axl-ax-logout;
+}
+
+.axl.ax-macro::before {
+  content: $axl-ax-macro;
+}
+
+.axl.ax-magnet::before {
+  content: $axl-ax-magnet;
+}
+
+.axl.ax-mail::before {
+  content: $axl-ax-mail;
+}
+
+.axl.ax-mailbox::before {
+  content: $axl-ax-mailbox;
+}
+
+.axl.ax-mail-forward::before {
+  content: $axl-ax-mail-forward;
+}
+
+.axl.ax-mail-opened::before {
+  content: $axl-ax-mail-opened;
+}
+
+.axl.ax-man::before {
+  content: $axl-ax-man;
+}
+
+.axl.ax-manual-gearbox::before {
+  content: $axl-ax-manual-gearbox;
+}
+
+.axl.ax-map::before {
+  content: $axl-ax-map;
+}
+
+.axl.ax-map-2::before {
+  content: $axl-ax-map-2;
+}
+
+.axl.ax-map-pin::before {
+  content: $axl-ax-map-pin;
+}
+
+.axl.ax-map-pin-off::before {
+  content: $axl-ax-map-pin-off;
+}
+
+.axl.ax-map-pins::before {
+  content: $axl-ax-map-pins;
+}
+
+.axl.ax-markdown::before {
+  content: $axl-ax-markdown;
+}
+
+.axl.ax-marquee::before {
+  content: $axl-ax-marquee;
+}
+
+.axl.ax-marquee-2::before {
+  content: $axl-ax-marquee-2;
+}
+
+.axl.ax-mars::before {
+  content: $axl-ax-mars;
+}
+
+.axl.ax-mask::before {
+  content: $axl-ax-mask;
+}
+
+.axl.ax-mask-off::before {
+  content: $axl-ax-mask-off;
+}
+
+.axl.ax-massage::before {
+  content: $axl-ax-massage;
+}
+
+.axl.ax-math::before {
+  content: $axl-ax-math;
+}
+
+.axl.ax-math-function::before {
+  content: $axl-ax-math-function;
+}
+
+.axl.ax-math-symbols::before {
+  content: $axl-ax-math-symbols;
+}
+
+.axl.ax-maximize::before {
+  content: $axl-ax-maximize;
+}
+
+.axl.ax-meat::before {
+  content: $axl-ax-meat;
+}
+
+.axl.ax-medal::before {
+  content: $axl-ax-medal;
+}
+
+.axl.ax-medical-cross::before {
+  content: $axl-ax-medical-cross;
+}
+
+.axl.ax-menu::before {
+  content: $axl-ax-menu;
+}
+
+.axl.ax-menu-2::before {
+  content: $axl-ax-menu-2;
+}
+
+.axl.ax-message::before {
+  content: $axl-ax-message;
+}
+
+.axl.ax-message-2::before {
+  content: $axl-ax-message-2;
+}
+
+.axl.ax-message-circle::before {
+  content: $axl-ax-message-circle;
+}
+
+.axl.ax-message-circle-2::before {
+  content: $axl-ax-message-circle-2;
+}
+
+.axl.ax-message-circle-off::before {
+  content: $axl-ax-message-circle-off;
+}
+
+.axl.ax-message-dots::before {
+  content: $axl-ax-message-dots;
+}
+
+.axl.ax-message-empty-2::before {
+  content: $axl-ax-message-empty-2;
+}
+
+.axl.ax-message-off::before {
+  content: $axl-ax-message-off;
+}
+
+.axl.ax-message-plus::before {
+  content: $axl-ax-message-plus;
+}
+
+.axl.ax-message-report::before {
+  content: $axl-ax-message-report;
+}
+
+.axl.ax-messages::before {
+  content: $axl-ax-messages;
+}
+
+.axl.ax-messages-off::before {
+  content: $axl-ax-messages-off;
+}
+
+.axl.ax-microphone::before {
+  content: $axl-ax-microphone;
+}
+
+.axl.ax-microphone-2::before {
+  content: $axl-ax-microphone-2;
+}
+
+.axl.ax-microphone-off::before {
+  content: $axl-ax-microphone-off;
+}
+
+.axl.ax-milk::before {
+  content: $axl-ax-milk;
+}
+
+.axl.ax-minimize::before {
+  content: $axl-ax-minimize;
+}
+
+.axl.ax-minus::before {
+  content: $axl-ax-minus;
+}
+
+.axl.ax-minus-vertical::before {
+  content: $axl-ax-minus-vertical;
+}
+
+.axl.ax-mist::before {
+  content: $axl-ax-mist;
+}
+
+.axl.ax-mood-boy::before {
+  content: $axl-ax-mood-boy;
+}
+
+.axl.ax-mood-confuzed::before {
+  content: $axl-ax-mood-confuzed;
+}
+
+.axl.ax-mood-crazy-happy::before {
+  content: $axl-ax-mood-crazy-happy;
+}
+
+.axl.ax-mood-cry::before {
+  content: $axl-ax-mood-cry;
+}
+
+.axl.ax-mood-empty::before {
+  content: $axl-ax-mood-empty;
+}
+
+.axl.ax-mood-happy::before {
+  content: $axl-ax-mood-happy;
+}
+
+.axl.ax-mood-kid::before {
+  content: $axl-ax-mood-kid;
+}
+
+.axl.ax-mood-neutral::before {
+  content: $axl-ax-mood-neutral;
+}
+
+.axl.ax-mood-sad::before {
+  content: $axl-ax-mood-sad;
+}
+
+.axl.ax-mood-smile::before {
+  content: $axl-ax-mood-smile;
+}
+
+.axl.ax-mood-suprised::before {
+  content: $axl-ax-mood-suprised;
+}
+
+.axl.ax-mood-tongue::before {
+  content: $axl-ax-mood-tongue;
+}
+
+.axl.ax-karate::before {
+  content: $axl-ax-karate;
+}
+
+.axl.ax-moon-2::before {
+  content: $axl-ax-moon-2;
+}
+
+.axl.ax-moon-stars::before {
+  content: $axl-ax-moon-stars;
+}
+
+.axl.ax-moped::before {
+  content: $axl-ax-moped;
+}
+
+.axl.ax-motorbike::before {
+  content: $axl-ax-motorbike;
+}
+
+.axl.ax-mouse::before {
+  content: $axl-ax-mouse;
+}
+
+.axl.ax-movie::before {
+  content: $axl-ax-movie;
+}
+
+.axl.ax-mug::before {
+  content: $axl-ax-mug;
+}
+
+.axl.ax-mushroom::before {
+  content: $axl-ax-mushroom;
+}
+
+.axl.ax-music::before {
+  content: $axl-ax-music;
+}
+
+.axl.ax-news::before {
+  content: $axl-ax-news;
+}
+
+.axl.ax-new-section::before {
+  content: $axl-ax-new-section;
+}
+
+.axl.ax-nfc::before {
+  content: $axl-ax-nfc;
+}
+
+.axl.ax-note::before {
+  content: $axl-ax-note;
+}
+
+.axl.ax-notebook::before {
+  content: $axl-ax-notebook;
+}
+
+.axl.ax-notes::before {
+  content: $axl-ax-notes;
+}
+
+.axl.ax-notification::before {
+  content: $axl-ax-notification;
+}
+
+.axl.ax-number-0::before {
+  content: $axl-ax-number-0;
+}
+
+.axl.ax-number-1::before {
+  content: $axl-ax-number-1;
+}
+
+.axl.ax-number-2::before {
+  content: $axl-ax-number-2;
+}
+
+.axl.ax-number-3::before {
+  content: $axl-ax-number-3;
+}
+
+.axl.ax-number-4::before {
+  content: $axl-ax-number-4;
+}
+
+.axl.ax-number-5::before {
+  content: $axl-ax-number-5;
+}
+
+.axl.ax-number-6::before {
+  content: $axl-ax-number-6;
+}
+
+.axl.ax-number-7::before {
+  content: $axl-ax-number-7;
+}
+
+.axl.ax-number-8::before {
+  content: $axl-ax-number-8;
+}
+
+.axl.ax-number-9::before {
+  content: $axl-ax-number-9;
+}
+
+.axl.ax-octagon::before {
+  content: $axl-ax-octagon;
+}
+
+.axl.ax-octagon-off::before {
+  content: $axl-ax-octagon-off;
+}
+
+.axl.ax-old::before {
+  content: $axl-ax-old;
+}
+
+.axl.ax-olympics::before {
+  content: $axl-ax-olympics;
+}
+
+.axl.ax-omega::before {
+  content: $axl-ax-omega;
+}
+
+.axl.ax-outlet::before {
+  content: $axl-ax-outlet;
+}
+
+.axl.ax-overline::before {
+  content: $axl-ax-overline;
+}
+
+.axl.ax-package::before {
+  content: $axl-ax-package;
+}
+
+.axl.ax-pacman::before {
+  content: $axl-ax-pacman;
+}
+
+.axl.ax-page-break::before {
+  content: $axl-ax-page-break;
+}
+
+.axl.ax-paint::before {
+  content: $axl-ax-paint;
+}
+
+.axl.ax-palette::before {
+  content: $axl-ax-palette;
+}
+
+.axl.ax-panorama-horizontal::before {
+  content: $axl-ax-panorama-horizontal;
+}
+
+.axl.ax-panorama-vertical::before {
+  content: $axl-ax-panorama-vertical;
+}
+
+.axl.ax-paperclip::before {
+  content: $axl-ax-paperclip;
+}
+
+.axl.ax-parachute::before {
+  content: $axl-ax-parachute;
+}
+
+.axl.ax-parentheses::before {
+  content: $axl-ax-parentheses;
+}
+
+.axl.ax-parking::before {
+  content: $axl-ax-parking;
+}
+
+.axl.ax-pause::before {
+  content: $axl-ax-pause;
+}
+
+.axl.ax-peace::before {
+  content: $axl-ax-peace;
+}
+
+.axl.ax-pencil::before {
+  content: $axl-ax-pencil;
+}
+
+.axl.ax-pennant::before {
+  content: $axl-ax-pennant;
+}
+
+.axl.ax-pepper::before {
+  content: $axl-ax-pepper;
+}
+
+.axl.ax-percentage::before {
+  content: $axl-ax-percentage;
+}
+
+.axl.ax-perspective::before {
+  content: $axl-ax-perspective;
+}
+
+.axl.ax-phone::before {
+  content: $axl-ax-phone;
+}
+
+.axl.ax-phone-call::before {
+  content: $axl-ax-phone-call;
+}
+
+.axl.ax-phone-calling::before {
+  content: $axl-ax-phone-calling;
+}
+
+.axl.ax-phone-check::before {
+  content: $axl-ax-phone-check;
+}
+
+.axl.ax-phone-incoming::before {
+  content: $axl-ax-phone-incoming;
+}
+
+.axl.ax-phone-off::before {
+  content: $axl-ax-phone-off;
+}
+
+.axl.ax-phone-outgoing::before {
+  content: $axl-ax-phone-outgoing;
+}
+
+.axl.ax-phone-pause::before {
+  content: $axl-ax-phone-pause;
+}
+
+.axl.ax-phone-plus::before {
+  content: $axl-ax-phone-plus;
+}
+
+.axl.ax-phone-x::before {
+  content: $axl-ax-phone-x;
+}
+
+.axl.ax-photo::before {
+  content: $axl-ax-photo;
+}
+
+.axl.ax-photo-off::before {
+  content: $axl-ax-photo-off;
+}
+
+.axl.ax-photos::before {
+  content: $axl-ax-photos;
+}
+
+.axl.ax-physotherapist::before {
+  content: $axl-ax-physotherapist;
+}
+
+.axl.ax-picture-in-picture::before {
+  content: $axl-ax-picture-in-picture;
+}
+
+.axl.ax-picture-in-picture-off::before {
+  content: $axl-ax-picture-in-picture-off;
+}
+
+.axl.ax-picture-in-picture-on::before {
+  content: $axl-ax-picture-in-picture-on;
+}
+
+.axl.ax-pill::before {
+  content: $axl-ax-pill;
+}
+
+.axl.ax-pillow::before {
+  content: $axl-ax-pillow;
+}
+
+.axl.ax-pin::before {
+  content: $axl-ax-pin;
+}
+
+.axl.ax-pinned::before {
+  content: $axl-ax-pinned;
+}
+
+.axl.ax-pinned-off::before {
+  content: $axl-ax-pinned-off;
+}
+
+.axl.ax-pizza::before {
+  content: $axl-ax-pizza;
+}
+
+.axl.ax-plane::before {
+  content: $axl-ax-plane;
+}
+
+.axl.ax-plane-arrival::before {
+  content: $axl-ax-plane-arrival;
+}
+
+.axl.ax-plane-departure::before {
+  content: $axl-ax-plane-departure;
+}
+
+.axl.ax-planet::before {
+  content: $axl-ax-planet;
+}
+
+.axl.ax-plant::before {
+  content: $axl-ax-plant;
+}
+
+.axl.ax-plant-2::before {
+  content: $axl-ax-plant-2;
+}
+
+.axl.ax-play::before {
+  content: $axl-ax-play;
+}
+
+.axl.ax-play-card::before {
+  content: $axl-ax-play-card;
+}
+
+.axl.ax-player-pause::before {
+  content: $axl-ax-player-pause;
+}
+
+.axl.ax-player-play::before {
+  content: $axl-ax-player-play;
+}
+
+.axl.ax-player-record::before {
+  content: $axl-ax-player-record;
+}
+
+.axl.ax-player-skip-back::before {
+  content: $axl-ax-player-skip-back;
+}
+
+.axl.ax-player-skip-forward::before {
+  content: $axl-ax-player-skip-forward;
+}
+
+.axl.ax-player-stop::before {
+  content: $axl-ax-player-stop;
+}
+
+.axl.ax-player-track-next::before {
+  content: $axl-ax-player-track-next;
+}
+
+.axl.ax-player-track-prev::before {
+  content: $axl-ax-player-track-prev;
+}
+
+.axl.ax-playlist::before {
+  content: $axl-ax-playlist;
+}
+
+.axl.ax-plug::before {
+  content: $axl-ax-plug;
+}
+
+.axl.ax-plus::before {
+  content: $axl-ax-plus;
+}
+
+.axl.ax-point::before {
+  content: $axl-ax-point;
+}
+
+.axl.ax-pokeball::before {
+  content: $axl-ax-pokeball;
+}
+
+.axl.ax-polaroid::before {
+  content: $axl-ax-polaroid;
+}
+
+.axl.ax-pool::before {
+  content: $axl-ax-pool;
+}
+
+.axl.ax-power::before {
+  content: $axl-ax-power;
+}
+
+.axl.ax-pray::before {
+  content: $axl-ax-pray;
+}
+
+.axl.ax-presentation::before {
+  content: $axl-ax-presentation;
+}
+
+.axl.ax-presentation-analytics::before {
+  content: $axl-ax-presentation-analytics;
+}
+
+.axl.ax-previous::before {
+  content: $axl-ax-previous;
+}
+
+.axl.ax-printer::before {
+  content: $axl-ax-printer;
+}
+
+.axl.ax-prompt::before {
+  content: $axl-ax-prompt;
+}
+
+.axl.ax-propeller::before {
+  content: $axl-ax-propeller;
+}
+
+.axl.ax-puzzle::before {
+  content: $axl-ax-puzzle;
+}
+
+.axl.ax-pyramid::before {
+  content: $axl-ax-pyramid;
+}
+
+.axl.ax-qrcode::before {
+  content: $axl-ax-qrcode;
+}
+
+.axl.ax-question-mark::before {
+  content: $axl-ax-question-mark;
+}
+
+.axl.ax-radio::before {
+  content: $axl-ax-radio;
+}
+
+.axl.ax-radioactive::before {
+  content: $axl-ax-radioactive;
+}
+
+.axl.ax-radius-bottom-left::before {
+  content: $axl-ax-radius-bottom-left;
+}
+
+.axl.ax-radius-bottom-right::before {
+  content: $axl-ax-radius-bottom-right;
+}
+
+.axl.ax-radius-top-left::before {
+  content: $axl-ax-radius-top-left;
+}
+
+.axl.ax-radius-top-right::before {
+  content: $axl-ax-radius-top-right;
+}
+
+.axl.ax-rainbow::before {
+  content: $axl-ax-rainbow;
+}
+
+.axl.ax-receipt::before {
+  content: $axl-ax-receipt;
+}
+
+.axl.ax-receipt-2::before {
+  content: $axl-ax-receipt-2;
+}
+
+.axl.ax-receipt-off::before {
+  content: $axl-ax-receipt-off;
+}
+
+.axl.ax-receipt-refund::before {
+  content: $axl-ax-receipt-refund;
+}
+
+.axl.ax-receipt-tax::before {
+  content: $axl-ax-receipt-tax;
+}
+
+.axl.ax-recharging::before {
+  content: $axl-ax-recharging;
+}
+
+.axl.ax-record-mail::before {
+  content: $axl-ax-record-mail;
+}
+
+.axl.ax-rectangle::before {
+  content: $axl-ax-rectangle;
+}
+
+.axl.ax-rectangle-vertical::before {
+  content: $axl-ax-rectangle-vertical;
+}
+
+.axl.ax-recycle::before {
+  content: $axl-ax-recycle;
+}
+
+.axl.ax-refresh::before {
+  content: $axl-ax-refresh;
+}
+
+.axl.ax-refresh-alert::before {
+  content: $axl-ax-refresh-alert;
+}
+
+.axl.ax-registered::before {
+  content: $axl-ax-registered;
+}
+
+.axl.ax-relation-many-to-many::before {
+  content: $axl-ax-relation-many-to-many;
+}
+
+.axl.ax-relation-one-to-many::before {
+  content: $axl-ax-relation-one-to-many;
+}
+
+.axl.ax-relation-one-to-one::before {
+  content: $axl-ax-relation-one-to-one;
+}
+
+.axl.ax-repeat::before {
+  content: $axl-ax-repeat;
+}
+
+.axl.ax-repeat-once::before {
+  content: $axl-ax-repeat-once;
+}
+
+.axl.ax-replace::before {
+  content: $axl-ax-replace;
+}
+
+.axl.ax-report::before {
+  content: $axl-ax-report;
+}
+
+.axl.ax-report-analytics::before {
+  content: $axl-ax-report-analytics;
+}
+
+.axl.ax-report-medical::before {
+  content: $axl-ax-report-medical;
+}
+
+.axl.ax-report-money::before {
+  content: $axl-ax-report-money;
+}
+
+.axl.ax-reshare::before {
+  content: $axl-ax-reshare;
+}
+
+.axl.ax-resize::before {
+  content: $axl-ax-resize;
+}
+
+.axl.ax-ripple::before {
+  content: $axl-ax-ripple;
+}
+
+.axl.ax-road-sign::before {
+  content: $axl-ax-road-sign;
+}
+
+.axl.ax-rocket::before {
+  content: $axl-ax-rocket;
+}
+
+.axl.ax-rotate::before {
+  content: $axl-ax-rotate;
+}
+
+.axl.ax-rotate-2::before {
+  content: $axl-ax-rotate-2;
+}
+
+.axl.ax-rotate-clockwise::before {
+  content: $axl-ax-rotate-clockwise;
+}
+
+.axl.ax-rotate-clockwise-2::before {
+  content: $axl-ax-rotate-clockwise-2;
+}
+
+.axl.ax-rotate-rectangle::before {
+  content: $axl-ax-rotate-rectangle;
+}
+
+.axl.ax-route::before {
+  content: $axl-ax-route;
+}
+
+.axl.ax-router::before {
+  content: $axl-ax-router;
+}
+
+.axl.ax-row-insert-bottom::before {
+  content: $axl-ax-row-insert-bottom;
+}
+
+.axl.ax-row-insert-top::before {
+  content: $axl-ax-row-insert-top;
+}
+
+.axl.ax-rss::before {
+  content: $axl-ax-rss;
+}
+
+.axl.ax-ruler::before {
+  content: $axl-ax-ruler;
+}
+
+.axl.ax-ruler-2::before {
+  content: $axl-ax-ruler-2;
+}
+
+.axl.ax-run::before {
+  content: $axl-ax-run;
+}
+
+.axl.ax-sailboat::before {
+  content: $axl-ax-sailboat;
+}
+
+.axl.ax-salt::before {
+  content: $axl-ax-salt;
+}
+
+.axl.ax-satellite::before {
+  content: $axl-ax-satellite;
+}
+
+.axl.ax-sausage::before {
+  content: $axl-ax-sausage;
+}
+
+.axl.ax-scale::before {
+  content: $axl-ax-scale;
+}
+
+.axl.ax-scan::before {
+  content: $axl-ax-scan;
+}
+
+.axl.ax-school::before {
+  content: $axl-ax-school;
+}
+
+.axl.ax-scissors::before {
+  content: $axl-ax-scissors;
+}
+
+.axl.ax-scooter::before {
+  content: $axl-ax-scooter;
+}
+
+.axl.ax-scooter-electric::before {
+  content: $axl-ax-scooter-electric;
+}
+
+.axl.ax-screen-share::before {
+  content: $axl-ax-screen-share;
+}
+
+.axl.ax-screen-share-off::before {
+  content: $axl-ax-screen-share-off;
+}
+
+.axl.ax-scuba-mask::before {
+  content: $axl-ax-scuba-mask;
+}
+
+.axl.ax-search::before {
+  content: $axl-ax-search;
+}
+
+.axl.ax-section::before {
+  content: $axl-ax-section;
+}
+
+.axl.ax-seeding::before {
+  content: $axl-ax-seeding;
+}
+
+.axl.ax-select::before {
+  content: $axl-ax-select;
+}
+
+.axl.ax-selector::before {
+  content: $axl-ax-selector;
+}
+
+.axl.ax-send::before {
+  content: $axl-ax-send;
+}
+
+.axl.ax-separator::before {
+  content: $axl-ax-separator;
+}
+
+.axl.ax-separator-horizontal::before {
+  content: $axl-ax-separator-horizontal;
+}
+
+.axl.ax-separator-vertical::before {
+  content: $axl-ax-separator-vertical;
+}
+
+.axl.ax-server::before {
+  content: $axl-ax-server;
+}
+
+.axl.ax-servicemark::before {
+  content: $axl-ax-servicemark;
+}
+
+.axl.ax-settings::before {
+  content: $axl-ax-settings;
+}
+
+.axl.ax-settings-automation::before {
+  content: $axl-ax-settings-automation;
+}
+
+.axl.ax-shadow::before {
+  content: $axl-ax-shadow;
+}
+
+.axl.ax-shadow-off::before {
+  content: $axl-ax-shadow-off;
+}
+
+.axl.ax-shape::before {
+  content: $axl-ax-shape;
+}
+
+.axl.ax-shape-2::before {
+  content: $axl-ax-shape-2;
+}
+
+.axl.ax-shape-3::before {
+  content: $axl-ax-shape-3;
+}
+
+.axl.ax-share::before {
+  content: $axl-ax-share;
+}
+
+.axl.ax-shield::before {
+  content: $axl-ax-shield;
+}
+
+.axl.ax-shield-check::before {
+  content: $axl-ax-shield-check;
+}
+
+.axl.ax-shield-lock::before {
+  content: $axl-ax-shield-lock;
+}
+
+.axl.ax-shield-off::before {
+  content: $axl-ax-shield-off;
+}
+
+.axl.ax-shield-x::before {
+  content: $axl-ax-shield-x;
+}
+
+.axl.ax-ship::before {
+  content: $axl-ax-ship;
+}
+
+.axl.ax-shirt::before {
+  content: $axl-ax-shirt;
+}
+
+.axl.ax-shopping-bag::before {
+  content: $axl-ax-shopping-bag;
+}
+
+.axl.ax-shopping-cart::before {
+  content: $axl-ax-shopping-cart;
+}
+
+.axl.ax-shopping-cart-discount::before {
+  content: $axl-ax-shopping-cart-discount;
+}
+
+.axl.ax-shopping-cart-off::before {
+  content: $axl-ax-shopping-cart-off;
+}
+
+.axl.ax-shopping-cart-plus::before {
+  content: $axl-ax-shopping-cart-plus;
+}
+
+.axl.ax-shopping-cart-x::before {
+  content: $axl-ax-shopping-cart-x;
+}
+
+.axl.ax-shredder::before {
+  content: $axl-ax-shredder;
+}
+
+.axl.ax-signature::before {
+  content: $axl-ax-signature;
+}
+
+.axl.ax-sitemap::before {
+  content: $axl-ax-sitemap;
+}
+
+.axl.ax-skateboard::before {
+  content: $axl-ax-skateboard;
+}
+
+.axl.ax-skip-back::before {
+  content: $axl-ax-skip-back;
+}
+
+.axl.ax-skip-forward::before {
+  content: $axl-ax-skip-forward;
+}
+
+.axl.ax-slice::before {
+  content: $axl-ax-slice;
+}
+
+.axl.ax-slideshow::before {
+  content: $axl-ax-slideshow;
+}
+
+.axl.ax-smart-home::before {
+  content: $axl-ax-smart-home;
+}
+
+.axl.ax-smoking::before {
+  content: $axl-ax-smoking;
+}
+
+.axl.ax-smoking-no::before {
+  content: $axl-ax-smoking-no;
+}
+
+.axl.ax-snowflake::before {
+  content: $axl-ax-snowflake;
+}
+
+.axl.ax-soccer-field::before {
+  content: $axl-ax-soccer-field;
+}
+
+.axl.ax-social::before {
+  content: $axl-ax-social;
+}
+
+.axl.ax-sock::before {
+  content: $axl-ax-sock;
+}
+
+.axl.ax-sort-ascending::before {
+  content: $axl-ax-sort-ascending;
+}
+
+.axl.ax-sort-ascending-2::before {
+  content: $axl-ax-sort-ascending-2;
+}
+
+.axl.ax-sort-ascending-letters::before {
+  content: $axl-ax-sort-ascending-letters;
+}
+
+.axl.ax-sort-ascending-numbers::before {
+  content: $axl-ax-sort-ascending-numbers;
+}
+
+.axl.ax-sort-descending::before {
+  content: $axl-ax-sort-descending;
+}
+
+.axl.ax-sort-descending-2::before {
+  content: $axl-ax-sort-descending-2;
+}
+
+.axl.ax-sort-descending-letters::before {
+  content: $axl-ax-sort-descending-letters;
+}
+
+.axl.ax-sort-descending-numbers::before {
+  content: $axl-ax-sort-descending-numbers;
+}
+
+.axl.ax-soup::before {
+  content: $axl-ax-soup;
+}
+
+.axl.ax-space::before {
+  content: $axl-ax-space;
+}
+
+.axl.ax-speakerphone::before {
+  content: $axl-ax-speakerphone;
+}
+
+.axl.ax-speedboat::before {
+  content: $axl-ax-speedboat;
+}
+
+.axl.ax-sport-billard::before {
+  content: $axl-ax-sport-billard;
+}
+
+.axl.ax-square::before {
+  content: $axl-ax-square;
+}
+
+.axl.ax-square-0::before {
+  content: $axl-ax-square-0;
+}
+
+.axl.ax-square-1::before {
+  content: $axl-ax-square-1;
+}
+
+.axl.ax-square-2::before {
+  content: $axl-ax-square-2;
+}
+
+.axl.ax-square-3::before {
+  content: $axl-ax-square-3;
+}
+
+.axl.ax-square-4::before {
+  content: $axl-ax-square-4;
+}
+
+.axl.ax-square-5::before {
+  content: $axl-ax-square-5;
+}
+
+.axl.ax-square-6::before {
+  content: $axl-ax-square-6;
+}
+
+.axl.ax-square-7::before {
+  content: $axl-ax-square-7;
+}
+
+.axl.ax-square-8::before {
+  content: $axl-ax-square-8;
+}
+
+.axl.ax-square-9::before {
+  content: $axl-ax-square-9;
+}
+
+.axl.ax-square-check::before {
+  content: $axl-ax-square-check;
+}
+
+.axl.ax-square-dot::before {
+  content: $axl-ax-square-dot;
+}
+
+.axl.ax-square-forbid::before {
+  content: $axl-ax-square-forbid;
+}
+
+.axl.ax-square-forbid-2::before {
+  content: $axl-ax-square-forbid-2;
+}
+
+.axl.ax-square-minus::before {
+  content: $axl-ax-square-minus;
+}
+
+.axl.ax-square-off::before {
+  content: $axl-ax-square-off;
+}
+
+.axl.ax-square-plus::before {
+  content: $axl-ax-square-plus;
+}
+
+.axl.ax-building-warehouse::before {
+  content: $axl-ax-building-warehouse;
+}
+
+.axl.ax-square-root-2::before {
+  content: $axl-ax-square-root-2;
+}
+
+.axl.ax-square-rotated::before {
+  content: $axl-ax-square-rotated;
+}
+
+.axl.ax-square-rotated-off::before {
+  content: $axl-ax-square-rotated-off;
+}
+
+.axl.ax-squares-diagonal::before {
+  content: $axl-ax-squares-diagonal;
+}
+
+.axl.ax-squares-filled::before {
+  content: $axl-ax-squares-filled;
+}
+
+.axl.ax-square-toggle::before {
+  content: $axl-ax-square-toggle;
+}
+
+.axl.ax-square-toggle-horizontal::before {
+  content: $axl-ax-square-toggle-horizontal;
+}
+
+.axl.ax-moon::before {
+  content: $axl-ax-moon;
+}
+
+.axl.ax-stack::before {
+  content: $axl-ax-stack;
+}
+
+.axl.ax-stack-2::before {
+  content: $axl-ax-stack-2;
+}
+
+.axl.ax-stairs::before {
+  content: $axl-ax-stairs;
+}
+
+.axl.ax-stairs-down::before {
+  content: $axl-ax-stairs-down;
+}
+
+.axl.ax-stairs-up::before {
+  content: $axl-ax-stairs-up;
+}
+
+.axl.ax-star::before {
+  content: $axl-ax-star;
+}
+
+.axl.ax-star-half::before {
+  content: $axl-ax-star-half;
+}
+
+.axl.ax-star-off::before {
+  content: $axl-ax-star-off;
+}
+
+.axl.ax-stars::before {
+  content: $axl-ax-stars;
+}
+
+.axl.ax-steering-wheel::before {
+  content: $axl-ax-steering-wheel;
+}
+
+.axl.ax-step-into::before {
+  content: $axl-ax-step-into;
+}
+
+.axl.ax-step-out::before {
+  content: $axl-ax-step-out;
+}
+
+.axl.ax-stethoscope::before {
+  content: $axl-ax-stethoscope;
+}
+
+.axl.ax-sthetoscope::before {
+  content: $axl-ax-sthetoscope;
+}
+
+.axl.ax-sticker::before {
+  content: $axl-ax-sticker;
+}
+
+.axl.ax-strikethrough::before {
+  content: $axl-ax-strikethrough;
+}
+
+.axl.ax-submarine::before {
+  content: $axl-ax-submarine;
+}
+
+.axl.ax-subscript::before {
+  content: $axl-ax-subscript;
+}
+
+.axl.ax-subtask::before {
+  content: $axl-ax-subtask;
+}
+
+.axl.ax-sum::before {
+  content: $axl-ax-sum;
+}
+
+.axl.ax-sun::before {
+  content: $axl-ax-sun;
+}
+
+.axl.ax-sun-off::before {
+  content: $axl-ax-sun-off;
+}
+
+.axl.ax-sunrise::before {
+  content: $axl-ax-sunrise;
+}
+
+.axl.ax-sunset::before {
+  content: $axl-ax-sunset;
+}
+
+.axl.ax-sunshine::before {
+  content: $axl-ax-sunshine;
+}
+
+.axl.ax-superscript::before {
+  content: $axl-ax-superscript;
+}
+
+.axl.ax-swiming::before {
+  content: $axl-ax-swiming;
+}
+
+.axl.ax-swimming::before {
+  content: $axl-ax-swimming;
+}
+
+.axl.ax-switch::before {
+  content: $axl-ax-switch;
+}
+
+.axl.ax-feather::before {
+  content: $axl-ax-feather;
+}
+
+.axl.ax-switch-2::before {
+  content: $axl-ax-switch-2;
+}
+
+.axl.ax-square-x::before {
+  content: $axl-ax-square-x;
+}
+
+.axl.ax-switch-vertical::before {
+  content: $axl-ax-switch-vertical;
+}
+
+.axl.ax-table::before {
+  content: $axl-ax-table;
+}
+
+.axl.ax-table-export::before {
+  content: $axl-ax-table-export;
+}
+
+.axl.ax-switch-horizontal::before {
+  content: $axl-ax-switch-horizontal;
+}
+
+.axl.ax-table-off::before {
+  content: $axl-ax-table-off;
+}
+
+.axl.ax-tag::before {
+  content: $axl-ax-tag;
+}
+
+.axl.ax-tallymark-1::before {
+  content: $axl-ax-tallymark-1;
+}
+
+.axl.ax-tallymark-2::before {
+  content: $axl-ax-tallymark-2;
+}
+
+.axl.ax-switch-3::before {
+  content: $axl-ax-switch-3;
+}
+
+.axl.ax-tallymark-4::before {
+  content: $axl-ax-tallymark-4;
+}
+
+.axl.ax-tallymarks::before {
+  content: $axl-ax-tallymarks;
+}
+
+.axl.ax-tank::before {
+  content: $axl-ax-tank;
+}
+
+.axl.ax-target::before {
+  content: $axl-ax-target;
+}
+
+.axl.ax-tax::before {
+  content: $axl-ax-tax;
+}
+
+.axl.ax-temperature::before {
+  content: $axl-ax-temperature;
+}
+
+.axl.ax-temperature-celsius::before {
+  content: $axl-ax-temperature-celsius;
+}
+
+.axl.ax-temperature-fahrenheit::before {
+  content: $axl-ax-temperature-fahrenheit;
+}
+
+.axl.ax-temperature-minus::before {
+  content: $axl-ax-temperature-minus;
+}
+
+.axl.ax-temperature-plus::before {
+  content: $axl-ax-temperature-plus;
+}
+
+.axl.ax-template::before {
+  content: $axl-ax-template;
+}
+
+.axl.ax-tent::before {
+  content: $axl-ax-tent;
+}
+
+.axl.ax-terminal::before {
+  content: $axl-ax-terminal;
+}
+
+.axl.ax-terminal-2::before {
+  content: $axl-ax-terminal-2;
+}
+
+.axl.ax-a::before {
+  content: $axl-ax-a;
+}
+
+.axl.ax-test-pipe::before {
+  content: $axl-ax-test-pipe;
+}
+
+.axl.ax-text-direction-ltr::before {
+  content: $axl-ax-text-direction-ltr;
+}
+
+.axl.ax-text-direction-rtl::before {
+  content: $axl-ax-text-direction-rtl;
+}
+
+.axl.ax-tallymark-3::before {
+  content: $axl-ax-tallymark-3;
+}
+
+.axl.ax-text-wrap-disabled::before {
+  content: $axl-ax-text-wrap-disabled;
+}
+
+.axl.ax-thumb-down::before {
+  content: $axl-ax-thumb-down;
+}
+
+.axl.ax-thumb-up::before {
+  content: $axl-ax-thumb-up;
+}
+
+.axl.ax-ticket::before {
+  content: $axl-ax-ticket;
+}
+
+.axl.ax-tilt-shift::before {
+  content: $axl-ax-tilt-shift;
+}
+
+.axl.ax-tir::before {
+  content: $axl-ax-tir;
+}
+
+.axl.ax-toggle-left::before {
+  content: $axl-ax-toggle-left;
+}
+
+.axl.ax-toggle-right::before {
+  content: $axl-ax-toggle-right;
+}
+
+.axl.ax-tool::before {
+  content: $axl-ax-tool;
+}
+
+.axl.ax-tools::before {
+  content: $axl-ax-tools;
+}
+
+.axl.ax-tools-kitchen::before {
+  content: $axl-ax-tools-kitchen;
+}
+
+.axl.ax-tools-kitchen-2::before {
+  content: $axl-ax-tools-kitchen-2;
+}
+
+.axl.ax-tornado::before {
+  content: $axl-ax-tornado;
+}
+
+.axl.ax-tournament::before {
+  content: $axl-ax-tournament;
+}
+
+.axl.ax-track::before {
+  content: $axl-ax-track;
+}
+
+.axl.ax-track-next::before {
+  content: $axl-ax-track-next;
+}
+
+.axl.ax-track-prev::before {
+  content: $axl-ax-track-prev;
+}
+
+.axl.ax-tractor::before {
+  content: $axl-ax-tractor;
+}
+
+.axl.ax-trademark::before {
+  content: $axl-ax-trademark;
+}
+
+.axl.ax-traffic-cone::before {
+  content: $axl-ax-traffic-cone;
+}
+
+.axl.ax-traffic-lights::before {
+  content: $axl-ax-traffic-lights;
+}
+
+.axl.ax-train::before {
+  content: $axl-ax-train;
+}
+
+.axl.ax-transfer-in::before {
+  content: $axl-ax-transfer-in;
+}
+
+.axl.ax-transfer-out::before {
+  content: $axl-ax-transfer-out;
+}
+
+.axl.ax-trash::before {
+  content: $axl-ax-trash;
+}
+
+.axl.ax-text-wrap::before {
+  content: $axl-ax-text-wrap;
+}
+
+.axl.ax-tree::before {
+  content: $axl-ax-tree;
+}
+
+.axl.ax-trees::before {
+  content: $axl-ax-trees;
+}
+
+.axl.ax-trending-down::before {
+  content: $axl-ax-trending-down;
+}
+
+.axl.ax-trending-down-2::before {
+  content: $axl-ax-trending-down-2;
+}
+
+.axl.ax-trending-down-3::before {
+  content: $axl-ax-trending-down-3;
+}
+
+.axl.ax-trending-up::before {
+  content: $axl-ax-trending-up;
+}
+
+.axl.ax-trending-up-2::before {
+  content: $axl-ax-trending-up-2;
+}
+
+.axl.ax-trending-up-3::before {
+  content: $axl-ax-trending-up-3;
+}
+
+.axl.ax-triangle::before {
+  content: $axl-ax-triangle;
+}
+
+.axl.ax-triangle-off::before {
+  content: $axl-ax-triangle-off;
+}
+
+.axl.ax-triangle-square-circle::before {
+  content: $axl-ax-triangle-square-circle;
+}
+
+.axl.ax-trident::before {
+  content: $axl-ax-trident;
+}
+
+.axl.ax-trophy::before {
+  content: $axl-ax-trophy;
+}
+
+.axl.ax-truck::before {
+  content: $axl-ax-truck;
+}
+
+.axl.ax-truck-delivery::before {
+  content: $axl-ax-truck-delivery;
+}
+
+.axl.ax-truck-off::before {
+  content: $axl-ax-truck-off;
+}
+
+.axl.ax-truck-return::before {
+  content: $axl-ax-truck-return;
+}
+
+.axl.ax-typography::before {
+  content: $axl-ax-typography;
+}
+
+.axl.ax-umbrella::before {
+  content: $axl-ax-umbrella;
+}
+
+.axl.ax-underline::before {
+  content: $axl-ax-underline;
+}
+
+.axl.ax-unlink::before {
+  content: $axl-ax-unlink;
+}
+
+.axl.ax-upload::before {
+  content: $axl-ax-upload;
+}
+
+.axl.ax-urgent::before {
+  content: $axl-ax-urgent;
+}
+
+.axl.ax-user::before {
+  content: $axl-ax-user;
+}
+
+.axl.ax-user-check::before {
+  content: $axl-ax-user-check;
+}
+
+.axl.ax-user-exclamation::before {
+  content: $axl-ax-user-exclamation;
+}
+
+.axl.ax-user-minus::before {
+  content: $axl-ax-user-minus;
+}
+
+.axl.ax-user-off::before {
+  content: $axl-ax-user-off;
+}
+
+.axl.ax-user-plus::before {
+  content: $axl-ax-user-plus;
+}
+
+.axl.ax-users::before {
+  content: $axl-ax-users;
+}
+
+.axl.ax-user-x::before {
+  content: $axl-ax-user-x;
+}
+
+.axl.ax-vaccine::before {
+  content: $axl-ax-vaccine;
+}
+
+.axl.ax-variable::before {
+  content: $axl-ax-variable;
+}
+
+.axl.ax-vector::before {
+  content: $axl-ax-vector;
+}
+
+.axl.ax-vector-beizer::before {
+  content: $axl-ax-vector-beizer;
+}
+
+.axl.ax-vector-beizer-2::before {
+  content: $axl-ax-vector-beizer-2;
+}
+
+.axl.ax-vector-bezier::before {
+  content: $axl-ax-vector-bezier;
+}
+
+.axl.ax-vector-triangle::before {
+  content: $axl-ax-vector-triangle;
+}
+
+.axl.ax-venus::before {
+  content: $axl-ax-venus;
+}
+
+.axl.ax-versions::before {
+  content: $axl-ax-versions;
+}
+
+.axl.ax-video::before {
+  content: $axl-ax-video;
+}
+
+.axl.ax-video-minus::before {
+  content: $axl-ax-video-minus;
+}
+
+.axl.ax-video-off::before {
+  content: $axl-ax-video-off;
+}
+
+.axl.ax-video-plus::before {
+  content: $axl-ax-video-plus;
+}
+
+.axl.ax-view-360::before {
+  content: $axl-ax-view-360;
+}
+
+.axl.ax-viewfinder::before {
+  content: $axl-ax-viewfinder;
+}
+
+.axl.ax-viewport-narrow::before {
+  content: $axl-ax-viewport-narrow;
+}
+
+.axl.ax-viewport-wide::before {
+  content: $axl-ax-viewport-wide;
+}
+
+.axl.ax-virus::before {
+  content: $axl-ax-virus;
+}
+
+.axl.ax-virus-off::before {
+  content: $axl-ax-virus-off;
+}
+
+.axl.ax-virus-search::before {
+  content: $axl-ax-virus-search;
+}
+
+.axl.ax-vocabulary::before {
+  content: $axl-ax-vocabulary;
+}
+
+.axl.ax-volume::before {
+  content: $axl-ax-volume;
+}
+
+.axl.ax-volume-2::before {
+  content: $axl-ax-volume-2;
+}
+
+.axl.ax-volume-3::before {
+  content: $axl-ax-volume-3;
+}
+
+.axl.ax-walk::before {
+  content: $axl-ax-walk;
+}
+
+.axl.ax-wallet::before {
+  content: $axl-ax-wallet;
+}
+
+.axl.ax-wand::before {
+  content: $axl-ax-wand;
+}
+
+.axl.ax-wave-saw-tool::before {
+  content: $axl-ax-wave-saw-tool;
+}
+
+.axl.ax-wave-sine::before {
+  content: $axl-ax-wave-sine;
+}
+
+.axl.ax-square-root::before {
+  content: $axl-ax-square-root;
+}
+
+.axl.ax-table-import::before {
+  content: $axl-ax-table-import;
+}
+
+.axl.ax-trash-off::before {
+  content: $axl-ax-trash-off;
+}
+
+.axl.ax-calculator::before {
+  content: $axl-ax-calculator;
+}
+
+.axl.ax-capture::before {
+  content: $axl-ax-capture;
+}
+
+.axl.ax-camera-off::before {
+  content: $axl-ax-camera-off;
+}
+
+.axl.ax-blog::before {
+  content: $axl-ax-blog;
+}
+
+.axl.ax-brand-aiira::before {
+  content: $axl-ax-brand-aiira;
+}
+
+.axl.ax-brand-facebook::before {
+  content: $axl-ax-brand-facebook;
+}
+
+.axl.ax-brand-booking::before {
+  content: $axl-ax-brand-booking;
+}
+
+.axl.ax-bookmark::before {
+  content: $axl-ax-bookmark;
+}
+
+.axl.ax-bookmarks::before {
+  content: $axl-ax-bookmarks;
+}
+
+.axl.ax-bookmark-off::before {
+  content: $axl-ax-bookmark-off;
+}
+
+.axl.ax-book::before {
+  content: $axl-ax-book;
+}
+
+.axl.ax-award::before {
+  content: $axl-ax-award;
+}
+
+.axl.ax-bell-x::before {
+  content: $axl-ax-bell-x;
+}
+
+.axl.ax-bell-ringing-2::before {
+  content: $axl-ax-bell-ringing-2;
+}
+
+.axl.ax-bell-ringing::before {
+  content: $axl-ax-bell-ringing;
+}
+
+.axl.ax-bell-plus::before {
+  content: $axl-ax-bell-plus;
+}
+
+.axl.ax-bell-off::before {
+  content: $axl-ax-bell-off;
+}
+
+.axl.ax-bell-minus::before {
+  content: $axl-ax-bell-minus;
+}
+
+.axl.ax-bell::before {
+  content: $axl-ax-bell;
+}
+
+.axl.ax-brand-ycombinator::before {
+  content: $axl-ax-brand-ycombinator;
+}
+
+.axl.ax-brand-unsplash::before {
+  content: $axl-ax-brand-unsplash;
+}
+
+.axl.ax-brand-youtube::before {
+  content: $axl-ax-brand-youtube;
+}
+
+.axl.ax-brand-snapchat::before {
+  content: $axl-ax-brand-snapchat;
+}
+
+.axl.ax-brand-yahoo::before {
+  content: $axl-ax-brand-yahoo;
+}
+
+.axl.ax-brand-windows::before {
+  content: $axl-ax-brand-windows;
+}
+
+.axl.ax-brand-whatsapp::before {
+  content: $axl-ax-brand-whatsapp;
+}
+
+.axl.ax-brand-vk::before {
+  content: $axl-ax-brand-vk;
+}
+
+.axl.ax-brand-vimeo::before {
+  content: $axl-ax-brand-vimeo;
+}
+
+.axl.ax-brand-vercel::before {
+  content: $axl-ax-brand-vercel;
+}
+
+.axl.ax-brand-tabler::before {
+  content: $axl-ax-brand-tabler;
+}
+
+.axl.ax-brand-twitter::before {
+  content: $axl-ax-brand-twitter;
+}
+
+.axl.ax-brand-twitch::before {
+  content: $axl-ax-brand-twitch;
+}
+
+.axl.ax-brand-tumblr::before {
+  content: $axl-ax-brand-tumblr;
+}
+
+.axl.ax-brand-tinder::before {
+  content: $axl-ax-brand-tinder;
+}
+
+.axl.ax-brand-tiktok::before {
+  content: $axl-ax-brand-tiktok;
+}
+
+.axl.ax-brand-tidal::before {
+  content: $axl-ax-brand-tidal;
+}
+
+.axl.ax-brand-telegram::before {
+  content: $axl-ax-brand-telegram;
+}
+
+.axl.ax-brand-tailwind::before {
+  content: $axl-ax-brand-tailwind;
+}
+
+.axl.ax-brand-patreon::before {
+  content: $axl-ax-brand-patreon;
+}
+
+.axl.ax-brand-stripe::before {
+  content: $axl-ax-brand-stripe;
+}
+
+.axl.ax-brand-steam::before {
+  content: $axl-ax-brand-steam;
+}
+
+.axl.ax-brand-spotify::before {
+  content: $axl-ax-brand-spotify;
+}
+
+.axl.ax-brand-soundcloud::before {
+  content: $axl-ax-brand-soundcloud;
+}
+
+.axl.ax-brand-python::before {
+  content: $axl-ax-brand-python;
+}
+
+.axl.ax-brand-slack::before {
+  content: $axl-ax-brand-slack;
+}
+
+.axl.ax-brand-skype::before {
+  content: $axl-ax-brand-skype;
+}
+
+.axl.ax-brand-sketch::before {
+  content: $axl-ax-brand-sketch;
+}
+
+.axl.ax-brand-shazam::before {
+  content: $axl-ax-brand-shazam;
+}
+
+.axl.ax-brand-sentry::before {
+  content: $axl-ax-brand-sentry;
+}
+
+.axl.ax-brand-sass::before {
+  content: $axl-ax-brand-sass;
+}
+
+.axl.ax-brand-safari::before {
+  content: $axl-ax-brand-safari;
+}
+
+.axl.ax-brand-reddit::before {
+  content: $axl-ax-brand-reddit;
+}
+
+.axl.ax-brand-hipchat::before {
+  content: $axl-ax-brand-hipchat;
+}
+
+.axl.ax-brand-producthunt::before {
+  content: $axl-ax-brand-producthunt;
+}
+
+.axl.ax-brand-pocket::before {
+  content: $axl-ax-brand-pocket;
+}
+
+.axl.ax-brand-pinterest::before {
+  content: $axl-ax-brand-pinterest;
+}
+
+.axl.ax-brand-paypal::before {
+  content: $axl-ax-brand-paypal;
+}
+
+.axl.ax-brand-kickstarter::before {
+  content: $axl-ax-brand-kickstarter;
+}
+
+.axl.ax-brand-pagekit::before {
+  content: $axl-ax-brand-pagekit;
+}
+
+.axl.ax-brand-opera::before {
+  content: $axl-ax-brand-opera;
+}
+
+.axl.ax-brand-open-source::before {
+  content: $axl-ax-brand-open-source;
+}
+
+.axl.ax-brand-netflix::before {
+  content: $axl-ax-brand-netflix;
+}
+
+.axl.ax-brand-messenger::before {
+  content: $axl-ax-brand-messenger;
+}
+
+.axl.ax-brand-medium::before {
+  content: $axl-ax-brand-medium;
+}
+
+.axl.ax-brand-linkedin::before {
+  content: $axl-ax-brand-linkedin;
+}
+
+.axl.ax-brand-kotlin::before {
+  content: $axl-ax-brand-kotlin;
+}
+
+.axl.ax-brand-figma::before {
+  content: $axl-ax-brand-figma;
+}
+
+.axl.ax-brand-javascript::before {
+  content: $axl-ax-brand-javascript;
+}
+
+.axl.ax-brand-instagram::before {
+  content: $axl-ax-brand-instagram;
+}
+
+.axl.ax-brand-html5::before {
+  content: $axl-ax-brand-html5;
+}
+
+.axl.ax-brand-framer::before {
+  content: $axl-ax-brand-framer;
+}
+
+.axl.ax-brand-gravatar::before {
+  content: $axl-ax-brand-gravatar;
+}
+
+.axl.ax-brand-google-play::before {
+  content: $axl-ax-brand-google-play;
+}
+
+.axl.ax-brand-google-drive::before {
+  content: $axl-ax-brand-google-drive;
+}
+
+.axl.ax-brand-google-analytics::before {
+  content: $axl-ax-brand-google-analytics;
+}
+
+.axl.ax-brand-google::before {
+  content: $axl-ax-brand-google;
+}
+
+.axl.ax-brand-gitlab::before {
+  content: $axl-ax-brand-gitlab;
+}
+
+.axl.ax-brand-github::before {
+  content: $axl-ax-brand-github;
+}
+
+.axl.ax-brand-docker::before {
+  content: $axl-ax-brand-docker;
+}
+
+.axl.ax-brand-foursquare::before {
+  content: $axl-ax-brand-foursquare;
+}
+
+.axl.ax-brand-flickr::before {
+  content: $axl-ax-brand-flickr;
+}
+
+.axl.ax-brand-firefox::before {
+  content: $axl-ax-brand-firefox;
+}
+
+.axl.ax-brand-codesandbox::before {
+  content: $axl-ax-brand-codesandbox;
+}
+
+.axl.ax-brand-edge::before {
+  content: $axl-ax-brand-edge;
+}
+
+.axl.ax-brand-dribbble::before {
+  content: $axl-ax-brand-dribbble;
+}
+
+.axl.ax-brand-codepen::before {
+  content: $axl-ax-brand-codepen;
+}
+
+.axl.ax-brand-disqus::before {
+  content: $axl-ax-brand-disqus;
+}
+
+.axl.ax-brand-discord::before {
+  content: $axl-ax-brand-discord;
+}
+
+.axl.ax-brand-deviantart::before {
+  content: $axl-ax-brand-deviantart;
+}
+
+.axl.ax-brand-css3::before {
+  content: $axl-ax-brand-css3;
+}
+
+.axl.ax-brand-appstore::before {
+  content: $axl-ax-brand-appstore;
+}
+
+.axl.ax-brand-chrome::before {
+  content: $axl-ax-brand-chrome;
+}
+
+.axl.ax-brand-booking-1::before {
+  content: $axl-ax-brand-booking-1;
+}
+
+.axl.ax-brand-bitbucket::before {
+  content: $axl-ax-brand-bitbucket;
+}
+
+.axl.ax-brand-bing::before {
+  content: $axl-ax-brand-bing;
+}
+
+.axl.ax-brand-behance::before {
+  content: $axl-ax-brand-behance;
+}
+
+.axl.ax-brand-asana::before {
+  content: $axl-ax-brand-asana;
+}
+
+.axl.ax-brand-apple-arcade::before {
+  content: $axl-ax-brand-apple-arcade;
+}
+
+.axl.ax-brand-apple::before {
+  content: $axl-ax-brand-apple;
+}
+
+.axl.ax-brand-android::before {
+  content: $axl-ax-brand-android;
+}
+
+.axl.ax-brand-airbnb::before {
+  content: $axl-ax-brand-airbnb;
+}
+

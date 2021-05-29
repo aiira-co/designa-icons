@@ -1,0 +1,1668 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$axs-ax-woman: unicode(ea02);
+$axs-ax-thumb-up: unicode(ea03);
+$axs-ax-alarm: unicode(ea04);
+$axs-ax-align-left: unicode(ea05);
+$axs-ax-align-justified: unicode(ea06);
+$axs-ax-align-center: unicode(ea07);
+$axs-ax-alert-triangle: unicode(ea08);
+$axs-ax-alert-circle: unicode(ea09);
+$axs-ax-user-x: unicode(ea0a);
+$axs-ax-adjustments: unicode(ea0b);
+$axs-ax-ad: unicode(ea0c);
+$axs-ax-activity: unicode(ea0d);
+$axs-ax-accessible: unicode(ea0e);
+$axs-ax-yin-yang: unicode(ea0f);
+$axs-ax-x: unicode(ea10);
+$axs-ax-world: unicode(ea11);
+$axs-ax-volume-3: unicode(ea12);
+$axs-ax-wind: unicode(ea13);
+$axs-ax-wifi-2: unicode(ea14);
+$axs-ax-wifi-1: unicode(ea15);
+$axs-ax-wifi-0: unicode(ea16);
+$axs-ax-wifi: unicode(ea17);
+$axs-ax-wand: unicode(ea18);
+$axs-ax-wallet: unicode(ea19);
+$axs-ax-viewport-wide: unicode(ea1a);
+$axs-ax-volume-2: unicode(ea1b);
+$axs-ax-volume: unicode(ea1c);
+$axs-ax-virus: unicode(ea1d);
+$axs-ax-user-minus: unicode(ea1e);
+$axs-ax-viewport-narrow: unicode(ea1f);
+$axs-ax-viewfinder: unicode(ea20);
+$axs-ax-underline: unicode(ea21);
+$axs-ax-users: unicode(ea22);
+$axs-ax-user-plus: unicode(ea23);
+$axs-ax-trademark: unicode(ea24);
+$axs-ax-user-exclamation: unicode(ea25);
+$axs-ax-user-check: unicode(ea26);
+$axs-ax-user: unicode(ea27);
+$axs-ax-urgent: unicode(ea28);
+$axs-ax-upload: unicode(ea29);
+$axs-ax-unlink: unicode(ea2a);
+$axs-ax-triangle: unicode(ea2b);
+$axs-ax-umbrella: unicode(ea2c);
+$axs-ax-typography: unicode(ea2d);
+$axs-ax-truck: unicode(ea2e);
+$axs-ax-trophy: unicode(ea2f);
+$axs-ax-tool: unicode(ea30);
+$axs-ax-trending-up: unicode(ea31);
+$axs-ax-trending-down: unicode(ea32);
+$axs-ax-trees: unicode(ea33);
+$axs-ax-trash: unicode(ea34);
+$axs-ax-traffic-cone: unicode(ea35);
+$axs-ax-tir: unicode(ea36);
+$axs-ax-tractor: unicode(ea37);
+$axs-ax-tools: unicode(ea38);
+$axs-ax-star: unicode(ea39);
+$axs-ax-toggle-right: unicode(ea3a);
+$axs-ax-toggle-left: unicode(ea3b);
+$axs-ax-switch: unicode(ea3c);
+$axs-ax-ticket: unicode(ea3d);
+$axs-ax-tag: unicode(ea3e);
+$axs-ax-thumb-down: unicode(ea3f);
+$axs-ax-text-wrap: unicode(ea40);
+$axs-ax-test-pipe: unicode(ea41);
+$axs-ax-test: unicode(ea42);
+$axs-ax-terminal-2: unicode(ea43);
+$axs-ax-terminal: unicode(ea44);
+$axs-ax-template: unicode(ea45);
+$axs-ax-tax: unicode(ea46);
+$axs-ax-target: unicode(ea47);
+$axs-ax-sunset: unicode(ea48);
+$axs-ax-table: unicode(ea49);
+$axs-ax-switch-vertical: unicode(ea4a);
+$axs-ax-switch-horizontal: unicode(ea4b);
+$axs-ax-subscript: unicode(ea4c);
+$axs-ax-superscript: unicode(ea4d);
+$axs-ax-sunshine: unicode(ea4e);
+$axs-ax-square-plus: unicode(ea4f);
+$axs-ax-sun: unicode(ea50);
+$axs-ax-sum: unicode(ea51);
+$axs-ax-space: unicode(ea52);
+$axs-ax-strikethrough: unicode(ea53);
+$axs-ax-sticker: unicode(ea54);
+$axs-ax-servicemark: unicode(ea55);
+$axs-ax-stack: unicode(ea56);
+$axs-ax-square-x: unicode(ea57);
+$axs-ax-power: unicode(ea58);
+$axs-ax-square-minus: unicode(ea59);
+$axs-ax-square-check: unicode(ea5a);
+$axs-ax-square: unicode(ea5b);
+$axs-ax-rotate-clockwise: unicode(ea5c);
+$axs-ax-sort-descending: unicode(ea5d);
+$axs-ax-sort-ascending: unicode(ea5e);
+$axs-ax-social: unicode(ea5f);
+$axs-ax-snowflake: unicode(ea60);
+$axs-ax-slideshow: unicode(ea61);
+$axs-ax-slice: unicode(ea62);
+$axs-ax-sitemap: unicode(ea63);
+$axs-ax-shopping-cart: unicode(ea64);
+$axs-ax-shopping-bag: unicode(ea65);
+$axs-ax-shirt: unicode(ea66);
+$axs-ax-shield-x: unicode(ea67);
+$axs-ax-shield-check: unicode(ea68);
+$axs-ax-shield: unicode(ea69);
+$axs-ax-share: unicode(ea6a);
+$axs-ax-shape: unicode(ea6b);
+$axs-ax-settings: unicode(ea6c);
+$axs-ax-search: unicode(ea6d);
+$axs-ax-server: unicode(ea6e);
+$axs-ax-separator: unicode(ea6f);
+$axs-ax-send: unicode(ea70);
+$axs-ax-selector: unicode(ea71);
+$axs-ax-phone-plus: unicode(ea72);
+$axs-ax-scissors: unicode(ea73);
+$axs-ax-scan: unicode(ea74);
+$axs-ax-scale: unicode(ea75);
+$axs-ax-ruler: unicode(ea76);
+$axs-ax-rss: unicode(ea77);
+$axs-ax-router: unicode(ea78);
+$axs-ax-route: unicode(ea79);
+$axs-ax-rotate-rectangle: unicode(ea7a);
+$axs-ax-rotate-clockwise-2: unicode(ea7b);
+$axs-ax-replace: unicode(ea7c);
+$axs-ax-rotate-2: unicode(ea7d);
+$axs-ax-rotate: unicode(ea7e);
+$axs-ax-record-mail: unicode(ea7f);
+$axs-ax-repeat-once: unicode(ea80);
+$axs-ax-repeat: unicode(ea81);
+$axs-ax-registered: unicode(ea82);
+$axs-ax-refresh: unicode(ea83);
+$axs-ax-recycle: unicode(ea84);
+$axs-ax-pillow: unicode(ea85);
+$axs-ax-qrcode: unicode(ea86);
+$axs-ax-puzzle: unicode(ea87);
+$axs-ax-prompt: unicode(ea88);
+$axs-ax-printer: unicode(ea89);
+$axs-ax-presentation: unicode(ea8a);
+$axs-ax-outlet: unicode(ea8b);
+$axs-ax-point: unicode(ea8c);
+$axs-ax-plus: unicode(ea8d);
+$axs-ax-plug: unicode(ea8e);
+$axs-ax-planet: unicode(ea8f);
+$axs-ax-plane-departure: unicode(ea90);
+$axs-ax-plane-arrival: unicode(ea91);
+$axs-ax-plane: unicode(ea92);
+$axs-ax-mail-opened: unicode(ea93);
+$axs-ax-photos: unicode(ea94);
+$axs-ax-photo: unicode(ea95);
+$axs-ax-phone-x: unicode(ea96);
+$axs-ax-phone-check: unicode(ea97);
+$axs-ax-phone-pause: unicode(ea98);
+$axs-ax-phone-outgoing: unicode(ea99);
+$axs-ax-phone-incoming: unicode(ea9a);
+$axs-ax-paperclip: unicode(ea9b);
+$axs-ax-phone-call: unicode(ea9c);
+$axs-ax-phone: unicode(ea9d);
+$axs-ax-pencil: unicode(ea9e);
+$axs-ax-parking: unicode(ea9f);
+$axs-ax-parentheses: unicode(eaa0);
+$axs-ax-notes: unicode(eaa1);
+$axs-ax-palette: unicode(eaa2);
+$axs-ax-paint: unicode(eaa3);
+$axs-ax-package: unicode(eaa4);
+$axs-ax-ice-cream: unicode(eaa5);
+$axs-ax-omega: unicode(eaa6);
+$axs-ax-notification: unicode(eaa7);
+$axs-ax-notebook: unicode(eaa9);
+$axs-ax-note: unicode(eaaa);
+$axs-ax-new-section: unicode(eaab);
+$axs-ax-news: unicode(eaac);
+$axs-ax-message-dots: unicode(eaad);
+$axs-ax-mug: unicode(eaae);
+$axs-ax-movie: unicode(eaaf);
+$axs-ax-mouse: unicode(eab0);
+$axs-ax-moon: unicode(eab1);
+$axs-ax-mist: unicode(eab2);
+$axs-ax-minus: unicode(eab3);
+$axs-ax-minimize: unicode(eab4);
+$axs-ax-microphone: unicode(eab5);
+$axs-ax-messages: unicode(eab6);
+$axs-ax-map-2: unicode(eab7);
+$axs-ax-message-circle: unicode(eab8);
+$axs-ax-message-2: unicode(eab9);
+$axs-ax-message: unicode(eaba);
+$axs-ax-menu: unicode(eabb);
+$axs-ax-medical-cross: unicode(eabc);
+$axs-ax-maximize: unicode(eabd);
+$axs-ax-math: unicode(eabe);
+$axs-ax-map-pin: unicode(eabf);
+$axs-ax-lock-open: unicode(eac0);
+$axs-ax-map: unicode(eac1);
+$axs-ax-man: unicode(eac2);
+$axs-ax-folder-x: unicode(eac3);
+$axs-ax-mail: unicode(eac4);
+$axs-ax-magnet: unicode(eac5);
+$axs-ax-logout: unicode(eac6);
+$axs-ax-login: unicode(eac7);
+$axs-ax-lego: unicode(eac8);
+$axs-ax-lock: unicode(eac9);
+$axs-ax-location: unicode(eaca);
+$axs-ax-list: unicode(eacb);
+$axs-ax-link: unicode(eacc);
+$axs-ax-headphones: unicode(eacd);
+$axs-ax-id: unicode(eace);
+$axs-ax-circle: unicode(eacf);
+$axs-ax-home-2: unicode(ead0);
+$axs-ax-home: unicode(ead1);
+$axs-ax-history: unicode(ead2);
+$axs-ax-help: unicode(ead3);
+$axs-ax-heart: unicode(ead4);
+$axs-ax-headset: unicode(ead5);
+$axs-ax-folder-minus: unicode(ead6);
+$axs-ax-hash: unicode(ead7);
+$axs-ax-hand-middle-finger: unicode(ead8);
+$axs-ax-grid: unicode(ead9);
+$axs-ax-globe: unicode(eada);
+$axs-ax-glass-full: unicode(eadb);
+$axs-ax-glass: unicode(eadc);
+$axs-ax-friends: unicode(eadd);
+$axs-ax-credit-card: unicode(eade);
+$axs-ax-folders: unicode(eadf);
+$axs-ax-folder-plus: unicode(eae0);
+$axs-ax-chart-area-line: unicode(eae1);
+$axs-ax-folder: unicode(eae2);
+$axs-ax-floppy-disk: unicode(eae3);
+$axs-ax-flame: unicode(eae4);
+$axs-ax-eye: unicode(eae5);
+$axs-ax-diamond: unicode(eae6);
+$axs-ax-device-floppy: unicode(eae7);
+$axs-ax-device-desktop: unicode(eae8);
+$axs-ax-dashboard: unicode(eae9);
+$axs-ax-camera: unicode(eaea);
+$axs-ax-cloud: unicode(eaeb);
+$axs-ax-click: unicode(eaec);
+$axs-ax-clear-formatting: unicode(eaed);
+$axs-ax-checkbox: unicode(eaee);
+$axs-ax-chevron-down: unicode(eaef);
+$axs-ax-checks: unicode(eaf0);
+$axs-ax-brightness-up: unicode(eaf1);
+$axs-ax-check: unicode(eaf2);
+$axs-ax-chart-bar: unicode(eaf3);
+$axs-ax-battery-full: unicode(eaf4);
+$axs-ax-chart-area: unicode(eaf5);
+$axs-ax-cart-plus: unicode(eaf6);
+$axs-ax-cart-down: unicode(eaf7);
+$axs-ax-calendar: unicode(eaf8);
+$axs-ax-calendar-plus: unicode(eaf9);
+$axs-ax-calendar-minus: unicode(eafa);
+$axs-ax-calendar-event: unicode(eafb);
+$axs-ax-calendar-1: unicode(eafc);
+$axs-ax-brightness: unicode(eafd);
+$axs-ax-bulb-off: unicode(eafe);
+$axs-ax-bulb: unicode(eaff);
+$axs-ax-bug: unicode(eb00);
+$axs-ax-bolt: unicode(eb01);
+$axs-ax-brightness-down: unicode(eb02);
+$axs-ax-ball-volleyball: unicode(eb03);
+$axs-ax-brackets: unicode(eb04);
+$axs-ax-braces: unicode(eb05);
+$axs-ax-border-all: unicode(eb06);
+$axs-ax-bookmark: unicode(eb07);
+$axs-ax-book: unicode(eb08);
+$axs-ax-ball-basketball: unicode(eb09);
+$axs-ax-bold: unicode(eb0a);
+$axs-ax-bluetooth: unicode(eb0b);
+$axs-ax-bike: unicode(eb0c);
+$axs-ax-bell: unicode(eb0d);
+$axs-ax-bed: unicode(eb0e);
+$axs-ax-bandage: unicode(eb0f);
+$axs-ax-battery-charging: unicode(eb10);
+$axs-ax-battery-1: unicode(eb11);
+$axs-ax-battery: unicode(eb12);
+$axs-ax-basket: unicode(eb13);
+$axs-ax-barcode: unicode(eb14);
+$axs-ax-atom-2: unicode(eb15);
+$axs-ax-ban: unicode(eb16);
+$axs-ax-arrows-sort: unicode(eb17);
+$axs-ax-ball-tennis: unicode(eb18);
+$axs-ax-ball-bowling: unicode(eb19);
+$axs-ax-arrow-up-right-circle: unicode(eb1a);
+$axs-ax-backspace: unicode(eb1b);
+$axs-ax-award: unicode(eb1c);
+$axs-ax-arrow-right: unicode(eb1d);
+$axs-ax-atom: unicode(eb1e);
+$axs-ax-at: unicode(eb1f);
+$axs-ax-artboard: unicode(eb20);
+$axs-ax-arrows-horizontal: unicode(eb21);
+$axs-ax-arrow-up-right: unicode(eb22);
+$axs-ax-arrow-up-left-circle: unicode(eb23);
+$axs-ax-arrow-up-left: unicode(eb24);
+$axs-ax-arrow-up-circle: unicode(eb25);
+$axs-ax-arrow-up: unicode(eb26);
+$axs-ax-arrows-vertical: unicode(eb27);
+$axs-ax-arrow-left-circle: unicode(eb28);
+$axs-ax-arrows-minimize: unicode(eb29);
+$axs-ax-arrows-maximize: unicode(eb2a);
+$axs-ax-arrow-narrow-right: unicode(eb2b);
+$axs-ax-arrows-diagonal-2: unicode(eb2c);
+$axs-ax-arrows-diagonal: unicode(eb2d);
+$axs-ax-arrow-right-circle: unicode(eb2e);
+$axs-ax-ambulance: unicode(eb2f);
+$axs-ax-arrow-narrow-up: unicode(eb30);
+$axs-ax-arrow-forward: unicode(eb31);
+$axs-ax-arrow-narrow-left: unicode(eb32);
+$axs-ax-arrow-narrow-down: unicode(eb33);
+$axs-ax-arrow-bar-up: unicode(eb34);
+$axs-ax-arrow-left: unicode(eb35);
+$axs-ax-arrow-forward-up: unicode(eb36);
+$axs-ax-arrow-down-circle: unicode(eb37);
+$axs-ax-arrow-down-right-circle: unicode(eb38);
+$axs-ax-arrow-down-right: unicode(eb39);
+$axs-ax-arrow-down-left-circle: unicode(eb3a);
+$axs-ax-arrow-down-left: unicode(eb3b);
+$axs-ax-arrow-back: unicode(eb3c);
+$axs-ax-arrow-down: unicode(eb3d);
+$axs-ax-anchor: unicode(eb3e);
+$axs-ax-arrow-bar-right: unicode(eb3f);
+$axs-ax-arrow-bar-left: unicode(eb40);
+$axs-ax-arrow-bar-down: unicode(eb41);
+$axs-ax-arrow-back-up: unicode(eb42);
+$axs-ax-aperture: unicode(eb43);
+$axs-ax-archive-alt: unicode(eb44);
+$axs-ax-archive: unicode(eb45);
+$axs-ax-apps: unicode(eb46);
+$axs-ax-align-right: unicode(eb47);
+$axs-ax-forward: unicode(eb48);
+$axs-ax-pause: unicode(eb49);
+$axs-ax-play: unicode(eb4a);
+$axs-ax-previous: unicode(eb4b);
+$axs-ax-reshare: unicode(eb4c);
+$axs-ax-music: unicode(eb4d);
+$axs-ax-photo-2: unicode(eb4e);
+
+.axs.ax-woman::before {
+  content: $axs-ax-woman;
+}
+
+.axs.ax-thumb-up::before {
+  content: $axs-ax-thumb-up;
+}
+
+.axs.ax-alarm::before {
+  content: $axs-ax-alarm;
+}
+
+.axs.ax-align-left::before {
+  content: $axs-ax-align-left;
+}
+
+.axs.ax-align-justified::before {
+  content: $axs-ax-align-justified;
+}
+
+.axs.ax-align-center::before {
+  content: $axs-ax-align-center;
+}
+
+.axs.ax-alert-triangle::before {
+  content: $axs-ax-alert-triangle;
+}
+
+.axs.ax-alert-circle::before {
+  content: $axs-ax-alert-circle;
+}
+
+.axs.ax-user-x::before {
+  content: $axs-ax-user-x;
+}
+
+.axs.ax-adjustments::before {
+  content: $axs-ax-adjustments;
+}
+
+.axs.ax-ad::before {
+  content: $axs-ax-ad;
+}
+
+.axs.ax-activity::before {
+  content: $axs-ax-activity;
+}
+
+.axs.ax-accessible::before {
+  content: $axs-ax-accessible;
+}
+
+.axs.ax-yin-yang::before {
+  content: $axs-ax-yin-yang;
+}
+
+.axs.ax-x::before {
+  content: $axs-ax-x;
+}
+
+.axs.ax-world::before {
+  content: $axs-ax-world;
+}
+
+.axs.ax-volume-3::before {
+  content: $axs-ax-volume-3;
+}
+
+.axs.ax-wind::before {
+  content: $axs-ax-wind;
+}
+
+.axs.ax-wifi-2::before {
+  content: $axs-ax-wifi-2;
+}
+
+.axs.ax-wifi-1::before {
+  content: $axs-ax-wifi-1;
+}
+
+.axs.ax-wifi-0::before {
+  content: $axs-ax-wifi-0;
+}
+
+.axs.ax-wifi::before {
+  content: $axs-ax-wifi;
+}
+
+.axs.ax-wand::before {
+  content: $axs-ax-wand;
+}
+
+.axs.ax-wallet::before {
+  content: $axs-ax-wallet;
+}
+
+.axs.ax-viewport-wide::before {
+  content: $axs-ax-viewport-wide;
+}
+
+.axs.ax-volume-2::before {
+  content: $axs-ax-volume-2;
+}
+
+.axs.ax-volume::before {
+  content: $axs-ax-volume;
+}
+
+.axs.ax-virus::before {
+  content: $axs-ax-virus;
+}
+
+.axs.ax-user-minus::before {
+  content: $axs-ax-user-minus;
+}
+
+.axs.ax-viewport-narrow::before {
+  content: $axs-ax-viewport-narrow;
+}
+
+.axs.ax-viewfinder::before {
+  content: $axs-ax-viewfinder;
+}
+
+.axs.ax-underline::before {
+  content: $axs-ax-underline;
+}
+
+.axs.ax-users::before {
+  content: $axs-ax-users;
+}
+
+.axs.ax-user-plus::before {
+  content: $axs-ax-user-plus;
+}
+
+.axs.ax-trademark::before {
+  content: $axs-ax-trademark;
+}
+
+.axs.ax-user-exclamation::before {
+  content: $axs-ax-user-exclamation;
+}
+
+.axs.ax-user-check::before {
+  content: $axs-ax-user-check;
+}
+
+.axs.ax-user::before {
+  content: $axs-ax-user;
+}
+
+.axs.ax-urgent::before {
+  content: $axs-ax-urgent;
+}
+
+.axs.ax-upload::before {
+  content: $axs-ax-upload;
+}
+
+.axs.ax-unlink::before {
+  content: $axs-ax-unlink;
+}
+
+.axs.ax-triangle::before {
+  content: $axs-ax-triangle;
+}
+
+.axs.ax-umbrella::before {
+  content: $axs-ax-umbrella;
+}
+
+.axs.ax-typography::before {
+  content: $axs-ax-typography;
+}
+
+.axs.ax-truck::before {
+  content: $axs-ax-truck;
+}
+
+.axs.ax-trophy::before {
+  content: $axs-ax-trophy;
+}
+
+.axs.ax-tool::before {
+  content: $axs-ax-tool;
+}
+
+.axs.ax-trending-up::before {
+  content: $axs-ax-trending-up;
+}
+
+.axs.ax-trending-down::before {
+  content: $axs-ax-trending-down;
+}
+
+.axs.ax-trees::before {
+  content: $axs-ax-trees;
+}
+
+.axs.ax-trash::before {
+  content: $axs-ax-trash;
+}
+
+.axs.ax-traffic-cone::before {
+  content: $axs-ax-traffic-cone;
+}
+
+.axs.ax-tir::before {
+  content: $axs-ax-tir;
+}
+
+.axs.ax-tractor::before {
+  content: $axs-ax-tractor;
+}
+
+.axs.ax-tools::before {
+  content: $axs-ax-tools;
+}
+
+.axs.ax-star::before {
+  content: $axs-ax-star;
+}
+
+.axs.ax-toggle-right::before {
+  content: $axs-ax-toggle-right;
+}
+
+.axs.ax-toggle-left::before {
+  content: $axs-ax-toggle-left;
+}
+
+.axs.ax-switch::before {
+  content: $axs-ax-switch;
+}
+
+.axs.ax-ticket::before {
+  content: $axs-ax-ticket;
+}
+
+.axs.ax-tag::before {
+  content: $axs-ax-tag;
+}
+
+.axs.ax-thumb-down::before {
+  content: $axs-ax-thumb-down;
+}
+
+.axs.ax-text-wrap::before {
+  content: $axs-ax-text-wrap;
+}
+
+.axs.ax-test-pipe::before {
+  content: $axs-ax-test-pipe;
+}
+
+.axs.ax-test::before {
+  content: $axs-ax-test;
+}
+
+.axs.ax-terminal-2::before {
+  content: $axs-ax-terminal-2;
+}
+
+.axs.ax-terminal::before {
+  content: $axs-ax-terminal;
+}
+
+.axs.ax-template::before {
+  content: $axs-ax-template;
+}
+
+.axs.ax-tax::before {
+  content: $axs-ax-tax;
+}
+
+.axs.ax-target::before {
+  content: $axs-ax-target;
+}
+
+.axs.ax-sunset::before {
+  content: $axs-ax-sunset;
+}
+
+.axs.ax-table::before {
+  content: $axs-ax-table;
+}
+
+.axs.ax-switch-vertical::before {
+  content: $axs-ax-switch-vertical;
+}
+
+.axs.ax-switch-horizontal::before {
+  content: $axs-ax-switch-horizontal;
+}
+
+.axs.ax-subscript::before {
+  content: $axs-ax-subscript;
+}
+
+.axs.ax-superscript::before {
+  content: $axs-ax-superscript;
+}
+
+.axs.ax-sunshine::before {
+  content: $axs-ax-sunshine;
+}
+
+.axs.ax-square-plus::before {
+  content: $axs-ax-square-plus;
+}
+
+.axs.ax-sun::before {
+  content: $axs-ax-sun;
+}
+
+.axs.ax-sum::before {
+  content: $axs-ax-sum;
+}
+
+.axs.ax-space::before {
+  content: $axs-ax-space;
+}
+
+.axs.ax-strikethrough::before {
+  content: $axs-ax-strikethrough;
+}
+
+.axs.ax-sticker::before {
+  content: $axs-ax-sticker;
+}
+
+.axs.ax-servicemark::before {
+  content: $axs-ax-servicemark;
+}
+
+.axs.ax-stack::before {
+  content: $axs-ax-stack;
+}
+
+.axs.ax-square-x::before {
+  content: $axs-ax-square-x;
+}
+
+.axs.ax-power::before {
+  content: $axs-ax-power;
+}
+
+.axs.ax-square-minus::before {
+  content: $axs-ax-square-minus;
+}
+
+.axs.ax-square-check::before {
+  content: $axs-ax-square-check;
+}
+
+.axs.ax-square::before {
+  content: $axs-ax-square;
+}
+
+.axs.ax-rotate-clockwise::before {
+  content: $axs-ax-rotate-clockwise;
+}
+
+.axs.ax-sort-descending::before {
+  content: $axs-ax-sort-descending;
+}
+
+.axs.ax-sort-ascending::before {
+  content: $axs-ax-sort-ascending;
+}
+
+.axs.ax-social::before {
+  content: $axs-ax-social;
+}
+
+.axs.ax-snowflake::before {
+  content: $axs-ax-snowflake;
+}
+
+.axs.ax-slideshow::before {
+  content: $axs-ax-slideshow;
+}
+
+.axs.ax-slice::before {
+  content: $axs-ax-slice;
+}
+
+.axs.ax-sitemap::before {
+  content: $axs-ax-sitemap;
+}
+
+.axs.ax-shopping-cart::before {
+  content: $axs-ax-shopping-cart;
+}
+
+.axs.ax-shopping-bag::before {
+  content: $axs-ax-shopping-bag;
+}
+
+.axs.ax-shirt::before {
+  content: $axs-ax-shirt;
+}
+
+.axs.ax-shield-x::before {
+  content: $axs-ax-shield-x;
+}
+
+.axs.ax-shield-check::before {
+  content: $axs-ax-shield-check;
+}
+
+.axs.ax-shield::before {
+  content: $axs-ax-shield;
+}
+
+.axs.ax-share::before {
+  content: $axs-ax-share;
+}
+
+.axs.ax-shape::before {
+  content: $axs-ax-shape;
+}
+
+.axs.ax-settings::before {
+  content: $axs-ax-settings;
+}
+
+.axs.ax-search::before {
+  content: $axs-ax-search;
+}
+
+.axs.ax-server::before {
+  content: $axs-ax-server;
+}
+
+.axs.ax-separator::before {
+  content: $axs-ax-separator;
+}
+
+.axs.ax-send::before {
+  content: $axs-ax-send;
+}
+
+.axs.ax-selector::before {
+  content: $axs-ax-selector;
+}
+
+.axs.ax-phone-plus::before {
+  content: $axs-ax-phone-plus;
+}
+
+.axs.ax-scissors::before {
+  content: $axs-ax-scissors;
+}
+
+.axs.ax-scan::before {
+  content: $axs-ax-scan;
+}
+
+.axs.ax-scale::before {
+  content: $axs-ax-scale;
+}
+
+.axs.ax-ruler::before {
+  content: $axs-ax-ruler;
+}
+
+.axs.ax-rss::before {
+  content: $axs-ax-rss;
+}
+
+.axs.ax-router::before {
+  content: $axs-ax-router;
+}
+
+.axs.ax-route::before {
+  content: $axs-ax-route;
+}
+
+.axs.ax-rotate-rectangle::before {
+  content: $axs-ax-rotate-rectangle;
+}
+
+.axs.ax-rotate-clockwise-2::before {
+  content: $axs-ax-rotate-clockwise-2;
+}
+
+.axs.ax-replace::before {
+  content: $axs-ax-replace;
+}
+
+.axs.ax-rotate-2::before {
+  content: $axs-ax-rotate-2;
+}
+
+.axs.ax-rotate::before {
+  content: $axs-ax-rotate;
+}
+
+.axs.ax-record-mail::before {
+  content: $axs-ax-record-mail;
+}
+
+.axs.ax-repeat-once::before {
+  content: $axs-ax-repeat-once;
+}
+
+.axs.ax-repeat::before {
+  content: $axs-ax-repeat;
+}
+
+.axs.ax-registered::before {
+  content: $axs-ax-registered;
+}
+
+.axs.ax-refresh::before {
+  content: $axs-ax-refresh;
+}
+
+.axs.ax-recycle::before {
+  content: $axs-ax-recycle;
+}
+
+.axs.ax-pillow::before {
+  content: $axs-ax-pillow;
+}
+
+.axs.ax-qrcode::before {
+  content: $axs-ax-qrcode;
+}
+
+.axs.ax-puzzle::before {
+  content: $axs-ax-puzzle;
+}
+
+.axs.ax-prompt::before {
+  content: $axs-ax-prompt;
+}
+
+.axs.ax-printer::before {
+  content: $axs-ax-printer;
+}
+
+.axs.ax-presentation::before {
+  content: $axs-ax-presentation;
+}
+
+.axs.ax-outlet::before {
+  content: $axs-ax-outlet;
+}
+
+.axs.ax-point::before {
+  content: $axs-ax-point;
+}
+
+.axs.ax-plus::before {
+  content: $axs-ax-plus;
+}
+
+.axs.ax-plug::before {
+  content: $axs-ax-plug;
+}
+
+.axs.ax-planet::before {
+  content: $axs-ax-planet;
+}
+
+.axs.ax-plane-departure::before {
+  content: $axs-ax-plane-departure;
+}
+
+.axs.ax-plane-arrival::before {
+  content: $axs-ax-plane-arrival;
+}
+
+.axs.ax-plane::before {
+  content: $axs-ax-plane;
+}
+
+.axs.ax-mail-opened::before {
+  content: $axs-ax-mail-opened;
+}
+
+.axs.ax-photos::before {
+  content: $axs-ax-photos;
+}
+
+.axs.ax-photo::before {
+  content: $axs-ax-photo;
+}
+
+.axs.ax-phone-x::before {
+  content: $axs-ax-phone-x;
+}
+
+.axs.ax-phone-check::before {
+  content: $axs-ax-phone-check;
+}
+
+.axs.ax-phone-pause::before {
+  content: $axs-ax-phone-pause;
+}
+
+.axs.ax-phone-outgoing::before {
+  content: $axs-ax-phone-outgoing;
+}
+
+.axs.ax-phone-incoming::before {
+  content: $axs-ax-phone-incoming;
+}
+
+.axs.ax-paperclip::before {
+  content: $axs-ax-paperclip;
+}
+
+.axs.ax-phone-call::before {
+  content: $axs-ax-phone-call;
+}
+
+.axs.ax-phone::before {
+  content: $axs-ax-phone;
+}
+
+.axs.ax-pencil::before {
+  content: $axs-ax-pencil;
+}
+
+.axs.ax-parking::before {
+  content: $axs-ax-parking;
+}
+
+.axs.ax-parentheses::before {
+  content: $axs-ax-parentheses;
+}
+
+.axs.ax-notes::before {
+  content: $axs-ax-notes;
+}
+
+.axs.ax-palette::before {
+  content: $axs-ax-palette;
+}
+
+.axs.ax-paint::before {
+  content: $axs-ax-paint;
+}
+
+.axs.ax-package::before {
+  content: $axs-ax-package;
+}
+
+.axs.ax-ice-cream::before {
+  content: $axs-ax-ice-cream;
+}
+
+.axs.ax-omega::before {
+  content: $axs-ax-omega;
+}
+
+.axs.ax-notification::before {
+  content: $axs-ax-notification;
+}
+
+.axs.ax-notebook::before {
+  content: $axs-ax-notebook;
+}
+
+.axs.ax-note::before {
+  content: $axs-ax-note;
+}
+
+.axs.ax-new-section::before {
+  content: $axs-ax-new-section;
+}
+
+.axs.ax-news::before {
+  content: $axs-ax-news;
+}
+
+.axs.ax-message-dots::before {
+  content: $axs-ax-message-dots;
+}
+
+.axs.ax-mug::before {
+  content: $axs-ax-mug;
+}
+
+.axs.ax-movie::before {
+  content: $axs-ax-movie;
+}
+
+.axs.ax-mouse::before {
+  content: $axs-ax-mouse;
+}
+
+.axs.ax-moon::before {
+  content: $axs-ax-moon;
+}
+
+.axs.ax-mist::before {
+  content: $axs-ax-mist;
+}
+
+.axs.ax-minus::before {
+  content: $axs-ax-minus;
+}
+
+.axs.ax-minimize::before {
+  content: $axs-ax-minimize;
+}
+
+.axs.ax-microphone::before {
+  content: $axs-ax-microphone;
+}
+
+.axs.ax-messages::before {
+  content: $axs-ax-messages;
+}
+
+.axs.ax-map-2::before {
+  content: $axs-ax-map-2;
+}
+
+.axs.ax-message-circle::before {
+  content: $axs-ax-message-circle;
+}
+
+.axs.ax-message-2::before {
+  content: $axs-ax-message-2;
+}
+
+.axs.ax-message::before {
+  content: $axs-ax-message;
+}
+
+.axs.ax-menu::before {
+  content: $axs-ax-menu;
+}
+
+.axs.ax-medical-cross::before {
+  content: $axs-ax-medical-cross;
+}
+
+.axs.ax-maximize::before {
+  content: $axs-ax-maximize;
+}
+
+.axs.ax-math::before {
+  content: $axs-ax-math;
+}
+
+.axs.ax-map-pin::before {
+  content: $axs-ax-map-pin;
+}
+
+.axs.ax-lock-open::before {
+  content: $axs-ax-lock-open;
+}
+
+.axs.ax-map::before {
+  content: $axs-ax-map;
+}
+
+.axs.ax-man::before {
+  content: $axs-ax-man;
+}
+
+.axs.ax-folder-x::before {
+  content: $axs-ax-folder-x;
+}
+
+.axs.ax-mail::before {
+  content: $axs-ax-mail;
+}
+
+.axs.ax-magnet::before {
+  content: $axs-ax-magnet;
+}
+
+.axs.ax-logout::before {
+  content: $axs-ax-logout;
+}
+
+.axs.ax-login::before {
+  content: $axs-ax-login;
+}
+
+.axs.ax-lego::before {
+  content: $axs-ax-lego;
+}
+
+.axs.ax-lock::before {
+  content: $axs-ax-lock;
+}
+
+.axs.ax-location::before {
+  content: $axs-ax-location;
+}
+
+.axs.ax-list::before {
+  content: $axs-ax-list;
+}
+
+.axs.ax-link::before {
+  content: $axs-ax-link;
+}
+
+.axs.ax-headphones::before {
+  content: $axs-ax-headphones;
+}
+
+.axs.ax-id::before {
+  content: $axs-ax-id;
+}
+
+.axs.ax-circle::before {
+  content: $axs-ax-circle;
+}
+
+.axs.ax-home-2::before {
+  content: $axs-ax-home-2;
+}
+
+.axs.ax-home::before {
+  content: $axs-ax-home;
+}
+
+.axs.ax-history::before {
+  content: $axs-ax-history;
+}
+
+.axs.ax-help::before {
+  content: $axs-ax-help;
+}
+
+.axs.ax-heart::before {
+  content: $axs-ax-heart;
+}
+
+.axs.ax-headset::before {
+  content: $axs-ax-headset;
+}
+
+.axs.ax-folder-minus::before {
+  content: $axs-ax-folder-minus;
+}
+
+.axs.ax-hash::before {
+  content: $axs-ax-hash;
+}
+
+.axs.ax-hand-middle-finger::before {
+  content: $axs-ax-hand-middle-finger;
+}
+
+.axs.ax-grid::before {
+  content: $axs-ax-grid;
+}
+
+.axs.ax-globe::before {
+  content: $axs-ax-globe;
+}
+
+.axs.ax-glass-full::before {
+  content: $axs-ax-glass-full;
+}
+
+.axs.ax-glass::before {
+  content: $axs-ax-glass;
+}
+
+.axs.ax-friends::before {
+  content: $axs-ax-friends;
+}
+
+.axs.ax-credit-card::before {
+  content: $axs-ax-credit-card;
+}
+
+.axs.ax-folders::before {
+  content: $axs-ax-folders;
+}
+
+.axs.ax-folder-plus::before {
+  content: $axs-ax-folder-plus;
+}
+
+.axs.ax-chart-area-line::before {
+  content: $axs-ax-chart-area-line;
+}
+
+.axs.ax-folder::before {
+  content: $axs-ax-folder;
+}
+
+.axs.ax-floppy-disk::before {
+  content: $axs-ax-floppy-disk;
+}
+
+.axs.ax-flame::before {
+  content: $axs-ax-flame;
+}
+
+.axs.ax-eye::before {
+  content: $axs-ax-eye;
+}
+
+.axs.ax-diamond::before {
+  content: $axs-ax-diamond;
+}
+
+.axs.ax-device-floppy::before {
+  content: $axs-ax-device-floppy;
+}
+
+.axs.ax-device-desktop::before {
+  content: $axs-ax-device-desktop;
+}
+
+.axs.ax-dashboard::before {
+  content: $axs-ax-dashboard;
+}
+
+.axs.ax-camera::before {
+  content: $axs-ax-camera;
+}
+
+.axs.ax-cloud::before {
+  content: $axs-ax-cloud;
+}
+
+.axs.ax-click::before {
+  content: $axs-ax-click;
+}
+
+.axs.ax-clear-formatting::before {
+  content: $axs-ax-clear-formatting;
+}
+
+.axs.ax-checkbox::before {
+  content: $axs-ax-checkbox;
+}
+
+.axs.ax-chevron-down::before {
+  content: $axs-ax-chevron-down;
+}
+
+.axs.ax-checks::before {
+  content: $axs-ax-checks;
+}
+
+.axs.ax-brightness-up::before {
+  content: $axs-ax-brightness-up;
+}
+
+.axs.ax-check::before {
+  content: $axs-ax-check;
+}
+
+.axs.ax-chart-bar::before {
+  content: $axs-ax-chart-bar;
+}
+
+.axs.ax-battery-full::before {
+  content: $axs-ax-battery-full;
+}
+
+.axs.ax-chart-area::before {
+  content: $axs-ax-chart-area;
+}
+
+.axs.ax-cart-plus::before {
+  content: $axs-ax-cart-plus;
+}
+
+.axs.ax-cart-down::before {
+  content: $axs-ax-cart-down;
+}
+
+.axs.ax-calendar::before {
+  content: $axs-ax-calendar;
+}
+
+.axs.ax-calendar-plus::before {
+  content: $axs-ax-calendar-plus;
+}
+
+.axs.ax-calendar-minus::before {
+  content: $axs-ax-calendar-minus;
+}
+
+.axs.ax-calendar-event::before {
+  content: $axs-ax-calendar-event;
+}
+
+.axs.ax-calendar-1::before {
+  content: $axs-ax-calendar-1;
+}
+
+.axs.ax-brightness::before {
+  content: $axs-ax-brightness;
+}
+
+.axs.ax-bulb-off::before {
+  content: $axs-ax-bulb-off;
+}
+
+.axs.ax-bulb::before {
+  content: $axs-ax-bulb;
+}
+
+.axs.ax-bug::before {
+  content: $axs-ax-bug;
+}
+
+.axs.ax-bolt::before {
+  content: $axs-ax-bolt;
+}
+
+.axs.ax-brightness-down::before {
+  content: $axs-ax-brightness-down;
+}
+
+.axs.ax-ball-volleyball::before {
+  content: $axs-ax-ball-volleyball;
+}
+
+.axs.ax-brackets::before {
+  content: $axs-ax-brackets;
+}
+
+.axs.ax-braces::before {
+  content: $axs-ax-braces;
+}
+
+.axs.ax-border-all::before {
+  content: $axs-ax-border-all;
+}
+
+.axs.ax-bookmark::before {
+  content: $axs-ax-bookmark;
+}
+
+.axs.ax-book::before {
+  content: $axs-ax-book;
+}
+
+.axs.ax-ball-basketball::before {
+  content: $axs-ax-ball-basketball;
+}
+
+.axs.ax-bold::before {
+  content: $axs-ax-bold;
+}
+
+.axs.ax-bluetooth::before {
+  content: $axs-ax-bluetooth;
+}
+
+.axs.ax-bike::before {
+  content: $axs-ax-bike;
+}
+
+.axs.ax-bell::before {
+  content: $axs-ax-bell;
+}
+
+.axs.ax-bed::before {
+  content: $axs-ax-bed;
+}
+
+.axs.ax-bandage::before {
+  content: $axs-ax-bandage;
+}
+
+.axs.ax-battery-charging::before {
+  content: $axs-ax-battery-charging;
+}
+
+.axs.ax-battery-1::before {
+  content: $axs-ax-battery-1;
+}
+
+.axs.ax-battery::before {
+  content: $axs-ax-battery;
+}
+
+.axs.ax-basket::before {
+  content: $axs-ax-basket;
+}
+
+.axs.ax-barcode::before {
+  content: $axs-ax-barcode;
+}
+
+.axs.ax-atom-2::before {
+  content: $axs-ax-atom-2;
+}
+
+.axs.ax-ban::before {
+  content: $axs-ax-ban;
+}
+
+.axs.ax-arrows-sort::before {
+  content: $axs-ax-arrows-sort;
+}
+
+.axs.ax-ball-tennis::before {
+  content: $axs-ax-ball-tennis;
+}
+
+.axs.ax-ball-bowling::before {
+  content: $axs-ax-ball-bowling;
+}
+
+.axs.ax-arrow-up-right-circle::before {
+  content: $axs-ax-arrow-up-right-circle;
+}
+
+.axs.ax-backspace::before {
+  content: $axs-ax-backspace;
+}
+
+.axs.ax-award::before {
+  content: $axs-ax-award;
+}
+
+.axs.ax-arrow-right::before {
+  content: $axs-ax-arrow-right;
+}
+
+.axs.ax-atom::before {
+  content: $axs-ax-atom;
+}
+
+.axs.ax-at::before {
+  content: $axs-ax-at;
+}
+
+.axs.ax-artboard::before {
+  content: $axs-ax-artboard;
+}
+
+.axs.ax-arrows-horizontal::before {
+  content: $axs-ax-arrows-horizontal;
+}
+
+.axs.ax-arrow-up-right::before {
+  content: $axs-ax-arrow-up-right;
+}
+
+.axs.ax-arrow-up-left-circle::before {
+  content: $axs-ax-arrow-up-left-circle;
+}
+
+.axs.ax-arrow-up-left::before {
+  content: $axs-ax-arrow-up-left;
+}
+
+.axs.ax-arrow-up-circle::before {
+  content: $axs-ax-arrow-up-circle;
+}
+
+.axs.ax-arrow-up::before {
+  content: $axs-ax-arrow-up;
+}
+
+.axs.ax-arrows-vertical::before {
+  content: $axs-ax-arrows-vertical;
+}
+
+.axs.ax-arrow-left-circle::before {
+  content: $axs-ax-arrow-left-circle;
+}
+
+.axs.ax-arrows-minimize::before {
+  content: $axs-ax-arrows-minimize;
+}
+
+.axs.ax-arrows-maximize::before {
+  content: $axs-ax-arrows-maximize;
+}
+
+.axs.ax-arrow-narrow-right::before {
+  content: $axs-ax-arrow-narrow-right;
+}
+
+.axs.ax-arrows-diagonal-2::before {
+  content: $axs-ax-arrows-diagonal-2;
+}
+
+.axs.ax-arrows-diagonal::before {
+  content: $axs-ax-arrows-diagonal;
+}
+
+.axs.ax-arrow-right-circle::before {
+  content: $axs-ax-arrow-right-circle;
+}
+
+.axs.ax-ambulance::before {
+  content: $axs-ax-ambulance;
+}
+
+.axs.ax-arrow-narrow-up::before {
+  content: $axs-ax-arrow-narrow-up;
+}
+
+.axs.ax-arrow-forward::before {
+  content: $axs-ax-arrow-forward;
+}
+
+.axs.ax-arrow-narrow-left::before {
+  content: $axs-ax-arrow-narrow-left;
+}
+
+.axs.ax-arrow-narrow-down::before {
+  content: $axs-ax-arrow-narrow-down;
+}
+
+.axs.ax-arrow-bar-up::before {
+  content: $axs-ax-arrow-bar-up;
+}
+
+.axs.ax-arrow-left::before {
+  content: $axs-ax-arrow-left;
+}
+
+.axs.ax-arrow-forward-up::before {
+  content: $axs-ax-arrow-forward-up;
+}
+
+.axs.ax-arrow-down-circle::before {
+  content: $axs-ax-arrow-down-circle;
+}
+
+.axs.ax-arrow-down-right-circle::before {
+  content: $axs-ax-arrow-down-right-circle;
+}
+
+.axs.ax-arrow-down-right::before {
+  content: $axs-ax-arrow-down-right;
+}
+
+.axs.ax-arrow-down-left-circle::before {
+  content: $axs-ax-arrow-down-left-circle;
+}
+
+.axs.ax-arrow-down-left::before {
+  content: $axs-ax-arrow-down-left;
+}
+
+.axs.ax-arrow-back::before {
+  content: $axs-ax-arrow-back;
+}
+
+.axs.ax-arrow-down::before {
+  content: $axs-ax-arrow-down;
+}
+
+.axs.ax-anchor::before {
+  content: $axs-ax-anchor;
+}
+
+.axs.ax-arrow-bar-right::before {
+  content: $axs-ax-arrow-bar-right;
+}
+
+.axs.ax-arrow-bar-left::before {
+  content: $axs-ax-arrow-bar-left;
+}
+
+.axs.ax-arrow-bar-down::before {
+  content: $axs-ax-arrow-bar-down;
+}
+
+.axs.ax-arrow-back-up::before {
+  content: $axs-ax-arrow-back-up;
+}
+
+.axs.ax-aperture::before {
+  content: $axs-ax-aperture;
+}
+
+.axs.ax-archive-alt::before {
+  content: $axs-ax-archive-alt;
+}
+
+.axs.ax-archive::before {
+  content: $axs-ax-archive;
+}
+
+.axs.ax-apps::before {
+  content: $axs-ax-apps;
+}
+
+.axs.ax-align-right::before {
+  content: $axs-ax-align-right;
+}
+
+.axs.ax-forward::before {
+  content: $axs-ax-forward;
+}
+
+.axs.ax-pause::before {
+  content: $axs-ax-pause;
+}
+
+.axs.ax-play::before {
+  content: $axs-ax-play;
+}
+
+.axs.ax-previous::before {
+  content: $axs-ax-previous;
+}
+
+.axs.ax-reshare::before {
+  content: $axs-ax-reshare;
+}
+
+.axs.ax-music::before {
+  content: $axs-ax-music;
+}
+
+.axs.ax-photo-2::before {
+  content: $axs-ax-photo-2;
+}
+

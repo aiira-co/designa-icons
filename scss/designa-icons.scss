@@ -1,0 +1,245 @@
+/* --------------------------------
+
+DesignaIcon-Light Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@import 'variables';
+@import 'mixins';
+
+/*------------------------
+	base class definition
+-------------------------*/
+
+.axl,
+.axr,
+.axs {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 1.3em;
+  transform: translateY(3px);
+  text-rendering: auto;
+  line-height: 1;
+}
+
+/*------------------------
+  change icon size
+-------------------------*/
+
+/* relative units */
+.ax-xs {
+  font-size: 0.75em;
+}
+.ax-sm {
+  font-size: 0.875em;
+}
+.ax-lg {
+  font-size: 1.33em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+/* absolute units */
+.ax-2x {
+  font-size: 2em;
+}
+.ax-3x {
+  font-size: 3em;
+}
+.ax-4x {
+  font-size: 4em;
+}
+.ax-5x {
+  font-size: 5em;
+}
+.ax-6x {
+  font-size: 6em;
+}
+.ax-7x {
+  font-size: 7em;
+}
+.ax-8x {
+  font-size: 8em;
+}
+.ax-9x {
+  font-size: 9em;
+}
+.ax-10x {
+  font-size: 10em;
+}
+
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+
+.ax-bg-square,
+.ax-bg-circle {
+  padding: 0.35em;
+  background-color: $ax-background-color;
+}
+
+.ax-bg-circle {
+  border-radius: 50%;
+}
+
+.ax-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+/*------------------------------------
+  use icons as list item markers
+-------------------------------------*/
+
+.ax-ul {
+  padding-left: 0;
+  list-style-type: none;
+
+  > li {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.4;
+  }
+
+  > li > .axl {
+    margin-right: $ax-li-margin-right;
+    line-height: inherit;
+  }
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+
+.ax-is-spinning {
+  -webkit-animation: ax-spin 2s infinite linear;
+  -moz-animation: ax-spin 2s infinite linear;
+  animation: ax-spin 2s infinite linear;
+}
+
+@-webkit-keyframes ax-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes ax-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes axlspin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+
+.ax-rotate-90 {
+  @include ax-rotate(90deg, 1);
+}
+
+.ax-rotate-180 {
+  @include ax-rotate(180deg, 2);
+}
+
+.ax-rotate-270 {
+  @include ax-rotate(270deg, 3);
+}
+
+.ax-flip-y {
+  @include ax-flip(-1, 1, 0);
+}
+.ax-flip-x {
+  @include ax-flip(1, -1, 2);
+}
+
+@import 'icons/light-icons';
+@import 'icons/regular-icons';
+@import 'icons/solid-icons';
+
+// light
+@font-face {
+  font-family: 'DesignaIcon';
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url('#{$ax-font-path}/DesignaIcon-Light.eot');
+  src: url('#{$ax-font-path}/DesignaIcon-Light.eot') format('embedded-opentype'),
+    url('#{$ax-font-path}/DesignaIcon-Light.woff2') format('woff2'),
+    url('#{$ax-font-path}/DesignaIcon-Light.woff') format('woff'),
+    url('#{$ax-font-path}/DesignaIcon-Light.ttf') format('truetype'),
+    url('#{$ax-font-path}/DesignaIcon-Light.svg') format('svg');
+  font-weight: 300;
+  font-display: block;
+}
+
+.axl {
+  font-weight: 300;
+}
+
+// regular
+@font-face {
+  font-family: 'DesignaIcon';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('#{$ax-font-path}/DesignaIcon-Regular.eot');
+  src: url('#{$ax-font-path}/DesignaIcon-Regular.eot')
+      format('embedded-opentype'),
+    url('#{$ax-font-path}/DesignaIcon-Regular.woff2') format('woff2'),
+    url('#{$ax-font-path}/DesignaIcon-Regular.woff') format('woff'),
+    url('#{$ax-font-path}/DesignaIcon-Regular.ttf') format('truetype'),
+    url('#{$ax-font-path}/DesignaIcon-Regular.svg') format('svg');
+}
+
+.axl,
+.axr {
+  font-family: 'DesignaIcon';
+}
+.axr {
+  font-weight: 400;
+}
+
+// solid
+@font-face {
+  font-family: 'DesignaIcon';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url('#{$ax-font-path}/DesignaIcon-Solid.eot');
+  src: url('#{$ax-font-path}/DesignaIcon-Solid.eot') format('embedded-opentype'),
+    url('#{$ax-font-path}/DesignaIcon-Solid.woff2') format('woff2'),
+    url('#{$ax-font-path}/DesignaIcon-Solid.woff') format('woff'),
+    url('#{$ax-font-path}/DesignaIcon-Solid.ttf') format('truetype'),
+    url('#{$ax-font-path}/DesignaIcon-Solid.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.ax,
+.axs {
+  font-family: 'DesignaIcon';
+  font-weight: 900;
+}
